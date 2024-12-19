@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f0310109536a1210f91579a0a0490e7b" label="Rating Details" max_length="40" name="x_1438983_coe_app_rating_details" text_index="true" type="collection">
-        <element choice="1" label="Rating Type" max_length="40" name="rating_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Boolean" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Percentage" sequence="1" value="2"/>
-            </choice>
-        </element>
+        <element label="Rating Type" max_length="40" name="rating_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=22" reference_qual_condition="field=22" type="reference"/>
         <element label="Strategic Item" max_length="40" name="strategic_item" reference="x_1438983_coe_app_sdlc_checklist" type="reference"/>
-        <element choice="1" label="Category Type" max_length="40" name="category_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="WAP Operational Alignment" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Build" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Design" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Operational" sequence="2" value="3"/>
-            </choice>
-        </element>
+        <element label="Category Type" max_length="40" name="category_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=21" reference_qual_condition="field=21" type="reference"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
-        <element choice="1" label="Weightage" max_length="40" name="weightage" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
-            </choice>
-        </element>
+        <element label="Weightage" max_length="40" name="weightage" reference="x_1438983_coe_app_lookup_details" reference_qual="field=27" reference_qual_condition="field=27" type="reference"/>
         <element label="Status" max_length="255" name="status" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Rating ID" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Category Name" max_length="40" name="category_name" type="string"/>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="64c87679532ed210f91579a0a0490e4e" label="Lookup Details" max_length="40" name="x_1438983_coe_app_lookup_details" type="collection">
+        <element choice="1" label="Field" mandatory="true" max_length="40" name="field" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Department" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="SDLC Checklist Item Status" sequence="9" value="11"/>
+                <element inactive_on_update="false" label="Rating Weightage" sequence="25" value="27"/>
+                <element inactive_on_update="false" label="Query Environment" sequence="13" value="15"/>
+                <element inactive_on_update="false" label="Project Domain" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Component Endorsement Status" sequence="17" value="19"/>
+                <element inactive_on_update="false" label="Pattern Type" sequence="21" value="23"/>
+                <element inactive_on_update="false" label="Hosting Pattern" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Project Status" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Release Type" sequence="14" value="16"/>
+                <element inactive_on_update="false" label="Precedence" sequence="26" value="7"/>
+                <element inactive_on_update="false" label="Component Dependent On" sequence="18" value="20"/>
+                <element inactive_on_update="false" label="Enhancement Component" sequence="22" value="24"/>
+                <element inactive_on_update="false" label="SDLC Checklist Status" sequence="10" value="12"/>
+                <element inactive_on_update="false" label="Prod Environment" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Estimated Req Resources" sequence="6" value="8"/>
+                <element inactive_on_update="false" label="Rating Category Type" sequence="19" value="21"/>
+                <element inactive_on_update="false" label="Project Category" sequence="7" value="9"/>
+                <element inactive_on_update="false" label="Plugin Request Type" sequence="23" value="25"/>
+                <element inactive_on_update="false" label="Query Type" sequence="11" value="13"/>
+                <element inactive_on_update="false" label="Release Status" sequence="15" value="17"/>
+                <element inactive_on_update="false" label="Estimated Budget" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Document Type" sequence="8" value="10"/>
+                <element inactive_on_update="false" label="Plugin Environment Type" sequence="24" value="26"/>
+                <element inactive_on_update="false" label="Query Priority" sequence="12" value="14"/>
+                <element inactive_on_update="false" label="Component Type" sequence="16" value="18"/>
+                <element inactive_on_update="false" label="Rating Type" sequence="20" value="22"/>
+            </choice>
+        </element>
+        <element display="true" label="Label" mandatory="true" max_length="40" name="label" type="string"/>
+        <element label="Value" mandatory="true" max_length="40" name="value" type="string"/>
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+    </element>
+</database>

@@ -1,86 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="26b57805532a1210f91579a0a0490e8e" extends="task" label="Project Details" max_length="40" name="x_1438983_coe_app_project_details" text_index="true" type="collection">
-        <element choice="1" label="Department" max_length="40" name="department" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Operations" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Financial-Crime" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Entreprise-Technology" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Others" sequence="3" value="4"/>
-            </choice>
-        </element>
+        <element label="Department" max_length="32" name="department" reference="x_1438983_coe_app_lookup_details" reference_qual="field=2" reference_qual_condition="field=2" type="reference"/>
         <element label="Business Impact" max_length="40" name="business_impact" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="string"/>
         <element label="Project Name" max_length="255" name="project_name" type="string"/>
         <element label="Project Owner" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
-        <element choice="1" label="Production Environment" max_length="40" name="production_environment" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="SOUL_UAT" sequence="0" value="4"/>
-                <element inactive_on_update="false" label="SOUL_TEST" sequence="3" value="2"/>
-                <element inactive_on_update="false" label="SOUL_REG" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SOUL_DEV" sequence="1" value="1"/>
-            </choice>
-        </element>
+        <element label="Production Environment" max_length="32" name="production_environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=4" reference_qual_condition="field=4" type="reference"/>
         <element label="Project Prefix" max_length="40" name="project_prefix" type="string"/>
         <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
-        <element choice="1" label="Hosting Pattern" max_length="40" name="hosting_pattern" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Self Managed - Cloud" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Self Managed - On Prem" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Custom Domain" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Hybrid" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Full SaaS" sequence="0" value="1"/>
-            </choice>
-        </element>
+        <element label="Hosting Pattern" max_length="32" name="hosting_pattern" reference="x_1438983_coe_app_lookup_details" reference_qual="field=3" reference_qual_condition="field=3" type="reference"/>
+        <element label="Precedence" max_length="32" name="precedence" reference="x_1438983_coe_app_lookup_details" reference_qual="field=7" reference_qual_condition="field=7" type="reference"/>
         <element label="Estimated ROI" max_length="40" name="estimated_roi" type="currency"/>
-        <element choice="1" label="Project Domain" max_length="40" name="project_domain" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Others" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Healthcare" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Insurance" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Banking &amp; Finance" sequence="0" value="1"/>
-            </choice>
-        </element>
-        <element choice="1" label="Estimated Budget" max_length="40" name="estimated_budget" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="200k-300k" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="100k-200k" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="0k-100k" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="more than 300k" sequence="3" value="4"/>
-            </choice>
-        </element>
-        <element choice="1" label="Project Category" max_length="40" name="project_category" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Existing Project" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Others" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="Learnings" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="R&amp;D" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Client PoC" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="New Idea" sequence="0" value="1"/>
-            </choice>
-        </element>
-        <element choice="1" label="Estimated Required Resources" max_length="40" name="estimated_required_resources" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="more than 15" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="10-15" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="5-10" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="0 to 5" sequence="0" value="1"/>
-            </choice>
-        </element>
+        <element label="Project Domain" max_length="32" name="project_domain" reference="x_1438983_coe_app_lookup_details" reference_qual="field=6" reference_qual_condition="field=6" type="reference"/>
+        <element label="Estimated Budget" max_length="32" name="estimated_budget" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5" reference_qual_condition="field=5" type="reference"/>
+        <element label="Project Category" max_length="32" name="project_category" reference="x_1438983_coe_app_lookup_details" reference_qual="field=9" reference_qual_condition="field=9" type="reference"/>
+        <element label="Estimated Required Resources" max_length="32" name="estimated_required_resources" reference="x_1438983_coe_app_lookup_details" reference_qual="field=8" reference_qual_condition="field=8" type="reference"/>
         <element label="Is Weighted" max_length="40" name="is_weighted" type="boolean"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="In Development" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Idea-Sent Back" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="Awaiting Prioritization" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Idea-Rejected" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="BAU" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="Under Enhancement" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Idea - Resubmitted" sequence="8" value="9"/>
-                <element inactive_on_update="false" label="Project - Closed" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="New Idea" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="2"/>
-            </choice>
-        </element>
+        <element label="Status" max_length="32" name="status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=1" reference_qual_condition="field=1" type="reference"/>
         <element label="Technical Lead" max_length="32" name="technical_lead" reference="sys_user" type="reference"/>
     </element>
 </database>

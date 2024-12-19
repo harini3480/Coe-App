@@ -8,29 +8,10 @@
         <element label="Description" mandatory="true" max_length="4000" name="description" type="string"/>
         <element label="Document" max_length="40" name="document" type="file_attachment"/>
         <element label="Tech Lead" mandatory="true" max_length="32" name="tech_lead" reference="sys_user" type="reference"/>
-        <element choice="1" label="Component Type" mandatory="true" max_length="40" name="component_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Enterprise" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Tenant" sequence="1" value="2"/>
-            </choice>
-        </element>
+        <element label="Component Type" mandatory="true" max_length="32" name="component_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=18" reference_qual_condition="field=18" type="reference"/>
         <element label="Component Name" mandatory="true" max_length="40" name="component_name" type="string"/>
-        <element choice="1" label="Endorsement Status" max_length="40" name="endorsement_status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Partially Endorsed" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Not Endorsed" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Endorsed" sequence="1" value="3"/>
-            </choice>
-        </element>
-        <element choice="1" label="Dependent On" max_length="40" name="dependent_on" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Face Identification Component" sequence="3" value="1"/>
-                <element inactive_on_update="false" label="PDF Highlighter" sequence="0" value="2"/>
-                <element inactive_on_update="false" label="Highcharts Component" sequence="4" value="3"/>
-                <element inactive_on_update="false" label="Doughnut Chart" sequence="1" value="4"/>
-                <element inactive_on_update="false" label="Expression Rule - Email Validation" sequence="2" value="5"/>
-            </choice>
-        </element>
+        <element label="Endorsement Status" max_length="40" name="endorsement_status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=19" reference_qual_condition="field=19" type="reference"/>
+        <element label="Dependent On" max_length="40" name="dependent_on" reference="x_1438983_coe_app_lookup_details" reference_qual="field=20" reference_qual_condition="field=20" type="reference"/>
         <element label="Project Name" mandatory="true" max_length="32" name="project_name" reference="x_1438983_coe_app_project_details" type="reference"/>
         <index name="index">
             <element name="component_owner"/>

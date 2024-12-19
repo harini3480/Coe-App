@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Status</column_label>
@@ -27,20 +27,21 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_1438983_coe_app_release_details</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_1438983_coe_app_lookup_details">x_1438983_coe_app_lookup_details</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>field=17</reference_qual>
+        <reference_qual_condition table="x_1438983_coe_app_lookup_details">field=17<item display_value="Release Status" endquery="false" field="field" goto="false" newquery="false" operator="=" or="false" value="17"/>
+        </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
@@ -53,7 +54,7 @@
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_dictionary_x_1438983_coe_app_release_details_status</sys_update_name>
         <sys_updated_by>Harini</sys_updated_by>
-        <sys_updated_on>2024-12-16 14:14:37</sys_updated_on>
+        <sys_updated_on>2024-12-19 08:25:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

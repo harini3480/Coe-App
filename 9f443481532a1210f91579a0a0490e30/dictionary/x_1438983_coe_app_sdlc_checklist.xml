@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b4cf4d8d53aa1210f91579a0a0490ed7" label="SDLC Checklist" max_length="40" name="x_1438983_coe_app_sdlc_checklist" text_index="true" type="collection">
         <element label="Overview" max_length="40" name="overview" type="url"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Inactive" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Active" sequence="0" value="1"/>
-            </choice>
-        </element>
+        <element label="Status" max_length="32" name="status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=11" reference_qual_condition="field=11" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="SDLC Checklist ID" max_length="40" name="number" read_only="true" type="string"/>
         <element label="SDLC Checklist Item" max_length="40" name="sdlc_checklist_item" type="string"/>
         <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>

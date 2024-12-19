@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a8c974c9532a1210f91579a0a0490e36" label="Release Details" max_length="40" name="x_1438983_coe_app_release_details" text_index="true" type="collection">
-        <element choice="1" label="Release Type" mandatory="true" max_length="40" name="release_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Minor" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Hotfix" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Major" sequence="0" value="1"/>
-            </choice>
-        </element>
+        <element label="Release Type" mandatory="true" max_length="32" name="release_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=16" reference_qual_condition="field=16" type="reference"/>
         <element hint="Project Package name which will be deployed" label="Package Name" max_length="40" name="package_name" read_only="true" type="string"/>
         <element label="Deployment Date" mandatory="true" max_length="40" name="deployment_date" type="glide_date"/>
         <element label="Reviewed On" max_length="40" name="reviewed_on" type="glide_date_time"/>
@@ -20,13 +14,7 @@
         <element label="Release Number" mandatory="true" max_length="40" name="release_number" type="integer"/>
         <element label="Review Comments" max_length="4000" name="review_comments" type="string"/>
         <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Not Reviewed" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Reviewed" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Cancelled" sequence="2" value="3"/>
-            </choice>
-        </element>
+        <element label="Status" max_length="32" name="status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=17" reference_qual_condition="field=17" type="reference"/>
         <element hint="Provide feature details&#13;&#10;" label="Release Description" mandatory="true" max_length="4000" name="release_description" type="string"/>
         <element label="Request Numer" max_length="40" name="request_numer" type="integer"/>
         <element label="Added By" max_length="32" name="added_by" reference="sys_user" type="reference"/>

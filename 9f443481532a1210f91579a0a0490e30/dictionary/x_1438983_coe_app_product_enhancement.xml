@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="38024949536a1210f91579a0a0490e9a" label="Product Enhancement" max_length="40" name="x_1438983_coe_app_product_enhancement" text_index="true" type="collection">
-        <element choice="1" label="Component" mandatory="true" max_length="40" name="component" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Database" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Custom Component" sequence="4" value="3"/>
-                <element inactive_on_update="false" label="Security" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="RPA" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="Plugin" sequence="2" value="4"/>
-                <element inactive_on_update="false" label="Other" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="UIUX" sequence="3" value="5"/>
-            </choice>
-        </element>
+        <element label="Component" mandatory="true" max_length="32" name="component" reference="x_1438983_coe_app_lookup_details" reference_qual="field=18" reference_qual_condition="field=18" type="reference"/>
         <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element hint="Upload document related to product enhancement" label="Attachment" max_length="40" name="attachment" type="file_attachment"/>

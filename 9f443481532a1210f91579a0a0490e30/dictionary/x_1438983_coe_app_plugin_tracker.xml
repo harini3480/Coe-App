@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a5e045c5536a1210f91579a0a0490e14" label="Plugin Tracker" max_length="40" name="x_1438983_coe_app_plugin_tracker" text_index="true" type="collection">
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
-        <element choice="1" label="Environment" max_length="40" name="environment" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="UAT" sequence="1" value="3"/>
-                <element inactive_on_update="false" label="REG" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="DEV" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Cloud" sequence="3" value="4"/>
-            </choice>
-        </element>
+        <element label="Environment" max_length="32" name="environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=4" reference_qual_condition="field=4" type="reference"/>
         <element label="REG" max_length="40" name="reg" type="string"/>
         <element label="DEV" max_length="40" name="dev" type="string"/>
         <element label="UAT" max_length="40" name="uat" type="string"/>
