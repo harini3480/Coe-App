@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Other Details" section_id="8800aea553269210f91579a0a0490e25" sys_domain="global" table="x_1438983_coe_app_project_details" version="3" view="workspace-coe-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>0</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_id>0000aea553269210f91579a0a0490e29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8800aea553269210f91579a0a0490e25</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>production_environment</element>
+            <position>1</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_id>0800aea553269210f91579a0a0490e27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8800aea553269210f91579a0a0490e25</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_owner</element>
+            <position>2</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_id>0800aea553269210f91579a0a0490e29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8800aea553269210f91579a0a0490e25</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_id>0000aea553269210f91579a0a0490e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8800aea553269210f91579a0a0490e25</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hosting_pattern</element>
+            <position>4</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_id>0000aea553269210f91579a0a0490e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8800aea553269210f91579a0a0490e25</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_manager</element>
+            <position>5</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_id>0800aea553269210f91579a0a0490e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8800aea553269210f91579a0a0490e25</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>technical_lead</element>
+            <position>6</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_id>0800aea553269210f91579a0a0490e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8800aea553269210f91579a0a0490e25</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Other Details</caption>
+            <header>false</header>
+            <name>x_1438983_coe_app_project_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8800aea553269210f91579a0a0490e25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1438983_coe_app_project_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_ui_section_8800aea553269210f91579a0a0490e25</sys_update_name>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace CoE Workspace 0" name="workspace-coe-workspace-0">c9ef5a65bc269210458879030df14844</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

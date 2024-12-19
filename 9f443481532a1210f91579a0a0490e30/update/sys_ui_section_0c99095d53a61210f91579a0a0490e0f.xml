@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Upgrade plan" section_id="0c99095d53a61210f91579a0a0490e0f" sys_domain="global" table="x_1438983_coe_app_upgrade_planner_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_many_days_are_requested_to_review_release_notes</element>
+            <position>0</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 09:49:37</sys_created_on>
+            <sys_id>0499095d53a61210f91579a0a0490e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Upgrade plan" display_value="Upgrade plan" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">0c99095d53a61210f91579a0a0490e0f</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 09:49:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_many_days_are_require_for_uat_testing</element>
+            <position>1</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 09:49:37</sys_created_on>
+            <sys_id>0c99095d53a61210f91579a0a0490e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Upgrade plan" display_value="Upgrade plan" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">0c99095d53a61210f91579a0a0490e0f</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 09:49:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Upgrade plan</caption>
+            <header>false</header>
+            <name>x_1438983_coe_app_upgrade_planner_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 09:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c99095d53a61210f91579a0a0490e0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1438983_coe_app_upgrade_planner_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_ui_section_0c99095d53a61210f91579a0a0490e0f</sys_update_name>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 09:49:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

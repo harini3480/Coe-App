@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1438983_coe_app_coe_ratings">x_1438983_coe_app_coe_ratings</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>COE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Vinutha</sys_created_by>
+        <sys_created_on>2024-12-16 14:22:19</sys_created_on>
+        <sys_id>496eb0c1536a1210f91579a0a0490eea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COE</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_number_496eb0c1536a1210f91579a0a0490eea</sys_update_name>
+        <sys_updated_by>Vinutha</sys_updated_by>
+        <sys_updated_on>2024-12-16 14:22:19</sys_updated_on>
+    </sys_number>
+</record_update>

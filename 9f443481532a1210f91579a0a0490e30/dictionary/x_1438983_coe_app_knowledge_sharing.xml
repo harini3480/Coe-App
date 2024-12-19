@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a9a1d58153ea1210f91579a0a0490e61" label="Knowledge Sharing" max_length="40" name="x_1438983_coe_app_knowledge_sharing" text_index="true" type="collection">
+        <element label="Session Date" max_length="40" name="session_date" type="glide_date"/>
+        <element label="Recording Link" max_length="40" name="recording_link" type="url"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Presentation" max_length="40" name="presentation" type="file_attachment"/>
+        <element label="Trainer" max_length="32" name="trainer" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Knowledge Session ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_1438983_coe_app_project_details" type="reference"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+        <index name="index2">
+            <element name="trainer"/>
+        </index>
+    </element>
+</database>

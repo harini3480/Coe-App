@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Search</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:45:17</sys_created_on>
+        <sys_id>c5ef5a65a926921019198112a9ed2342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_screen_type_c5ef5a65a926921019198112a9ed2342</sys_update_name>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 10:45:17</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5ef5a65a926921019198112a9ed2342"/>
+</record_update>

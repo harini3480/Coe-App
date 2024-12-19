@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9c00aea553269210f91579a0a0490e43" sys_domain="global" table="x_1438983_coe_app_coe_ratings" version="3" view="workspace-coe-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>1000aea553269210f91579a0a0490e45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application</element>
+            <position>1</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>dc00eea553269210f91579a0a0490e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>learnings</element>
+            <position>2</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>1800aea553269210f91579a0a0490e45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>release_plan</element>
+            <position>3</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>d400eea553269210f91579a0a0490e7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>health_check_compliance</element>
+            <position>4</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>1000aea553269210f91579a0a0490e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cop_participation</element>
+            <position>5</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>dc00eea553269210f91579a0a0490e7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>software</element>
+            <position>6</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>1800aea553269210f91579a0a0490e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hardware</element>
+            <position>7</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>d400eea553269210f91579a0a0490e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>appian_latest</element>
+            <position>8</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>1000aea553269210f91579a0a0490e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bug_rate_analysis</element>
+            <position>9</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>dc00eea553269210f91579a0a0490e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_sizing_is_done_appropriately_using</element>
+            <position>10</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>d400eea553269210f91579a0a0490e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_team_roles_are_allocated_to_the_project</element>
+            <position>11</position>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_id>d400eea553269210f91579a0a0490e81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_coe_ratings" sys_domain="global" view="c9ef5a65bc269210458879030df14844">9c00aea553269210f91579a0a0490e43</sys_ui_section>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1438983_coe_app_coe_ratings</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Sushmithaa</sys_created_by>
+            <sys_created_on>2024-12-18 10:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c00aea553269210f91579a0a0490e43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1438983_coe_app_coe_ratings</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_ui_section_9c00aea553269210f91579a0a0490e43</sys_update_name>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-18 10:45:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace CoE Workspace 0" name="workspace-coe-workspace-0">c9ef5a65bc269210458879030df14844</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b9409dcd53aa1210f91579a0a0490e3d" label="SDLC Checklist Status" max_length="40" name="x_1438983_coe_app_sdlc_checklist_status" text_index="true" type="collection">
+        <element label="Project" max_length="32" name="project" reference="x_1438983_coe_app_project_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="SDLC Checklist Status ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="SDLC Checklist Item" max_length="32" name="sdlc_checklist_item" reference="x_1438983_coe_app_sdlc_checklist" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="255" name="comments" type="string"/>
+        <element default="True" label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Adoption Progress" max_length="40" name="adoption_progress" type="integer"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+        <index name="index2">
+            <element name="sdlc_checklist_item"/>
+        </index>
+    </element>
+</database>
