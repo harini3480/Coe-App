@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="456eb0c1536a1210f91579a0a0490ebb" label="COE Ratings" max_length="40" name="x_1438983_coe_app_coe_ratings" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="CoE Ratings ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Project Sizing is done approximately using" max_length="40" name="project_sizing_is_done_appropriately_using" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="5" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Release Plan" max_length="40" name="release_plan" type="string"/>
+        <element label="CoP Participation" max_length="40" name="cop_participation" type="string"/>
+        <element choice="1" label="Software" max_length="40" name="software" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="0" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="5" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Hardware" max_length="40" name="hardware" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="5" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Project Team/Roles Allocated to the Project" max_length="40" name="project_team_roles_are_allocated_to_the_project" type="string"/>
+        <element label="Bug Rate Analysis" max_length="40" name="bug_rate_analysis" type="string"/>
+        <element label="IS_ACTIVE" max_length="40" name="is_active" type="boolean"/>
+        <element choice="1" label="Health Check Compliance" max_length="40" name="health_check_compliance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="5" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Project" max_length="32" name="application" reference="x_1438983_coe_app_project_details" type="reference"/>
+        <element label="Learnings" max_length="40" name="learnings" type="integer"/>
+        <element choice="1" label="Appian Latest" max_length="40" name="appian_latest" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="5" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="application"/>
+        </index>
+    </element>
+</database>

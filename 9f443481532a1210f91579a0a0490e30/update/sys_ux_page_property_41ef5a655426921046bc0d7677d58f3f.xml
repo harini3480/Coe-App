@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>A default view for CoE Workspace generated</description>
+        <name>view</name>
+        <page display_value="CoE Workspace">89ef5a65ff26921063a86ec40ea9284e</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:45:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>41ef5a655426921046bc0d7677d58f3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_page_property_41ef5a655426921046bc0d7677d58f3f</sys_update_name>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 10:45:18</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1438983_coe_app.89ef5a65ff26921063a86ec40ea9284e.root.view</unique_name>
+        <value>workspace-coe-workspace-0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=41ef5a655426921046bc0d7677d58f3f"/>
+</record_update>

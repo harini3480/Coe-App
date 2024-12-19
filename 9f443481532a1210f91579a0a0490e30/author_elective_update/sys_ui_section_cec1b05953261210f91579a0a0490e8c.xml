@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="cec1b05953261210f91579a0a0490e8c" sys_domain="global" table="x_1438983_coe_app_release_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>release_number</element>
+            <position>0</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:05:43</sys_created_on>
+            <sys_id>cac1b05953261210f91579a0a0490ecd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 08:05:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change_request</element>
+            <position>1</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:05:43</sys_created_on>
+            <sys_id>c2c1b05953261210f91579a0a0490ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 08:05:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:05:43</sys_created_on>
+            <sys_id>cac1b05953261210f91579a0a0490ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 08:05:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>package_name</element>
+            <position>3</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:05:43</sys_created_on>
+            <sys_id>c2c1b05953261210f91579a0a0490ecf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 08:05:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deployment_date</element>
+            <position>4</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:05:43</sys_created_on>
+            <sys_id>cac1b05953261210f91579a0a0490ecf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 08:05:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1438983_coe_app_release_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:05:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cec1b05953261210f91579a0a0490e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1438983_coe_app_release_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_ui_section_cec1b05953261210f91579a0a0490e8c</sys_update_name>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 08:05:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ui_section_cec1b05953261210f91579a0a0490e8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="cec1b05953261210f91579a0a0490e8c" sys_domain="global" table="x_1438983_coe_app_release_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>release_number</element><position>0</position><sys_created_by>Harini</sys_created_by><sys_created_on>2024-12-17 08:05:43</sys_created_on><sys_id>cac1b05953261210f91579a0a0490ecd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section><sys_updated_by>Harini</sys_updated_by><sys_updated_on>2024-12-17 08:05:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>change_request</element><position>1</position><sys_created_by>Harini</sys_created_by><sys_created_on>2024-12-17 08:05:43</sys_created_on><sys_id>c2c1b05953261210f91579a0a0490ece</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section><sys_updated_by>Harini</sys_updated_by><sys_updated_on>2024-12-17 08:05:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>Harini</sys_created_by><sys_created_on>2024-12-17 08:05:43</sys_created_on><sys_id>cac1b05953261210f91579a0a0490ece</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section><sys_updated_by>Harini</sys_updated_by><sys_updated_on>2024-12-17 08:05:43</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>package_name</element><position>3</position><sys_created_by>Harini</sys_created_by><sys_created_on>2024-12-17 08:05:43</sys_created_on><sys_id>c2c1b05953261210f91579a0a0490ecf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section><sys_updated_by>Harini</sys_updated_by><sys_updated_on>2024-12-17 08:05:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>deployment_date</element><position>4</position><sys_created_by>Harini</sys_created_by><sys_created_on>2024-12-17 08:05:43</sys_created_on><sys_id>cac1b05953261210f91579a0a0490ecf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1438983_coe_app_release_details" sys_domain="global" view="Default view">cec1b05953261210f91579a0a0490e8c</sys_ui_section><sys_updated_by>Harini</sys_updated_by><sys_updated_on>2024-12-17 08:05:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1438983_coe_app_release_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Harini</sys_created_by><sys_created_on>2024-12-17 08:05:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cec1b05953261210f91579a0a0490e8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1438983_coe_app_release_details</sys_name><sys_overrides/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ui_section_cec1b05953261210f91579a0a0490e8c</sys_update_name><sys_updated_by>Harini</sys_updated_by><sys_updated_on>2024-12-17 08:05:42</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>266535178</payload_hash>
+        <record_name>Release Details</record_name>
+        <reverted_from/>
+        <source>5b443481532a1210f91579a0a0490e41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2024-12-17 08:05:43</sys_created_on>
+        <sys_id>cec1b05953261210f91579a0a0490ed1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193d3a6c8ad0000001</sys_recorded_at>
+        <sys_updated_by>Harini</sys_updated_by>
+        <sys_updated_on>2024-12-17 08:05:43</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>46c1b05901261210fc257ca67243a2d1</update_guid>
+        <update_guid_history>46c1b05901261210fc257ca67243a2d1:266535178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2024-12-17 08:06:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3e979cd1274d4db78520257340d27f01</sys_id>
+        <sys_metadata>cec1b05953261210f91579a0a0490e8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent display_value="Release Details">a8c974c9532a1210f91579a0a0490e36</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_cec1b05953261210f91579a0a0490e8c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_cec1b05953261210f91579a0a0490e8c">cec1b05953261210f91579a0a0490ed1</sys_update_version>
+        <sys_updated_by>Harini</sys_updated_by>
+        <sys_updated_on>2024-12-17 08:06:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

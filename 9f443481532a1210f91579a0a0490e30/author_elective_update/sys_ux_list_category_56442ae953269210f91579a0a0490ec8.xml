@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration>
+        <description/>
+        <order>1900</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 11:04:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56442ae953269210f91579a0a0490ec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_list_category_56442ae953269210f91579a0a0490ec8</sys_update_name>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 11:04:27</sys_updated_on>
+        <title>Logs</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ux_list_category_56442ae953269210f91579a0a0490ec8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration><description/><order>1900</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>Sushmithaa</sys_created_by><sys_created_on>2024-12-18 11:04:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>56442ae953269210f91579a0a0490ec8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Logs</sys_name><sys_overrides/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ux_list_category_56442ae953269210f91579a0a0490ec8</sys_update_name><sys_updated_by>Sushmithaa</sys_updated_by><sys_updated_on>2024-12-18 11:04:27</sys_updated_on><title>Logs</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>-1175330835</payload_hash>
+        <record_name>Logs</record_name>
+        <reverted_from/>
+        <source>5b443481532a1210f91579a0a0490e41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 11:04:27</sys_created_on>
+        <sys_id>de442ae953269210f91579a0a0490eca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193d970c9e00000001</sys_recorded_at>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 11:04:27</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>92442ae99226921095b3f212ccef9eca</update_guid>
+        <update_guid_history>92442ae99226921095b3f212ccef9eca:-1175330835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 11:04:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>ab016eea29b445bc80f398ee17f0ef10</sys_id>
+        <sys_metadata>56442ae953269210f91579a0a0490ec8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logs</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_56442ae953269210f91579a0a0490ec8</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_56442ae953269210f91579a0a0490ec8">de442ae953269210f91579a0a0490eca</sys_update_version>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 11:04:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

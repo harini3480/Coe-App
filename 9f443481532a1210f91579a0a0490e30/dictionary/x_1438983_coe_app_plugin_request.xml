@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ccc30d0d536a1210f91579a0a0490eac" label="Plugin Request" max_length="40" name="x_1438983_coe_app_plugin_request" text_index="true" type="collection">
+        <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Plugin Request ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Version" mandatory="true" max_length="20" name="version" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element choice="1" label="Request Type" mandatory="true" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Existing" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Environment" mandatory="true" max_length="40" name="environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SOUL_TEST" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SOUL_UAT" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="SOUL_DEV" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="SOUL_REG" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Plugin" mandatory="true" max_length="225" name="plugin" type="string"/>
+    </element>
+</database>

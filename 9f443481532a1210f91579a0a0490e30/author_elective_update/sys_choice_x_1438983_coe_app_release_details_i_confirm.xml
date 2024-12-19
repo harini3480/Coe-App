@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="i_confirm" table="x_1438983_coe_app_release_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>i_confirm</element>
+            <name>x_1438983_coe_app_release_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:17:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>i_confirm</sys_name>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_choice_x_1438983_coe_app_release_details_i_confirm</sys_update_name>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 08:17:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>i_confirm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>100% test rule coverage</label>
+            <language>en</language>
+            <name>x_1438983_coe_app_release_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:18:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-17 10:02:50</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>i_confirm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Database scripts are as per standard</label>
+            <language>en</language>
+            <name>x_1438983_coe_app_release_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:18:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-17 10:02:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>i_confirm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No common objects have been modified</label>
+            <language>en</language>
+            <name>x_1438983_coe_app_release_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:17:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-17 10:02:42</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>i_confirm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No high risk items in health check report</label>
+            <language>en</language>
+            <name>x_1438983_coe_app_release_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:18:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-17 10:02:38</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>i_confirm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No object recommendation in package</label>
+            <language>en</language>
+            <name>x_1438983_coe_app_release_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 08:17:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Sushmithaa</sys_updated_by>
+            <sys_updated_on>2024-12-17 10:02:44</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

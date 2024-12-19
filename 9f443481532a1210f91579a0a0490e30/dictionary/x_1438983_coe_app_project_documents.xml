@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5c077c85532a1210f91579a0a0490eb0" label="Project Documents" max_length="40" name="x_1438983_coe_app_project_documents" text_index="true" type="collection">
+        <element label="Project" max_length="32" name="project" reference="x_1438983_coe_app_project_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Document ID" max_length="40" name="number" type="string"/>
+        <element label="Document" max_length="40" name="document" type="file_attachment"/>
+        <element choice="1" label="Document Type" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requirement Gathering" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Architectural Diagram" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="UAT Sign Off" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="Governance" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

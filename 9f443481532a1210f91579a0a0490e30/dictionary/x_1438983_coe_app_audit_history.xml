@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1256d94953ea1210f91579a0a0490e65" label="Audit History " max_length="40" name="x_1438983_coe_app_audit_history" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Audit ID" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="BAU" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Awaiting Prioritization" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Idea - Rejected" sequence="6" value="8"/>
+                <element inactive_on_update="false" label="Idea - Sent Back" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="In Development" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="New Idea" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Under Enhancement" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Idea - Resubmitted" sequence="8" value="9"/>
+            </choice>
+        </element>
+        <element label="Is Active" max_length="40" name="is_active" type="string"/>
+        <element label="Comments" max_length="400" name="comments" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_1438983_coe_app_project_details" type="reference"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

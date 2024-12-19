@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="575d7441536a1210f91579a0a0490ed4" label="Component Details" max_length="40" name="x_1438983_coe_app_component_details" text_index="true" type="collection">
+        <element label="Component Owner" mandatory="true" max_length="32" name="component_owner" reference="sys_user" type="reference"/>
+        <element label="Component Design Document Link" max_length="40" name="component_design_document_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Component ID" max_length="40" name="number" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Component Prefix" mandatory="true" max_length="10" name="component_prefix" type="string"/>
+        <element label="Description" mandatory="true" max_length="4000" name="description" type="string"/>
+        <element label="Document" max_length="40" name="document" type="file_attachment"/>
+        <element label="Tech Lead" mandatory="true" max_length="32" name="tech_lead" reference="sys_user" type="reference"/>
+        <element choice="1" label="Component Type" mandatory="true" max_length="40" name="component_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Enterprise" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Tenant" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Component Name" mandatory="true" max_length="40" name="component_name" type="string"/>
+        <element choice="1" label="Endorsement Status" max_length="40" name="endorsement_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially Endorsed" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Not Endorsed" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Endorsed" sequence="1" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="Dependent On" max_length="40" name="dependent_on" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Face Identification Component" sequence="3" value="1"/>
+                <element inactive_on_update="false" label="PDF Highlighter" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="Highcharts Component" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Doughnut Chart" sequence="1" value="4"/>
+                <element inactive_on_update="false" label="Expression Rule - Email Validation" sequence="2" value="5"/>
+            </choice>
+        </element>
+        <element label="Project Name" mandatory="true" max_length="32" name="project_name" reference="x_1438983_coe_app_project_details" type="reference"/>
+        <index name="index">
+            <element name="component_owner"/>
+        </index>
+        <index name="index2">
+            <element name="project_name"/>
+        </index>
+        <index name="index3">
+            <element name="tech_lead"/>
+        </index>
+    </element>
+</database>

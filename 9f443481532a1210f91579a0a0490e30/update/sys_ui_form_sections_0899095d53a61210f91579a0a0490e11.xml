@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0899095d53a61210f91579a0a0490e11" sys_domain="global" table="x_1438983_coe_app_upgrade_planner_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 09:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c99095d53a61210f91579a0a0490e14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1438983_coe_app_upgrade_planner_details" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">0899095d53a61210f91579a0a0490e11</sys_ui_form>
+            <sys_ui_section caption="Upgrade Planner" display_value="Upgrade Planner" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">f93381c9536a1210f91579a0a0490e86</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 09:49:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 09:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4499095d53a61210f91579a0a0490e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1438983_coe_app_upgrade_planner_details" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">0899095d53a61210f91579a0a0490e11</sys_ui_form>
+            <sys_ui_section caption="Upgrade plan" display_value="Upgrade plan" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">0c99095d53a61210f91579a0a0490e0f</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 09:49:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 09:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0099095d53a61210f91579a0a0490e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1438983_coe_app_upgrade_planner_details" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">0899095d53a61210f91579a0a0490e11</sys_ui_form>
+            <sys_ui_section caption="Upgrade Plan" display_value="Upgrade Plan" name="x_1438983_coe_app_upgrade_planner_details" sys_domain="global" view="Default view">8c99095d53a61210f91579a0a0490e10</sys_ui_section>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 09:49:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1438983_coe_app_upgrade_planner_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Harini</sys_created_by>
+            <sys_created_on>2024-12-17 09:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0899095d53a61210f91579a0a0490e11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1438983_coe_app_upgrade_planner_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0899095d53a61210f91579a0a0490e11</sys_update_name>
+            <sys_updated_by>Harini</sys_updated_by>
+            <sys_updated_on>2024-12-17 09:49:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

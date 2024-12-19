@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1438983_coe_app.Audience for list 2eefda6553269210f91579a0a0490e0d</api_name>
+        <description>Audience for the list: Unassigned for the Workspace: CoE Workspace</description>
+        <name>Audience for list 2eefda6553269210f91579a0a0490e0d</name>
+        <role_names/>
+        <roles name="x_1438983_coe_app.admin">a3443481532a1210f91579a0a0490e99</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:59:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a332e2953269210f91579a0a0490e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for list 2eefda6553269210f91579a0a0490e0d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_applicability_0a332e2953269210f91579a0a0490e64</sys_update_name>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 10:59:48</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

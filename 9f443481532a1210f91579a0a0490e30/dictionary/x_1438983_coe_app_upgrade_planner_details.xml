@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b83389c9536a1210f91579a0a0490e1a" label="Upgrade Planner Details" max_length="40" name="x_1438983_coe_app_upgrade_planner_details" text_index="true" type="collection">
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Upgrade Planner ID" max_length="40" name="number" type="string"/>
+        <element label="Responsible Team" max_length="32" name="responsible_team" reference="sys_user_group" type="reference"/>
+        <element label="Note" max_length="40" name="note" type="string"/>
+        <element label="How many days are require for UAT testing" max_length="255" name="how_many_days_are_require_for_uat_testing" type="integer"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="How many days are requested to review release notes" max_length="40" name="how_many_days_are_requested_to_review_release_notes" type="integer"/>
+        <element label="Important Date" max_length="40" name="important_date" type="glide_date"/>
+        <element label="Select Production Upgrade Date" max_length="40" name="select_production_upgrade_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Effort (In days)" max_length="255" name="effort_in_days" type="integer"/>
+        <element label="Activity" max_length="40" name="activity" type="string"/>
+        <index name="index">
+            <element name="responsible_team"/>
+        </index>
+    </element>
+</database>
