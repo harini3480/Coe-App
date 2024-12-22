@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1438983_coe_app.LookupData</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>LookupData</name>
+        <script><![CDATA[var LookupData = Class.create();
+LookupData.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getLookupDetails: function() {
+        var gr = new GlideRecord("x_1438983_coe_app_lookup_details");
+        var lookField = this.getParameter('sysparm_field');
+        gr.addEncodedQuery("field=" + lookField);
+        gr.query();
+        if (gr.next()) {
+            // var uObj = {};
+            // uObj.value = gr.value.toString();
+            var gh = [];
+            while (gr.next()) {
+                gh.push(parseInt(gr.value));
+            }
+			var max=Math.max(...gh);
+            return max;
+        } else {
+            return "1";
+        }
+
+
+    },
+
+    type: 'LookupData'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 07:29:28</sys_created_on>
+        <sys_id>71a10cd6536a5610f91579a0a0490e25</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>LookupData</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_include_71a10cd6536a5610f91579a0a0490e25</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 09:29:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Client Script Applicable on Lookup Details Table's VALUE field</description>
+        <field>field</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Change: Value Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var field = g_form.getValue('field');
+    var look = new GlideAjax("x_1438983_coe_app.LookupData");
+    look.addParam('sysparm_name', "getLookupDetails");
+    look.addParam('sysparm_field', field);
+    look.getXML(callback);
+
+    function callback(response) {
+        var ans = response.responseXML.documentElement.getAttribute("answer");
+        if (ans != "1") {
+			//alert(ans);
+			var value = parseInt(ans)+1;
+           
+            g_form.setValue("value", value);
+
+        }
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 07:51:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6066049e536a5610f91579a0a0490eea</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>On Change: Value Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_6066049e536a5610f91579a0a0490eea</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 09:02:04</sys_updated_on>
+        <table>x_1438983_coe_app_lookup_details</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
