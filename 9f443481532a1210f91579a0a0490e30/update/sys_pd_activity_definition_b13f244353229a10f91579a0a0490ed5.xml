@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences>approval_group=all;project=all;</input_display_preferences>
+        <inputs/>
+        <label>Sequential Approval</label>
+        <name>_span_sequential_u_approv_u_al_span_</name>
+        <outputs/>
+        <source>b36c244f53ae5a10f91579a0a0490e87</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 18:23:52</sys_created_on>
+        <sys_id>b13f244353229a10f91579a0a0490ed5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sequential Approval</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_b13f244353229a10f91579a0a0490ed5</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 18:23:52</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b13f244353229a10f91579a0a0490ed5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b13f244353229a10f91579a0a0490ed5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_b36c244f53ae5a10f91579a0a0490e87^id=b13f244353229a10f91579a0a0490ed5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_b36c244f53ae5a10f91579a0a0490e87^id=b13f244353229a10f91579a0a0490ed5"/>
+</record_update>

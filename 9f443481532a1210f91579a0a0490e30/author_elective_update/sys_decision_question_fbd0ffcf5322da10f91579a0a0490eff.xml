@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer/>
+        <condition table="var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d">u_configuration_record.coe_lead_approval=true^u_configuration_record.project_manager_approval=true^u_configuration_record.ceo_approval=true^u_configuration_record.cfo_approval=true^u_configuration_record.cdo_approval=false^u_configuration_record.cto_approval=false^EQ<item endquery="false" field="u_configuration_record.coe_lead_approval" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_configuration_record.project_manager_approval" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_configuration_record.ceo_approval" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_configuration_record.cfo_approval" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_configuration_record.cdo_approval" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="u_configuration_record.cto_approval" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="CoE App Configuration">8140bcc353229a10f91579a0a0490e1d</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d</input_table>
+        <label>CoE App Configuration_247</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>247</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-23 08:29:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbd0ffcf5322da10f91579a0a0490eff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoE App Configuration_247</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_decision_question_fbd0ffcf5322da10f91579a0a0490eff</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-23 08:29:58</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_decision_question_fbd0ffcf5322da10f91579a0a0490eff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer/><condition table="var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d">u_configuration_record.coe_lead_approval=true^u_configuration_record.project_manager_approval=true^u_configuration_record.ceo_approval=true^u_configuration_record.cfo_approval=true^u_configuration_record.cdo_approval=false^u_configuration_record.cto_approval=false^EQ<item endquery="false" field="u_configuration_record.coe_lead_approval" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="u_configuration_record.project_manager_approval" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="u_configuration_record.ceo_approval" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="u_configuration_record.cfo_approval" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="u_configuration_record.cdo_approval" goto="false" newquery="false" operator="=" or="false" value="false"/><item endquery="false" field="u_configuration_record.cto_approval" goto="false" newquery="false" operator="=" or="false" value="false"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="CoE App Configuration">8140bcc353229a10f91579a0a0490e1d</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d</input_table><label>CoE App Configuration_247</label><marked_for_deletion>false</marked_for_deletion><order>247</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-23 08:29:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fbd0ffcf5322da10f91579a0a0490eff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CoE App Configuration_247</sys_name><sys_overrides/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_decision_question_fbd0ffcf5322da10f91579a0a0490eff</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-23 08:29:58</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-1954078909</payload_hash>
+        <record_name>CoE App Configuration_247</record_name>
+        <reverted_from/>
+        <source>ec603e7d53ead210f91579a0a0490e52</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-23 08:29:58</sys_created_on>
+        <sys_id>04e033035362da10f91579a0a0490e04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193f2a324e40000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-23 08:29:58</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>c4e033031d62da109c9fd8d19fb8ef03</update_guid>
+        <update_guid_history>c4e033031d62da109c9fd8d19fb8ef03:-1954078909</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-23 08:34:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>1461dbc7d29049fe8e6d7b3406ab4479</sys_id>
+        <sys_metadata>fbd0ffcf5322da10f91579a0a0490eff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoE App Configuration_247</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_decision_question_fbd0ffcf5322da10f91579a0a0490eff</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_fbd0ffcf5322da10f91579a0a0490eff">04e033035362da10f91579a0a0490e04</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-23 08:34:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

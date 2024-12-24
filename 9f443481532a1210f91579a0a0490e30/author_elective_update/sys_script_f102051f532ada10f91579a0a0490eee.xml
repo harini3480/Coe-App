@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1438983_coe_app_configuration_details</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1438983_coe_app_configuration_details">type_of_approval=2^EQ<item display_value="Parallel Approval" endquery="false" field="type_of_approval" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Approval Group</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var gr = new GlideRecord("sys_user_grmember");
+    gr.addQuery("group", "e19e3f0753a2da10f91579a0a0490e41");
+    gr.query();
+    while (gr.next()) {
+        gs.info(current.ceo_approval + " " + previous.ceo_approval + "khak");
+        if (current.ceo_approval == true && previous.ceo_approval == false) {
+            gs.info(current.ceo_approval + " " + previous.ceo_approval);
+            gr.initialize();
+            gr.group = "e19e3f0753a2da10f91579a0a0490e41";
+            gr.user = "b955984253661610f91579a0a0490e78";
+            gr.insert();
+
+
+        } else{
+            var grr = new GlideRecord("sys_user_grmember");
+            grr.addEncodedQuery('group=e19e3f0753a2da10f91579a0a0490e41^user=b955984253661610f91579a0a0490e78');
+            grr.query();
+			if(grr.next()){
+				grr.deleteRecord();
+			}
+        }
+    }
+    // if (current.cfo_approval == true && previous.cfo_approval == false) {
+    //     gr.initialize();
+    //     gr.group = "e19e3f0753a2da10f91579a0a0490e41";
+    //     gr.user = "57d414ce53261610f91579a0a0490e29";
+    //     gr.insert();
+
+
+    // } else {
+    //     gr.addQuery("user", "57d414ce53261610f91579a0a0490e29");
+    // 	gr.query();
+    //     gr.delete();
+    // }
+    // if (current.cdo_approval == true && previous.cdo_approval == false) {
+    //     gr.initialize();
+    //     gr.group = "e19e3f0753a2da10f91579a0a0490e41";
+    //     gr.user = "2f2494ce53261610f91579a0a0490e9a";
+    //     gr.insert();
+
+
+    // } else {
+    //     gr.addQuery("user", "2f2494ce53261610f91579a0a0490e9a");
+    // 	gr.query();
+    //     gr.delete();
+    // }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-23 14:33:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f102051f532ada10f91579a0a0490eee</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Update Approval Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_f102051f532ada10f91579a0a0490eee</sys_update_name>
+        <sys_updated_by>bhuvaneswari.janarthanan</sys_updated_by>
+        <sys_updated_on>2024-12-23 15:54:47</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=f102051f532ada10f91579a0a0490eee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_script_f102051f532ada10f91579a0a0490eee</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1438983_coe_app_configuration_details&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1438983_coe_app_configuration_details"&gt;type_of_approval=2^EQ&lt;item display_value="Parallel Approval" endquery="false" field="type_of_approval" goto="false" newquery="false" operator="=" or="false" value="2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Approval Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var gr = new GlideRecord("sys_user_grmember");
+    gr.addQuery("group", "e19e3f0753a2da10f91579a0a0490e41");
+    gr.query();
+    while (gr.next()) {
+        gs.info(current.ceo_approval + " " + previous.ceo_approval + "khak");
+        if (current.ceo_approval == true &amp;&amp; previous.ceo_approval == false) {
+            gs.info(current.ceo_approval + " " + previous.ceo_approval);
+            gr.initialize();
+            gr.group = "e19e3f0753a2da10f91579a0a0490e41";
+            gr.user = "b955984253661610f91579a0a0490e78";
+            gr.insert();
+
+
+        } else{
+            var grr = new GlideRecord("sys_user_grmember");
+            grr.addEncodedQuery('group=e19e3f0753a2da10f91579a0a0490e41^user=b955984253661610f91579a0a0490e78');
+            grr.query();
+			if(grr.next()){
+				grr.deleteRecord();
+			}
+        }
+    }
+    // if (current.cfo_approval == true &amp;&amp; previous.cfo_approval == false) {
+    //     gr.initialize();
+    //     gr.group = "e19e3f0753a2da10f91579a0a0490e41";
+    //     gr.user = "57d414ce53261610f91579a0a0490e29";
+    //     gr.insert();
+
+
+    // } else {
+    //     gr.addQuery("user", "57d414ce53261610f91579a0a0490e29");
+    // 	gr.query();
+    //     gr.delete();
+    // }
+    // if (current.cdo_approval == true &amp;&amp; previous.cdo_approval == false) {
+    //     gr.initialize();
+    //     gr.group = "e19e3f0753a2da10f91579a0a0490e41";
+    //     gr.user = "2f2494ce53261610f91579a0a0490e9a";
+    //     gr.insert();
+
+
+    // } else {
+    //     gr.addQuery("user", "2f2494ce53261610f91579a0a0490e9a");
+    // 	gr.query();
+    //     gr.delete();
+    // }
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sushmithaa.sivakumar&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-23 14:33:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f102051f532ada10f91579a0a0490eee&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Approval Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CoE App" source="x_1438983_coe_app"&gt;9f443481532a1210f91579a0a0490e30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CoE App"&gt;9f443481532a1210f91579a0a0490e30&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f102051f532ada10f91579a0a0490eee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;bhuvaneswari.janarthanan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-23 15:54:47&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f102051f532ada10f91579a0a0490eee"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1528962320</payload_hash>
+        <record_name>Update Approval Group</record_name>
+        <reverted_from/>
+        <source>ec603e7d53ead210f91579a0a0490e52</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bhuvaneswari.janarthanan</sys_created_by>
+        <sys_created_on>2024-12-23 15:54:47</sys_created_on>
+        <sys_id>b3a6519b53aada10f91579a0a0490e63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193f43a64550000001</sys_recorded_at>
+        <sys_updated_by>bhuvaneswari.janarthanan</sys_updated_by>
+        <sys_updated_on>2024-12-23 15:54:47</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>f3a6519b4aaada10d955e385354c4962</update_guid>
+        <update_guid_history>f3a6519b4aaada10d955e385354c4962:1528962320,9975915b5faada10bcd13031e248eadf:-1920872941,ae35991b42aada108afd992bbc9f4f88:1195579152,33a49dd7cbaada10b949e2d756484e9f:-1920872941,be3491d7f4aada1016eb35f660f84ba9:1929994955,3fc3199798aada10b75997a213b087d7:939794915,5673119723aada10d2572d25ba20f2a2:-594221546,8423d557e9aada10d5f11192c98503ff:-2040944902,59305513edaada10c0210d87d8ffdfbc:1513275497,80bec19fa86ada10fe1b5a6f9fb4bf40:1868331607,283e099b606ada108ad31eec93db45a0:1142483816,8a3dc95b0a6ada100d2f17d9b122f778:763939126,a2eb495b336ada10d5cb29702ed37414:-928563903,83ab89d7e46ada1063c2c299aa0503ab:910891475,666b891b7c6ada10371ef01b16b2af26:1702919913,2ea88957d26ada108b401e2aef3df03a:629785494,cc3405db0d2ada107a00109e921b02d4:456864547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bhuvaneswari.janarthanan</sys_created_by>
+        <sys_created_on>2024-12-23 16:03:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>7335f6c834c640ea9408e9998c3fc9c1</sys_id>
+        <sys_metadata>f102051f532ada10f91579a0a0490eee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Approval Group</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent display_value="Configuration Details">20fee7f953621610f91579a0a0490e51</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_script_f102051f532ada10f91579a0a0490eee</sys_update_name>
+        <sys_update_version display_value="sys_script_f102051f532ada10f91579a0a0490eee">b3a6519b53aada10f91579a0a0490e63</sys_update_version>
+        <sys_updated_by>bhuvaneswari.janarthanan</sys_updated_by>
+        <sys_updated_on>2024-12-23 16:03:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

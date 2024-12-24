@@ -5,18 +5,32 @@
         <element label="Is Active" max_length="40" name="is_active" type="string"/>
         <element label="Project Name" max_length="255" name="project_name" type="string"/>
         <element label="Project Owner" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
+        <element label="Is Chief Executive Officer Approval Needed" max_length="40" name="ceo_approval" type="boolean"/>
+        <element choice="1" label="Type of Approval" max_length="40" name="type_of_approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sequential Approval" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Parallel Approval" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Is Chief Financial Officer Approval Needed" max_length="255" name="cfo_approval" type="boolean"/>
         <element label="Production Environment" max_length="32" name="production_environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=4" reference_qual_condition="field=4" type="reference"/>
         <element label="Project Prefix" max_length="40" name="project_prefix" type="string"/>
         <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
         <element label="Hosting Pattern" max_length="32" name="hosting_pattern" reference="x_1438983_coe_app_lookup_details" reference_qual="field=3" reference_qual_condition="field=3" type="reference"/>
+        <element label="Budget for CFO Approval" max_length="32" name="budget_cfo" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5^is_active=true" reference_qual_condition="field=5^is_active=true" type="reference"/>
         <element label="Precedence" max_length="32" name="precedence" reference="x_1438983_coe_app_lookup_details" reference_qual="field=7" reference_qual_condition="field=7" type="reference"/>
         <element label="Estimated ROI" max_length="40" name="estimated_roi" type="currency"/>
         <element label="Project Domain" max_length="32" name="project_domain" reference="x_1438983_coe_app_lookup_details" reference_qual="field=6" reference_qual_condition="field=6" type="reference"/>
         <element label="Estimated Budget" max_length="32" name="estimated_budget" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5" reference_qual_condition="field=5" type="reference"/>
+        <element label="Is CoE Lead Approval Needed" max_length="40" name="coe_lead_approval" type="boolean"/>
+        <element label="Is Chief Delivery Officer Approval Needed" max_length="40" name="cdo_approval" type="boolean"/>
         <element label="Project Category" max_length="32" name="project_category" reference="x_1438983_coe_app_lookup_details" reference_qual="field=9" reference_qual_condition="field=9" type="reference"/>
         <element label="Estimated Required Resources" max_length="32" name="estimated_required_resources" reference="x_1438983_coe_app_lookup_details" reference_qual="field=8" reference_qual_condition="field=8" type="reference"/>
         <element label="Is Weighted" max_length="40" name="is_weighted" type="boolean"/>
         <element label="Status" max_length="32" name="status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=1" reference_qual_condition="field=1" type="reference"/>
         <element label="Technical Lead" max_length="32" name="technical_lead" reference="sys_user" type="reference"/>
+        <element label="Resources for CEO Approval" max_length="32" name="resources_ceo" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5^is_active=true" reference_qual_condition="field=5^is_active=true" type="reference"/>
+        <element label="Is Chief Technology Officer Approval Needed" max_length="40" name="cto_approval" type="boolean"/>
+        <element label="Is Project Manager Approval Needed" max_length="40" name="project_manager_approval" type="boolean"/>
     </element>
 </database>

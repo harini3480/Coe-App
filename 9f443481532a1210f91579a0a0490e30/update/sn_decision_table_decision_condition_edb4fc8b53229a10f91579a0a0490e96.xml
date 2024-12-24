@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Configuration Record">ddb4fc8b53229a10f91579a0a0490e3b</decision_input>
+        <decision_table display_value="CoE App Configuration">8140bcc353229a10f91579a0a0490e1d</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field>u_configuration_record.ceo_approval</field>
+        <field_label>Configuration Details &gt; Is Chief Executive Officer Approval Needed?</field_label>
+        <field_parent_table>x_1438983_coe_app_configuration_details</field_parent_table>
+        <label>CEO Approval</label>
+        <order>300</order>
+        <parent/>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 18:47:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>edb4fc8b53229a10f91579a0a0490e96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_edb4fc8b53229a10f91579a0a0490e96</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 18:47:52</sys_updated_on>
+        <type display_value="True/False">17d3ba81bf3320001875647fcf0739dc</type>
+    </sn_decision_table_decision_condition>
+</record_update>

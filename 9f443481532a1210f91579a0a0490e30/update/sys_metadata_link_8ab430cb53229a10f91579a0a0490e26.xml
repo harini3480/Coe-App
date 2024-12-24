@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cab430cb53229a10f91579a0a0490e25</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer/>
+        <condition/>
+        <decision_table display_value="CoE App Configuration">8140bcc353229a10f91579a0a0490e1d</decision_table>
+        <default_answer>true</default_answer>
+        <input_table>var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d</input_table>
+        <label>CoE App Configuration default result</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 18:47:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cab430cb53229a10f91579a0a0490e25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoE App Configuration default result</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_decision_question_cab430cb53229a10f91579a0a0490e25</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 18:47:55</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 18:47:55</sys_created_on>
+        <sys_id>8ab430cb53229a10f91579a0a0490e26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoE App Configuration default result</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_metadata_link_8ab430cb53229a10f91579a0a0490e26</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 18:47:55</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

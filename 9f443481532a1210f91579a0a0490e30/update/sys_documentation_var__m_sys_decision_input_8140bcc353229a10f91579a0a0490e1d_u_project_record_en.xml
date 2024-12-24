@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_project_record" label="Project Record" language="en" table="var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_project_record</element>
+            <help/>
+            <hint/>
+            <label>Project Record</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d</name>
+            <plural>Project Record</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-22 18:47:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Project Record</sys_name>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_input_8140bcc353229a10f91579a0a0490e1d_u_project_record_en</sys_update_name>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-22 18:47:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="CoE App Configuration">8140bcc353229a10f91579a0a0490e1d</decision_table>
+        <label>Flow to be Triggered: Sequential Approval</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 18:48:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21c43c4753229a10f91579a0a0490e01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow to be Triggered: Sequential Approval</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_decision_multi_result_21c43c4753229a10f91579a0a0490e01</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 18:48:09</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=21c43c4753229a10f91579a0a0490e01"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>21c43c4753229a10f91579a0a0490e01</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 18:48:09</sys_created_on>
+        <sys_id>a1c43c4753229a10f91579a0a0490e02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 18:48:09</sys_updated_on>
+        <value>b36c244f53ae5a10f91579a0a0490e87</value>
+        <variable display_value="Flow to be Triggered">99b4fc8b53229a10f91579a0a0490e4f</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "259e0221ff18a75c5f5f0fb28fa5d32f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "calendar_report_1",
+                    "elementLabel": "Calendar Report 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "componentDescription": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "componentTitle": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Knowledge - Session Schedule"
+                            }
+                        },
+                        "encodedQuery": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "endDateField": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "eventColor": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "eventDisplayFields": {
+                            "type": "JSON_LITERAL",
+                            "value": "number,trainer,session_date"
+                        },
+                        "filterConfigurations": {
+                            "binding": {
+                                "address": [
+                                    "parFilters"
+                                ]
+                            },
+                            "type": "STATE_BINDING"
+                        },
+                        "followFilters": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "reportSource": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "showDescription": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showFilterOverview": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "startDateField": {
+                            "type": "JSON_LITERAL",
+                            "value": "session_date"
+                        },
+                        "table": {
+                            "type": "JSON_LITERAL",
+                            "value": "x_1438983_coe_app_knowledge_sharing"
+                        },
+                        "viewType": {
+                            "type": "JSON_LITERAL",
+                            "value": "MONTH"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "calendar_report_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "container_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "Knowledge - Session Schedule",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 11:14:21</sys_created_on>
+        <sys_id>12eccb3a53e65a10f91579a0a0490ed1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_macroponent_12eccb3a53e65a10f91579a0a0490ed1</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 16:46:10</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=12eccb3a53e65a10f91579a0a0490ed1"/>
+</record_update>
