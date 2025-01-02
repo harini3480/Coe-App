@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=488000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=149412000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="">{}</category>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>sequential_approval</internal_name>
-        <label_cache>[{"name":"8d389248-4d2a-4b63-8356-2b109713a719.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"66894bb4-86d2-4cb0-b838-0e65ad8b54bb":["approval_status-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.d9192c0e53a61610f91579a0a0490ecd}}","label":"COE Team Lead","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]}},{"name":"subflow.project","label":"Input➛project","reference":"x_1438983_coe_app_project_details","reference_display":"Project Details","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"894350f7-21b5-49e3-b561-1e0d41ea8997","uiTypeLabel":"Reference"}},{"name":"subflow.approval_group","label":"Input➛approval group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d302dc51-7686-4651-868e-8e3c857a3466","uiTypeLabel":"Reference"}}]</label_cache>
+        <label_cache>[{"name":"8d389248-4d2a-4b63-8356-2b109713a719.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"66894bb4-86d2-4cb0-b838-0e65ad8b54bb":["approval_status-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.d9192c0e53a61610f91579a0a0490ecd}}","label":"COE Team Lead","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]}},{"name":"subflow.project","label":"Input➛project","reference":"x_1438983_coe_app_project_details","reference_display":"Project Details","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["record"],"6a743da7-7842-4416-a6ca-bc0bda6f6315":["condition"]}},{"name":"subflow.approval_group","label":"Input➛approval group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]}}]</label_cache>
         <master_snapshot>751ee80353229a10f91579a0a0490ecb</master_snapshot>
         <name>Sequential Approval</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b36c244f53ae5a10f91579a0a0490e87</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Sequential Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_hub_flow_b36c244f53ae5a10f91579a0a0490e87</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:19:52</sys_updated_on>
+        <sys_updated_on>2024-12-24 11:41:55</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b36c244f53ae5a10f91579a0a0490e87"/>
@@ -336,10 +336,10 @@
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-12-22 18:17:16</sys_created_on>
         <sys_id>11bd600353229a10f91579a0a0490ec4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:19:52</sys_updated_on>
+        <sys_updated_on>2024-12-24 11:41:55</sys_updated_on>
         <ui_id>8d389248-4d2a-4b63-8356-2b109713a719</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=11bd600353229a10f91579a0a0490ec4"/>
@@ -500,10 +500,10 @@
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-12-22 18:18:26</sys_created_on>
         <sys_id>d2fdeccf53ee5a10f91579a0a0490e21</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:19:52</sys_updated_on>
+        <sys_updated_on>2024-12-24 11:41:55</sys_updated_on>
         <ui_id>66894bb4-86d2-4cb0-b838-0e65ad8b54bb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -755,7 +755,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>sequential_approval</internal_name>
-        <label_cache>[{"name":"8d389248-4d2a-4b63-8356-2b109713a719.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"66894bb4-86d2-4cb0-b838-0e65ad8b54bb":["approval_status-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.d9192c0e53a61610f91579a0a0490ecd}}","label":"COE Team Lead","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]}},{"name":"subflow.project","label":"Input➛project","reference":"x_1438983_coe_app_project_details","reference_display":"Project Details","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"894350f7-21b5-49e3-b561-1e0d41ea8997","uiTypeLabel":"Reference"}},{"name":"subflow.approval_group","label":"Input➛approval group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d302dc51-7686-4651-868e-8e3c857a3466","uiTypeLabel":"Reference"}}]</label_cache>
+        <label_cache>[{"name":"8d389248-4d2a-4b63-8356-2b109713a719.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"66894bb4-86d2-4cb0-b838-0e65ad8b54bb":["approval_status-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.d9192c0e53a61610f91579a0a0490ecd}}","label":"COE Team Lead","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]}},{"name":"subflow.project","label":"Input➛project","reference":"x_1438983_coe_app_project_details","reference_display":"Project Details","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["record"],"6a743da7-7842-4416-a6ca-bc0bda6f6315":["condition"]}},{"name":"subflow.approval_group","label":"Input➛approval group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"8d389248-4d2a-4b63-8356-2b109713a719":["approval_conditions"]}}]</label_cache>
         <master>true</master>
         <name>Sequential Approval</name>
         <natlang/>
@@ -772,7 +772,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>751ee80353229a10f91579a0a0490ecb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -780,7 +780,7 @@
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name/>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:19:51</sys_updated_on>
+        <sys_updated_on>2024-12-24 11:41:55</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=751ee80353229a10f91579a0a0490ecb"/>
@@ -1073,10 +1073,10 @@
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-12-22 18:18:57</sys_created_on>
         <sys_id>f11e2c0353229a10f91579a0a0490e40</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:19:51</sys_updated_on>
+        <sys_updated_on>2024-12-24 11:41:55</sys_updated_on>
         <ui_id>8d389248-4d2a-4b63-8356-2b109713a719</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f11e2c0353229a10f91579a0a0490e40"/>
@@ -1237,10 +1237,10 @@
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-12-22 18:18:57</sys_created_on>
         <sys_id>711e2c0353229a10f91579a0a0490e35</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:19:51</sys_updated_on>
+        <sys_updated_on>2024-12-24 11:41:55</sys_updated_on>
         <ui_id>66894bb4-86d2-4cb0-b838-0e65ad8b54bb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1486,7 +1486,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b36c244f53ae5a10f91579a0a0490e87"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b36c244f53ae5a10f91579a0a0490e87^sys_idNOT IN8e1e2c0353229a10f91579a0a0490e4f"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@51671121</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@6dc08887</plan>
         <plan_id display_value="Sequential Approval">b36c244f53ae5a10f91579a0a0490e87</plan_id>
         <snapshot>751ee80353229a10f91579a0a0490ecb</snapshot>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
@@ -1494,10 +1494,10 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8e1e2c0353229a10f91579a0a0490e4f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:19:51</sys_updated_on>
+        <sys_updated_on>2024-12-24 11:41:55</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

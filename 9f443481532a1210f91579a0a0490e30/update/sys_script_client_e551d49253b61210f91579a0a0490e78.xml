@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Load :Project Details Read Only </name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var status = g_form.getValue("status");
+    if (status == "51bfba35536ed210f91579a0a0490e48" || status == "8c00c3fd532ed210f91579a0a0490e53" || status == "78ef7a35536ed210f91579a0a0490e2f" || status == "e4dfba35536ed210f91579a0a0490e49") {
+        g_form.setReadOnly("project_category", true);
+        g_form.setReadOnly("description", true);
+        g_form.setReadOnly("project_name", true);
+        g_form.setReadOnly("project_prefix", true);
+        g_form.setReadOnly("department", true);
+        g_form.setReadOnly("hosting_pattern", true);
+        g_form.setReadOnly("production_environment", true);
+        g_form.setReadOnly("project_owner", true);
+        g_form.setReadOnly("project_manager", true);
+        g_form.setReadOnly("technical_lead", true);
+        g_form.setReadOnly("estimated_budget", true);
+        g_form.setReadOnly("estimated_required_resources", true);
+        g_form.setReadOnly("priority", true);
+        g_form.setReadOnly("project_domain", true);
+        g_form.setReadOnly("is_weighted", true);
+        g_form.setReadOnly("estimated_roi", true);
+        g_form.setReadOnly("business_impact", true);
+
+
+
+
+
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-01 18:41:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e551d49253b61210f91579a0a0490e78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Load :Project Details Read Only </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_e551d49253b61210f91579a0a0490e78</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-01 18:41:14</sys_updated_on>
+        <table>x_1438983_coe_app_project_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

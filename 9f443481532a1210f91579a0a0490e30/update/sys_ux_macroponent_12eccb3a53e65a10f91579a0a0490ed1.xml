@@ -23,11 +23,11 @@
             "composition": [
                 {
                     "definition": {
-                        "id": "259e0221ff18a75c5f5f0fb28fa5d32f",
+                        "id": "39dc3c19bd4d123411e95151c0c2b31a",
                         "type": "MACROPONENT"
                     },
-                    "elementId": "calendar_report_1",
-                    "elementLabel": "Calendar Report 1",
+                    "elementId": "kpi_details_1",
+                    "elementLabel": "KPI Details 1",
                     "eventMappings": [
                         
                     ],
@@ -37,73 +37,84 @@
                     },
                     "preset": null,
                     "propertyValues": {
-                        "componentDescription": {
-                            "type": "TRANSLATION_LITERAL",
-                            "value": {
-                                "code": null,
-                                "comment": "",
-                                "message": ""
-                            }
-                        },
-                        "componentTitle": {
-                            "type": "TRANSLATION_LITERAL",
-                            "value": {
-                                "code": null,
-                                "comment": "",
-                                "message": "Knowledge - Session Schedule"
-                            }
-                        },
-                        "encodedQuery": {
+                        "aggregate": {
                             "type": "JSON_LITERAL",
                             "value": ""
                         },
-                        "endDateField": {
+                        "breakdowns": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "domain": {
                             "type": "JSON_LITERAL",
                             "value": ""
                         },
-                        "eventColor": {
+                        "endDateProp": {
                             "type": "JSON_LITERAL",
                             "value": ""
                         },
-                        "eventDisplayFields": {
+                        "indicatorSysid": {
                             "type": "JSON_LITERAL",
-                            "value": "number,trainer,session_date"
+                            "value": "c4aedf0820445910f877de4b9ee9ccef"
                         },
-                        "filterConfigurations": {
-                            "binding": {
-                                "address": [
-                                    "parFilters"
-                                ]
-                            },
-                            "type": "STATE_BINDING"
-                        },
-                        "followFilters": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "reportSource": {
+                        "kpiDetailsView": {
                             "type": "JSON_LITERAL",
                             "value": ""
                         },
-                        "showDescription": {
+                        "panel": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "recordsListView": {
+                            "type": "JSON_LITERAL",
+                            "value": "Default view"
+                        },
+                        "scoreDate": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "showCompareRecords": {
                             "type": "JSON_LITERAL",
                             "value": true
                         },
-                        "showFilterOverview": {
+                        "showHorizontalStatisticOrientation": {
                             "type": "JSON_LITERAL",
                             "value": false
                         },
-                        "startDateField": {
+                        "showRealTime": {
                             "type": "JSON_LITERAL",
-                            "value": "session_date"
+                            "value": false
                         },
-                        "table": {
+                        "showRecordQuickEdit": {
                             "type": "JSON_LITERAL",
-                            "value": "x_1438983_coe_app_knowledge_sharing"
+                            "value": true
                         },
-                        "viewType": {
+                        "showRecordsView": {
                             "type": "JSON_LITERAL",
-                            "value": "MONTH"
+                            "value": true
+                        },
+                        "showTargetBadge": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "startDateProp": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "statisticsOrientation": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "user": {
+                            "binding": {
+                                "address": [
+                                    "user"
+                                ],
+                                "category": "session"
+                            },
+                            "type": "CONTEXT_BINDING"
                         }
                     },
                     "slot": null,
@@ -115,7 +126,7 @@
                     "children": null,
                     "items": [
                         {
-                            "element_id": "calendar_report_1",
+                            "element_id": "kpi_details_1",
                             "styles": {}
                         }
                     ],
@@ -207,10 +218,7 @@
         <props>[
     
 ]</props>
-        <required_translations>[ {
-  "message" : "Knowledge - Session Schedule",
-  "comment" : ""
-} ]</required_translations>
+        <required_translations>[ ]</required_translations>
         <root_component/>
         <root_component_config/>
         <root_component_definition/>
@@ -220,14 +228,14 @@
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-12-22 11:14:21</sys_created_on>
         <sys_id>12eccb3a53e65a10f91579a0a0490ed1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_ux_macroponent_12eccb3a53e65a10f91579a0a0490ed1</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 16:46:10</sys_updated_on>
+        <sys_updated_on>2024-12-26 09:40:59</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=12eccb3a53e65a10f91579a0a0490ed1"/>
 </record_update>

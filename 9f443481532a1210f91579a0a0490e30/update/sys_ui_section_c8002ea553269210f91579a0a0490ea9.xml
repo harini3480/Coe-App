@@ -3,70 +3,98 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
-            <sys_id>0400aea553269210f91579a0a0490e22</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:45:02</sys_created_on>
+            <sys_id>b9111b8c533a1250f91579a0a0490e8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">c8002ea553269210f91579a0a0490ea9</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:45:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_category</element>
+            <position>1</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:45:02</sys_created_on>
+            <sys_id>b1111b8c533a1250f91579a0a0490e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">c8002ea553269210f91579a0a0490ea9</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:45:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>project_name</element>
-            <position>1</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
-            <sys_id>c000aea553269210f91579a0a0490e24</sys_id>
+            <position>2</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:45:02</sys_created_on>
+            <sys_id>b9111b8c533a1250f91579a0a0490e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">c8002ea553269210f91579a0a0490ea9</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:45:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
-            <sys_id>c000aea553269210f91579a0a0490e23</sys_id>
+            <position>3</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:45:02</sys_created_on>
+            <sys_id>b1111b8c533a1250f91579a0a0490e8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">c8002ea553269210f91579a0a0490ea9</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:45:02</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>project_category</element>
-            <position>3</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
-            <sys_id>c800aea553269210f91579a0a0490e24</sys_id>
+            <element>status</element>
+            <position>4</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:45:02</sys_created_on>
+            <sys_id>b9111b8c533a1250f91579a0a0490e8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">c8002ea553269210f91579a0a0490ea9</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:45:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>5</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:45:02</sys_created_on>
+            <sys_id>b1111b8c533a1250f91579a0a0490e8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">c8002ea553269210f91579a0a0490ea9</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:45:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>project_prefix</element>
-            <position>4</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:44</sys_created_on>
-            <sys_id>c800aea553269210f91579a0a0490e23</sys_id>
+            <position>6</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:45:02</sys_created_on>
+            <sys_id>b9111b8c533a1250f91579a0a0490e8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_project_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">c8002ea553269210f91579a0a0490ea9</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:44</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:45:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

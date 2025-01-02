@@ -3,140 +3,112 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>estimated_budget</element>
             <position>0</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>52b6815953a61210f91579a0a0490e7a</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>cc60574c533a1250f91579a0a0490eac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
             <position>1</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>5ab6815953a61210f91579a0a0490e7a</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>c460574c533a1250f91579a0a0490ead</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>is_weighted</element>
             <position>2</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>52b6815953a61210f91579a0a0490e7b</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>cc60574c533a1250f91579a0a0490ead</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>3</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>5ab6815953a61210f91579a0a0490e7b</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>c460574c533a1250f91579a0a0490eae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>estimated_required_resources</element>
             <position>4</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>52b6815953a61210f91579a0a0490e7c</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>cc60574c533a1250f91579a0a0490eae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>project_domain</element>
             <position>5</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>5ab6815953a61210f91579a0a0490e7c</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>c460574c533a1250f91579a0a0490eaf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>estimated_roi</element>
             <position>6</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>52b6815953a61210f91579a0a0490e7d</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>cc60574c533a1250f91579a0a0490eaf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>business_impact</element>
             <position>7</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>5ab6815953a61210f91579a0a0490e7d</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 08:41:54</sys_created_on>
+            <sys_id>c460574c533a1250f91579a0a0490eb0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>52b6815953a61210f91579a0a0490e7e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>9</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-17 09:37:12</sys_created_on>
-            <sys_id>5ab6815953a61210f91579a0a0490e7e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Idea Details" display_value="New Idea Details" name="x_1438983_coe_app_project_details" sys_domain="global" view="Default view">86b6815953a61210f91579a0a0490e2d</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-17 09:37:12</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 08:41:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

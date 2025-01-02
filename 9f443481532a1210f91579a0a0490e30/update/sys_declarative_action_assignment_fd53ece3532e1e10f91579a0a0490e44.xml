@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
     <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
         <action/>
-        <action_attributes>{"activityView":"stacked","enableFullWidthCards":"false","playbookExperienceId":"b820015b532ada10f91579a0a0490e2b","parentSysId":"{{sysId}}","parentTable":"{{table}}","compactMode":"","recordGeneratorQuery":"","isNewParentRecord":"{{isNewRecord}}"}</action_attributes>
+        <action_attributes>{"activityView":"focused","enableFullWidthCards":"false","playbookExperienceId":"","parentSysId":"{​{sysId}}","parentTable":"{​{table}}","compactMode":"","recordGeneratorQuery":"","isNewParentRecord":"{​{isNewRecord}}"}</action_attributes>
         <action_name>playbook</action_name>
         <action_payload/>
         <action_type>type</action_type>
@@ -37,7 +37,7 @@
         <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
         <model_conditions/>
         <model_field_required/>
-        <order>0</order>
+        <order>100</order>
         <payload_map/>
         <read_access>false</read_access>
         <record_conditions/>
@@ -46,7 +46,7 @@
         <required_translations/>
         <required_user_role_names/>
         <requires_value>false</requires_value>
-        <script_condition/>
+        <script_condition>sn_playbook.PlaybookExperience.parentRecordContainsPlaybook(current)</script_condition>
         <scripted_client_condition/>
         <server_script/>
         <specificity>21</specificity>
@@ -56,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd53ece3532e1e10f91579a0a0490e44</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>playbook</sys_name>
         <sys_overrides/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
@@ -64,7 +64,7 @@
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_declarative_action_assignment_fd53ece3532e1e10f91579a0a0490e44</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-24 06:53:14</sys_updated_on>
+        <sys_updated_on>2024-12-24 07:29:55</sys_updated_on>
         <table>x_1438983_coe_app_project_details</table>
         <tooltip/>
         <ui_component display_value="now-playbook-experience">9d0bc73916d784d8692b89e9553124dc</ui_component>

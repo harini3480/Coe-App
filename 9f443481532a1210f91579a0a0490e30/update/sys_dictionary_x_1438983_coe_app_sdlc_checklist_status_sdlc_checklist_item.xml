@@ -16,7 +16,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -52,8 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_dictionary_x_1438983_coe_app_sdlc_checklist_status_sdlc_checklist_item</sys_update_name>
-        <sys_updated_by>Sushmithaa</sys_updated_by>
-        <sys_updated_on>2024-12-16 15:56:03</sys_updated_on>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-24 11:05:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

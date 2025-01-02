@@ -5,16 +5,19 @@
         <name>chrome_toolbar</name>
         <page display_value="CoE Workspace">89ef5a65ff26921063a86ec40ea9284e</page>
         <required_translations>[ {
-  "message" : "Analytics Center",
+  "message" : "Best Practices",
   "comment" : ""
 }, {
-  "message" : "Best Practices",
+  "message" : "Dashboard",
   "comment" : ""
 }, {
   "message" : "Home",
   "comment" : ""
 }, {
   "message" : "Knowledge Base",
+  "comment" : ""
+}, {
+  "message" : "Knowledge Session",
   "comment" : ""
 }, {
   "message" : "List",
@@ -28,14 +31,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>09ef5a655d269210ea474cd18d099f3e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>chrome_toolbar</sys_name>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_ux_page_property_09ef5a655d269210ea474cd18d099f3e</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-22 18:54:01</sys_updated_on>
+        <sys_updated_on>2024-12-26 09:25:21</sys_updated_on>
         <type>json</type>
         <unique_name>x_1438983_coe_app.89ef5a65ff26921063a86ec40ea9284e.root.chrome_toolbar</unique_name>
         <value>[&#13;
@@ -88,17 +91,41 @@
       }&#13;
    },&#13;
  {&#13;
-      "id":"analytics-center",&#13;
+      "id":"dashboard",&#13;
       "label": {&#13;
-              "message": "Analytics Center",&#13;
+              "message": "Dashboard",&#13;
                "translatable": true&#13;
         },&#13;
-      "icon":"analytics-center-outline",&#13;
+      "icon":"grid-three-outline",&#13;
       "viewportInfo":{&#13;
          &#13;
       },&#13;
       "routeInfo":{&#13;
          "route":"reports"&#13;
+      },&#13;
+      "group":"top",&#13;
+      "badge":{&#13;
+         &#13;
+      },&#13;
+      "presence":{&#13;
+         &#13;
+      },&#13;
+      "availability":{&#13;
+         &#13;
+      }&#13;
+   },&#13;
+{&#13;
+      "id":"knowledge-session",&#13;
+      "label": {&#13;
+              "message": "Knowledge Session",&#13;
+               "translatable": true&#13;
+        },&#13;
+      "icon":"calendar-outline",&#13;
+      "viewportInfo":{&#13;
+         &#13;
+      },&#13;
+      "routeInfo":{&#13;
+         "route":"knowledge-session"&#13;
       },&#13;
       "group":"top",&#13;
       "badge":{&#13;

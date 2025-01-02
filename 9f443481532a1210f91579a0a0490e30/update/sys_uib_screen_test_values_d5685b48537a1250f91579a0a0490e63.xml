@@ -16,18 +16,18 @@
         "view": "workspace-coe-workspace-0"
     }
 }</macroponent_config>
-        <screen display_value="Default">52ec83ba53e65a10f91579a0a0490e3a</screen>
+        <screen display_value="Default">19685b48537a1250f91579a0a0490e5f</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-        <sys_created_on>2024-12-22 11:14:21</sys_created_on>
-        <sys_id>12ec83ba53e65a10f91579a0a0490e3e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-12-26 09:16:57</sys_created_on>
+        <sys_id>d5685b48537a1250f91579a0a0490e63</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
-        <sys_update_name>sys_uib_screen_test_values_12ec83ba53e65a10f91579a0a0490e3e</sys_update_name>
+        <sys_update_name>sys_uib_screen_test_values_d5685b48537a1250f91579a0a0490e63</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-26 09:30:58</sys_updated_on>
+        <sys_updated_on>2024-12-26 09:27:51</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

@@ -3,128 +3,170 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>4d00e2e553269210f91579a0a0490e31</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>400cabc453fa1250f91579a0a0490e8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
             <position>1</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>4d00e2e553269210f91579a0a0490e30</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>480cabc453fa1250f91579a0a0490e8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sdlc_checklist_item</element>
             <position>2</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>4500e2e553269210f91579a0a0490e32</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>400cabc453fa1250f91579a0a0490e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>supporting_document</element>
             <position>3</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>4500e2e553269210f91579a0a0490e31</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>480cabc453fa1250f91579a0a0490e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>cd00a2e553269210f91579a0a0490eb1</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>400cabc453fa1250f91579a0a0490e8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>project</element>
             <position>5</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>4d00e2e553269210f91579a0a0490e2f</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>480cabc453fa1250f91579a0a0490e8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>query_type</element>
             <position>6</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>c500a2e553269210f91579a0a0490eb2</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>400cabc453fa1250f91579a0a0490e8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>environment</element>
             <position>7</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>4500e2e553269210f91579a0a0490e30</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>c40cabc453fa1250f91579a0a0490ea8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
             <position>8</position>
-            <sys_created_by>Sushmithaa</sys_created_by>
-            <sys_created_on>2024-12-18 10:45:48</sys_created_on>
-            <sys_id>cd00a2e553269210f91579a0a0490eb2</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>cc0cabc453fa1250f91579a0a0490ea8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
-            <sys_updated_by>Sushmithaa</sys_updated_by>
-            <sys_updated_on>2024-12-18 10:45:48</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>c40cabc453fa1250f91579a0a0490ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>cc0cabc453fa1250f91579a0a0490ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>11</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-12-26 10:42:36</sys_created_on>
+            <sys_id>c40cabc453fa1250f91579a0a0490eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Query " display_value="Query " name="x_1438983_coe_app_query_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">0d00a2e553269210f91579a0a0490eb0</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-12-26 10:42:36</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Query </caption>

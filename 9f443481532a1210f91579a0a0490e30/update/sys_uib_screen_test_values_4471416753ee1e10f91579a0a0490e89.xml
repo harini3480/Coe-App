@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
+    "table": "x_1438983_coe_app_project_details",
+    "sysId": "-1",
+    "query": null,
+    "extraParams": null,
+    "views": null,
+    "selectedTabIndex": null,
     "029f04e053610110ac9bddeeff7b1294": {
         "activityLogs": null,
         "detailsContext": null,
@@ -16,18 +22,18 @@
         "view": "workspace-coe-workspace-0"
     }
 }</macroponent_config>
-        <screen display_value="Default">52ec83ba53e65a10f91579a0a0490e3a</screen>
+        <screen display_value="Project Details Record Page">bdff16a553269210f91579a0a0490e16</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-        <sys_created_on>2024-12-22 11:14:21</sys_created_on>
-        <sys_id>12ec83ba53e65a10f91579a0a0490e3e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-12-24 09:00:26</sys_created_on>
+        <sys_id>4471416753ee1e10f91579a0a0490e89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
-        <sys_update_name>sys_uib_screen_test_values_12ec83ba53e65a10f91579a0a0490e3e</sys_update_name>
+        <sys_update_name>sys_uib_screen_test_values_4471416753ee1e10f91579a0a0490e89</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-26 09:30:58</sys_updated_on>
+        <sys_updated_on>2024-12-24 09:00:26</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
