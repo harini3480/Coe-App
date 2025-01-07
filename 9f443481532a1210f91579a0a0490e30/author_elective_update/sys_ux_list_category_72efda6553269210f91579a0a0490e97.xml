@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration>
+        <description/>
+        <order>500</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:45:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72efda6553269210f91579a0a0490e97</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Project Link Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_list_category_72efda6553269210f91579a0a0490e97</sys_update_name>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 10:49:52</sys_updated_on>
+        <title>Project Link Details</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ux_list_category_72efda6553269210f91579a0a0490e97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration><description/><order>500</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>Sushmithaa</sys_created_by><sys_created_on>2024-12-18 10:45:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>72efda6553269210f91579a0a0490e97</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Project Link Details</sys_name><sys_overrides/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ux_list_category_72efda6553269210f91579a0a0490e97</sys_update_name><sys_updated_by>Sushmithaa</sys_updated_by><sys_updated_on>2024-12-18 10:49:52</sys_updated_on><title>Project Link Details</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>-1516740198</payload_hash>
+        <record_name>Project Link Details</record_name>
+        <reverted_from/>
+        <source>5b443481532a1210f91579a0a0490e41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:49:52</sys_created_on>
+        <sys_id>2cf0226953269210f91579a0a0490e50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193d9636f460000001</sys_recorded_at>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 10:49:52</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>60f022692f26921058b113adce89be50</update_guid>
+        <update_guid_history>60f022692f26921058b113adce89be50:-1516740198,c4d06e29a8269210ff80aa4b23b72c78:950728059,b6b0aa2965269210b1aafee307a8a5e2:658861773,9a80a6292026921064941064c11f9593:-1808606484,6a402ee558269210b1c7c10d519012da:658861773,72efda65a62692105cdc7b5730d2b598:-1168637266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2025-01-03 12:35:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>5e0b69c4b1014ab9993b8d84af5f96d1</sys_id>
+        <sys_metadata>72efda6553269210f91579a0a0490e97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Link Details</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_72efda6553269210f91579a0a0490e97</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_72efda6553269210f91579a0a0490e97">2cf0226953269210f91579a0a0490e50</sys_update_version>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2025-01-03 12:35:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

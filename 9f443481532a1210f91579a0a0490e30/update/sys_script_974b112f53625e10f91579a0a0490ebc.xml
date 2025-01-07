@@ -35,15 +35,16 @@
         current.is_active = true;
         current.update();
     } else if (current.project_category == "0ed1c775536ed210f91579a0a0490ee5") {
-        current.status == "78ef7a35536ed210f91579a0a0490e2f";
+        
         current.is_active = true;
-		current.update();
+		current.status = "78ef7a35536ed210f91579a0a0490e2f";
+        current.update();
 
     } else {
 
         current.status = "8c00c3fd532ed210f91579a0a0490e53";
         current.is_active = true;
-		current.update();
+        current.update();
     }
 
 
@@ -54,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>974b112f53625e10f91579a0a0490ebc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Update Project Details Record on Insert</sys_name>
         <sys_overrides/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
@@ -62,7 +63,7 @@
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_script_974b112f53625e10f91579a0a0490ebc</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-24 11:26:31</sys_updated_on>
+        <sys_updated_on>2025-01-02 11:30:36</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

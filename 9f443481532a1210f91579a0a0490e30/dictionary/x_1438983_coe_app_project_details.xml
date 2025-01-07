@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="26b57805532a1210f91579a0a0490e8e" extends="task" label="Project Details" max_length="40" name="x_1438983_coe_app_project_details" text_index="true" type="collection">
+    <element audit="true" db_object_id="26b57805532a1210f91579a0a0490e8e" extends="task" label="Project Details" max_length="40" name="x_1438983_coe_app_project_details" text_index="true" type="collection">
         <element label="Department" max_length="32" name="department" reference="x_1438983_coe_app_lookup_details" reference_qual="field=2^is_active=true" reference_qual_condition="field=2^is_active=true" type="reference"/>
         <element label="Business Impact" max_length="40" name="business_impact" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="string"/>
@@ -28,7 +28,7 @@
         <element label="Project Category" mandatory="true" max_length="32" name="project_category" reference="x_1438983_coe_app_lookup_details" reference_qual="field=9^is_active=true" reference_qual_condition="field=9^is_active=true" type="reference"/>
         <element label="Estimated Required Resources" max_length="32" name="estimated_required_resources" reference="x_1438983_coe_app_lookup_details" reference_qual="field=8" reference_qual_condition="field=8" type="reference"/>
         <element label="Is Weighted" max_length="40" name="is_weighted" type="boolean"/>
-        <element default="e19fc30c533a1250f91579a0a0490edb" label="Status" max_length="32" name="status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=1^is_active=true" reference_qual_condition="field=1^is_active=true" type="reference"/>
+        <element default="e19fc30c533a1250f91579a0a0490edb" label="Status" max_length="32" name="status" read_only="true" reference="x_1438983_coe_app_lookup_details" reference_qual="field=1^is_active=true" reference_qual_condition="field=1^is_active=true" type="reference"/>
         <element label="Technical Lead" max_length="32" name="technical_lead" reference="sys_user" type="reference"/>
         <element label="Resources for CEO Approval" max_length="32" name="resources_ceo" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5^is_active=true" reference_qual_condition="field=5^is_active=true" type="reference"/>
         <element label="Is Chief Technology Officer Approval Needed" max_length="40" name="cto_approval" type="boolean"/>

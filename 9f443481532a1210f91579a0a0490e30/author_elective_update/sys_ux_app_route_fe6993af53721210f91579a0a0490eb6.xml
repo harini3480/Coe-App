@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="CoE Workspace App Config">4def5a6584269210731c3edeb665254e</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>know</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Default">442d980b53ae5a10f91579a0a0490e81</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>know</route_type>
+        <screen_type display_value="know">b26993af53721210f91579a0a0490eb3</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-06 06:20:09</sys_created_on>
+        <sys_id>fe6993af53721210f91579a0a0490eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>know</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_app_route_fe6993af53721210f91579a0a0490eb6</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-06 06:20:09</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=fe6993af53721210f91579a0a0490eb6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ux_app_route_fe6993af53721210f91579a0a0490eb6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="CoE Workspace App Config">4def5a6584269210731c3edeb665254e</app_config><description/><extension_point/><fields/><icon/><name>know</name><optional_parameters/><order>0</order><parent_macroponent display_value="Default">442d980b53ae5a10f91579a0a0490e81</parent_macroponent><parent_macroponent_composition_element_id/><route_type>know</route_type><screen_type display_value="know">b26993af53721210f91579a0a0490eb3</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2025-01-06 06:20:09</sys_created_on><sys_id>fe6993af53721210f91579a0a0490eb6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>know</sys_name><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ux_app_route_fe6993af53721210f91579a0a0490eb6</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2025-01-06 06:20:09</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=fe6993af53721210f91579a0a0490eb6"/></record_update>]]></payload>
+        <payload_hash>1493261847</payload_hash>
+        <record_name>know</record_name>
+        <reverted_from/>
+        <source>ec603e7d53ead210f91579a0a0490e52</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-06 06:20:09</sys_created_on>
+        <sys_id>be6993af53721210f91579a0a0490eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1943a4554020000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-06 06:20:09</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>726993afd47212100fe66ae09cb2bdb9</update_guid>
+        <update_guid_history>726993afd47212100fe66ae09cb2bdb9:1493261847</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-06 06:28:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>492d157d408f4dbf956f1b0e5e28c8d1</sys_id>
+        <sys_metadata>fe6993af53721210f91579a0a0490eb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>know</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_fe6993af53721210f91579a0a0490eb6</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_fe6993af53721210f91579a0a0490eb6">be6993af53721210f91579a0a0490eb9</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-06 06:28:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

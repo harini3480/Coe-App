@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
-    "table": "x_1438983_coe_app_project_details",
-    "sysId": "-1",
-    "query": null,
-    "extraParams": null,
-    "views": null,
-    "selectedTabIndex": null,
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "allowBoth",
+        "columnLimit": 0,
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "enableLiveList": false,
+        "enableQuickEdit": true,
+        "enableReferenceLinks": true,
+        "fetchHighlightedValues": false,
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "table": "task"
+    },
     "029f04e053610110ac9bddeeff7b1294": {
         "activityLogs": null,
         "detailsContext": null,
@@ -22,18 +32,18 @@
         "view": "workspace-coe-workspace-0"
     }
 }</macroponent_config>
-        <screen display_value="Project Details Record Page">bdff16a553269210f91579a0a0490e16</screen>
+        <screen display_value="Default">882d980b53ae5a10f91579a0a0490e84</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-        <sys_created_on>2024-12-24 11:04:41</sys_created_on>
-        <sys_id>00ed952353a25e10f91579a0a0490e84</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2025-01-06 06:15:40</sys_created_on>
+        <sys_id>d168dfeb53721210f91579a0a0490e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
-        <sys_update_name>sys_uib_screen_test_values_00ed952353a25e10f91579a0a0490e84</sys_update_name>
+        <sys_update_name>sys_uib_screen_test_values_d168dfeb53721210f91579a0a0490e3b</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2025-01-03 10:17:52</sys_updated_on>
+        <sys_updated_on>2025-01-06 06:15:40</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

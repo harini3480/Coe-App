@@ -2,9 +2,9 @@
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Approval Task">b6ef1e6553269210f91579a0a0490e55</category>
-        <columns>number,priority,state,assigned_to,short_description,sys_class_name</columns>
-        <condition table="task">active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        <columns>state,approver,comments,sys_created_on,document_id</columns>
+        <condition table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateINnot requested,requested<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item display_value="not requested,requested" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="not requested,requested"/>
         </condition>
         <configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration>
         <group_by_column/>
@@ -62,16 +62,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>feef1e6553269210f91579a0a0490e7d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Open</sys_name>
         <sys_overrides/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_ux_list_feef1e6553269210f91579a0a0490e7d</sys_update_name>
-        <sys_updated_by>Sushmithaa</sys_updated_by>
-        <sys_updated_on>2024-12-18 10:53:15</sys_updated_on>
-        <table>task</table>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-03 07:58:13</sys_updated_on>
+        <table>sysapproval_approver</table>
         <title>Open</title>
         <view/>
         <word_wrap>false</word_wrap>

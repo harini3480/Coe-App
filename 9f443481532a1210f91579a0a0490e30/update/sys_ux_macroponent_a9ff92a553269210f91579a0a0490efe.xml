@@ -604,40 +604,6 @@
                         },
                         {
                             "conditional": {
-                                "operation": {
-                                    "left": {
-                                        "binding": {
-                                            "address": [
-                                                "sysId"
-                                            ],
-                                            "category": "props"
-                                        },
-                                        "type": "CONTEXT_BINDING"
-                                    },
-                                    "operator": "EQUAL",
-                                    "right": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "-1"
-                                    }
-                                },
-                                "type": "BINARY"
-                            },
-                            "extensionPoint": null,
-                            "icon": null,
-                            "id": "13b4e8a7532e1e10f91579a0a0490ec1",
-                            "label": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Playbook"
-                                }
-                            },
-                            "order": 100,
-                            "type": "local"
-                        },
-                        {
-                            "conditional": {
                                 "type": "JSON_LITERAL",
                                 "value": null
                             },
@@ -657,84 +623,8 @@
                         },
                         {
                             "conditional": {
-                                "operation": {
-                                    "left": {
-                                        "operation": {
-                                            "left": {
-                                                "binding": {
-                                                    "address": [
-                                                        "record",
-                                                        "isNew"
-                                                    ]
-                                                },
-                                                "type": "DATA_OUTPUT_BINDING"
-                                            },
-                                            "operator": "OR",
-                                            "right": {
-                                                "operation": {
-                                                    "operand": {
-                                                        "binding": {
-                                                            "address": [
-                                                                "record",
-                                                                "isAudited"
-                                                            ]
-                                                        },
-                                                        "type": "DATA_OUTPUT_BINDING"
-                                                    },
-                                                    "operator": "NOT"
-                                                },
-                                                "type": "UNARY"
-                                            }
-                                        },
-                                        "type": "BINARY"
-                                    },
-                                    "operator": "OR",
-                                    "right": {
-                                        "operation": {
-                                            "left": {
-                                                "operation": {
-                                                    "left": {
-                                                        "binding": {
-                                                            "address": [
-                                                                "table"
-                                                            ],
-                                                            "category": "props"
-                                                        },
-                                                        "type": "CONTEXT_BINDING"
-                                                    },
-                                                    "operator": "EQUAL",
-                                                    "right": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": "sys_history_line"
-                                                    }
-                                                },
-                                                "type": "BINARY"
-                                            },
-                                            "operator": "OR",
-                                            "right": {
-                                                "operation": {
-                                                    "left": {
-                                                        "binding": {
-                                                            "address": [
-                                                                "table"
-                                                            ],
-                                                            "category": "props"
-                                                        },
-                                                        "type": "CONTEXT_BINDING"
-                                                    },
-                                                    "operator": "EQUAL",
-                                                    "right": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": "sys_history_set"
-                                                    }
-                                                },
-                                                "type": "BINARY"
-                                            }
-                                        },
-                                        "type": "BINARY"
-                                    }
-                                },
-                                "type": "BINARY"
+                                "type": "JSON_LITERAL",
+                                "value": true
                             },
                             "extensionPoint": null,
                             "icon": null,
@@ -812,6 +702,40 @@
                                 }
                             },
                             "order": 500,
+                            "type": "local"
+                        },
+                        {
+                            "conditional": {
+                                "operation": {
+                                    "left": {
+                                        "binding": {
+                                            "address": [
+                                                "sysId"
+                                            ],
+                                            "category": "props"
+                                        },
+                                        "type": "CONTEXT_BINDING"
+                                    },
+                                    "operator": "EQUAL",
+                                    "right": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "-1"
+                                    }
+                                },
+                                "type": "BINARY"
+                            },
+                            "extensionPoint": null,
+                            "icon": null,
+                            "id": "36205d3e53fad210f91579a0a0490e63",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Playbook"
+                                }
+                            },
+                            "order": 300,
                             "type": "local"
                         }
                     ],
@@ -1131,7 +1055,9 @@
                                                                         }
                                                                     },
                                                                     "slot": "sbs-left-top",
-                                                                    "styles": {}
+                                                                    "styles": {
+                                                                        "width": ""
+                                                                    }
                                                                 },
                                                                 {
                                                                     "conditionals": null,
@@ -1186,7 +1112,9 @@
                                                                         }
                                                                     },
                                                                     "slot": "sbs-right-bottom",
-                                                                    "styles": {}
+                                                                    "styles": {
+                                                                        "width": ""
+                                                                    }
                                                                 }
                                                             ],
                                                             "layout": null
@@ -1431,174 +1359,6 @@
                                 "styles": {
                                     "height": "100%",
                                     "overflow": "hidden",
-                                    "width": "100%"
-                                }
-                            },
-                            {
-                                "definition": {
-                                    "id": "d356d14b6e293a3020a244b63d278d8f",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "53b4e8a7532e1e10f91579a0a0490ec1",
-                                "elementLabel": "Playbook",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": {
-                                    "composition": [
-                                        {
-                                            "definition": {
-                                                "id": "ed99051389038d7a6d57069eecc5a122",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "playbook_1",
-                                            "elementLabel": "Playbook 1",
-                                            "eventMappings": [
-                                                
-                                            ],
-                                            "extensionPoints": [
-                                                
-                                            ],
-                                            "isHero": false,
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "isNonDestructive": false,
-                                            "items": [
-                                                
-                                            ],
-                                            "overrides": null,
-                                            "propertyValues": {
-                                                "activityView": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "stacked"
-                                                },
-                                                "compactMode": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "daClientActionContract": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "parentSysId": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "sysId"
-                                                        ],
-                                                        "category": "props"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
-                                                },
-                                                "parentTable": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "table"
-                                                        ],
-                                                        "category": "props"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
-                                                },
-                                                "playbookExperienceId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "98e09a560f2200102920c912d4767e1a"
-                                                },
-                                                "recordGeneratorQuery": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "selectedActivityContextId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "selectedLaneContextId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "selectedPlaybookContextId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "userId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "userSession": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "user"
-                                                        ],
-                                                        "category": "session"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
-                                                }
-                                            },
-                                            "slot": null,
-                                            "styles": null
-                                        }
-                                    ],
-                                    "layout": {
-                                        "default": {
-                                            "children": null,
-                                            "isInline": null,
-                                            "items": [
-                                                {
-                                                    "element_id": "playbook_1",
-                                                    "styles": {}
-                                                }
-                                            ],
-                                            "root": null,
-                                            "rules": null,
-                                            "styles": {
-                                                "flex-direction": "column"
-                                            },
-                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                            "type": "flex"
-                                        },
-                                        "version": "3.0.0"
-                                    }
-                                },
-                                "propertyValues": {
-                                    "ariaRegionHeadingLevel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "1"
-                                    },
-                                    "ariaRegionName": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": ""
-                                        }
-                                    },
-                                    "ariaRole": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "includeAriaHeading": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "type": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "section"
-                                    }
-                                },
-                                "slot": "13b4e8a7532e1e10f91579a0a0490ec1",
-                                "styles": {
                                     "width": "100%"
                                 }
                             },
@@ -2272,7 +2032,7 @@
                                             "propertyValues": {
                                                 "columns": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "number,sdlc_checklist_item,status,adoption_progress,comments,sys_updated_by"
+                                                    "value": "sdlc_checklist_item,status,adoption_progress,comments,sys_updated_by"
                                                 },
                                                 "fixedQuery": {
                                                     "transform": {
@@ -2393,7 +2153,7 @@
                                                 },
                                                 "limit": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": null
+                                                    "value": 15
                                                 },
                                                 "listTitle": {
                                                     "type": "TRANSLATION_LITERAL",
@@ -2498,6 +2258,174 @@
                                 },
                                 "slot": "cm52cqs2j0eyv357wh2wxbev8",
                                 "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "76205d3e53fad210f91579a0a0490e63",
+                                "elementLabel": "Playbook",
+                                "eventMappings": [
+                                    
+                                ],
+                                "extensionPoints": [
+                                    
+                                ],
+                                "isHero": false,
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "isNonDestructive": false,
+                                "items": [
+                                    
+                                ],
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "ed99051389038d7a6d57069eecc5a122",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_1",
+                                            "elementLabel": "Playbook 1",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "extensionPoints": [
+                                                
+                                            ],
+                                            "isHero": false,
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "isNonDestructive": false,
+                                            "items": [
+                                                
+                                            ],
+                                            "overrides": null,
+                                            "propertyValues": {
+                                                "activityView": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "stacked"
+                                                },
+                                                "compactMode": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "daClientActionContract": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "parentSysId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "sysId"
+                                                        ],
+                                                        "category": "props"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "parentTable": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "table"
+                                                        ],
+                                                        "category": "props"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "playbookExperienceId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "98e09a560f2200102920c912d4767e1a"
+                                                },
+                                                "recordGeneratorQuery": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedActivityContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedLaneContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedPlaybookContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "userId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "userSession": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "user"
+                                                        ],
+                                                        "category": "session"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "isInline": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "playbook_1",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": "36205d3e53fad210f91579a0a0490e63",
+                                "styles": {
+                                    "width": "100%"
+                                }
                             }
                         ],
                         "layout": null
@@ -3151,38 +3079,17 @@
                     "preset": null,
                     "propertyValues": {
                         "activeRoute": {
-                            "conditional": {
-                                "operation": {
-                                    "left": {
-                                        "binding": {
-                                            "address": [
-                                                "table"
-                                            ],
-                                            "category": "props"
-                                        },
-                                        "type": "CONTEXT_BINDING"
-                                    },
-                                    "operator": "NOT_EQUAL",
-                                    "right": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "incident"
-                                    }
-                                },
-                                "type": "BINARY"
-                            },
-                            "extensionPoint": null,
-                            "icon": "graduation-cap-outline",
-                            "id": "cl1kankhk01893f71opig588d",
+                            "icon": "action-outline",
+                            "id": "cm5ggziv501xk357u9mophjws",
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "Agent assist"
+                                    "message": "Activity Stream"
                                 }
                             },
-                            "order": 100,
-                            "routeType": "cl1kankhk01893f71opig588d",
+                            "order": 300,
                             "type": "local"
                         },
                         "defaultRoute": null,
@@ -4120,6 +4027,189 @@
                                                         },
                                                         "slot": null,
                                                         "styles": null
+                                                    },
+                                                    {
+                                                        "definition": {
+                                                            "id": "e72c75f648cda0becbd28db9a44b569f",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "stepper_1",
+                                                        "elementLabel": "Stepper 1",
+                                                        "eventMappings": [
+                                                            
+                                                        ],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": null,
+                                                        "propertyValues": {
+                                                            "hideNumbers": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "items": {
+                                                                "container": [
+                                                                    {
+                                                                        "container": {
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "\"e19fc30c533a1250f91579a0a0490edb\""
+                                                                            },
+                                                                            "label": {
+                                                                                "type": "TRANSLATION_LITERAL",
+                                                                                "value": {
+                                                                                    "code": null,
+                                                                                    "comment": "",
+                                                                                    "message": "In Draft"
+                                                                                }
+                                                                            },
+                                                                            "progress": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "partial"
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    },
+                                                                    {
+                                                                        "container": {
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "82de3ef1536ed210f91579a0a0490e01"
+                                                                            },
+                                                                            "label": {
+                                                                                "type": "TRANSLATION_LITERAL",
+                                                                                "value": {
+                                                                                    "code": null,
+                                                                                    "comment": "",
+                                                                                    "message": "New Idea"
+                                                                                }
+                                                                            },
+                                                                            "progress": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "partial"
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    },
+                                                                    {
+                                                                        "container": {
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "51bfba35536ed210f91579a0a0490e48"
+                                                                            },
+                                                                            "label": {
+                                                                                "type": "TRANSLATION_LITERAL",
+                                                                                "value": {
+                                                                                    "code": null,
+                                                                                    "comment": "",
+                                                                                    "message": "Pending Approval"
+                                                                                }
+                                                                            },
+                                                                            "progress": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "partial"
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    },
+                                                                    {
+                                                                        "container": {
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "e4dfba35536ed210f91579a0a0490e49"
+                                                                            },
+                                                                            "label": {
+                                                                                "type": "TRANSLATION_LITERAL",
+                                                                                "value": {
+                                                                                    "code": null,
+                                                                                    "comment": "",
+                                                                                    "message": "Awaiting Prioritization"
+                                                                                }
+                                                                            },
+                                                                            "progress": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "partial"
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    },
+                                                                    {
+                                                                        "container": {
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "78ef7a35536ed210f91579a0a0490e2f"
+                                                                            },
+                                                                            "label": {
+                                                                                "type": "TRANSLATION_LITERAL",
+                                                                                "value": {
+                                                                                    "code": null,
+                                                                                    "comment": "",
+                                                                                    "message": "In Developement"
+                                                                                }
+                                                                            },
+                                                                            "progress": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "partial"
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    },
+                                                                    {
+                                                                        "container": {
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "8c00c3fd532ed210f91579a0a0490e53"
+                                                                            },
+                                                                            "label": {
+                                                                                "type": "TRANSLATION_LITERAL",
+                                                                                "value": {
+                                                                                    "code": null,
+                                                                                    "comment": "",
+                                                                                    "message": "Complete"
+                                                                                }
+                                                                            },
+                                                                            "progress": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "partial"
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    }
+                                                                ],
+                                                                "type": "LIST_CONTAINER"
+                                                            },
+                                                            "labelPosition": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "bottom"
+                                                            },
+                                                            "readonly": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "selectedItem": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "record",
+                                                                        "form",
+                                                                        "fields",
+                                                                        "status",
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "DATA_OUTPUT_BINDING"
+                                                            },
+                                                            "showCompletedCount": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "size": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "md"
+                                                            }
+                                                        },
+                                                        "slot": null,
+                                                        "styles": null
                                                     }
                                                 ],
                                                 "layout": {
@@ -4144,6 +4234,12 @@
                                                                 "styles": {
                                                                     "max-width": "200%",
                                                                     "width": "max-content"
+                                                                }
+                                                            },
+                                                            {
+                                                                "element_id": "stepper_1",
+                                                                "styles": {
+                                                                    "width": "1200px"
                                                                 }
                                                             }
                                                         ],
@@ -5842,16 +5938,22 @@
   "message" : "Activity",
   "comment" : ""
 }, {
-  "message" : "Agent assist",
+  "message" : "Activity Stream",
   "comment" : ""
 }, {
   "message" : "Attachment",
+  "comment" : ""
+}, {
+  "message" : "Awaiting Prioritization",
   "comment" : ""
 }, {
   "message" : "Bottom pane",
   "comment" : ""
 }, {
   "message" : "Cancel",
+  "comment" : ""
+}, {
+  "message" : "Complete",
   "comment" : ""
 }, {
   "message" : "Compose",
@@ -5872,10 +5974,22 @@
   "message" : "Editable record form only",
   "comment" : ""
 }, {
+  "message" : "In Developement",
+  "comment" : ""
+}, {
+  "message" : "In Draft",
+  "comment" : ""
+}, {
   "message" : "Left pane",
   "comment" : ""
 }, {
   "message" : "List of record activities and input fields for posting work notes or comments",
+  "comment" : ""
+}, {
+  "message" : "New Idea",
+  "comment" : ""
+}, {
+  "message" : "Pending Approval",
   "comment" : ""
 }, {
   "message" : "Playbook",
@@ -5927,14 +6041,14 @@
         <sys_created_by>Sushmithaa</sys_created_by>
         <sys_created_on>2024-12-18 10:45:34</sys_created_on>
         <sys_id>a9ff92a553269210f91579a0a0490efe</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>Project Details Record Page</sys_name>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_ux_macroponent_a9ff92a553269210f91579a0a0490efe</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-26 09:14:07</sys_updated_on>
+        <sys_updated_on>2025-01-03 12:26:03</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a9ff92a553269210f91579a0a0490efe"/>
 </record_update>
