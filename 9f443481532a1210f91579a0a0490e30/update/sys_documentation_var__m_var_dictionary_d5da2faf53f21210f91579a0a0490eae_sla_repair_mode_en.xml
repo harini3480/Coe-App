@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sla_repair_mode" label="SLA Repair Mode" language="en" table="var__m_var_dictionary_d5da2faf53f21210f91579a0a0490eae">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sla_repair_mode</element>
+            <help/>
+            <hint/>
+            <label>SLA Repair Mode</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_d5da2faf53f21210f91579a0a0490eae</name>
+            <plural>SLA Repair Mode</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Vinutha</sys_created_by>
+            <sys_created_on>2025-01-06 07:36:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SLA Repair Mode</sys_name>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_d5da2faf53f21210f91579a0a0490eae_sla_repair_mode_en</sys_update_name>
+            <sys_updated_by>Vinutha</sys_updated_by>
+            <sys_updated_on>2025-01-06 07:36:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
