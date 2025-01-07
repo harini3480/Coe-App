@@ -2,7 +2,7 @@
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Audit History ">faef1e6553269210f91579a0a0490e4e</category>
-        <columns>sys_created_on,sys_created_by,sys_updated_on,sys_updated_by,sys_mod_count</columns>
+        <columns>number,project,status,comments,sys_created_by,sys_created_on</columns>
         <condition/>
         <configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration>
         <group_by_column/>
@@ -60,15 +60,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7eef1e6553269210f91579a0a0490e50</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_ux_list_7eef1e6553269210f91579a0a0490e50</sys_update_name>
-        <sys_updated_by>Sushmithaa</sys_updated_by>
-        <sys_updated_on>2024-12-18 10:46:35</sys_updated_on>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 05:33:04</sys_updated_on>
         <table>x_1438983_coe_app_audit_history</table>
         <title>All</title>
         <view/>

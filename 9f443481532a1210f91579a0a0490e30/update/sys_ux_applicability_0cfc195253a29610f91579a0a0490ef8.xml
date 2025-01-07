@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1438983_coe_app.Audience for list b2bc955253a29610f91579a0a0490ebd</api_name>
+        <description>Audience for the list: gjhg for the Workspace: test</description>
+        <name>Audience for list b2bc955253a29610f91579a0a0490ebd</name>
+        <role_names/>
+        <roles>93443481532a1210f91579a0a0490e4a,ab443481532a1210f91579a0a0490e64,23443481532a1210f91579a0a0490e5f,df443481532a1210f91579a0a0490e4c,1f443481532a1210f91579a0a0490e45,23443481532a1210f91579a0a0490e9c,a3443481532a1210f91579a0a0490e99</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 13:48:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0cfc195253a29610f91579a0a0490ef8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Audience for list b2bc955253a29610f91579a0a0490ebd</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_applicability_0cfc195253a29610f91579a0a0490ef8</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 13:48:32</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

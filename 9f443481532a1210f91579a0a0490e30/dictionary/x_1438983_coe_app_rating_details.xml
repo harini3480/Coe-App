@@ -2,7 +2,7 @@
     <element db_object_id="f0310109536a1210f91579a0a0490e7b" label="Rating Details" max_length="40" name="x_1438983_coe_app_rating_details" text_index="true" type="collection">
         <element label="Rating Type" max_length="40" name="rating_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=22" reference_qual_condition="field=22" type="reference"/>
         <element label="Strategic Item" max_length="40" name="strategic_item" reference="x_1438983_coe_app_sdlc_checklist" type="reference"/>
-        <element label="Category Type" max_length="40" name="category_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=21" reference_qual_condition="field=21" type="reference"/>
+        <element label="Category Type" max_length="40" name="category_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=21^is_active=true" reference_qual_condition="field=21^is_active=true" type="reference"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Weightage" max_length="40" name="weightage" reference="x_1438983_coe_app_lookup_details" reference_qual="field=27" reference_qual_condition="field=27" type="reference"/>
         <element label="Status" max_length="255" name="status" read_only="true" type="boolean"/>

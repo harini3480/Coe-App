@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Load : Project Category</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	// g_form.setVisible("comments",false);
+
+	//alert(g_form.getValue("status"));
+    var pc = g_form.getValue("project_category");
+    if (g_form.isNewRecord()) {} else {
+        if (pc == "dfc1cf75536ed210f91579a0a0490ee9") {
+            g_form.setSectionDisplay("other_details", false);
+            g_form.setSectionDisplay("new_ideadetails", true);
+        } else {
+            g_form.setSectionDisplay("new_ideadetails", false);
+            g_form.setSectionDisplay("other_details", true);
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2024-12-24 11:25:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dac1e9a753a25e10f91579a0a0490e77</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>On Load : Project Category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_dac1e9a753a25e10f91579a0a0490e77</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-03 11:08:30</sys_updated_on>
+        <table>x_1438983_coe_app_project_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

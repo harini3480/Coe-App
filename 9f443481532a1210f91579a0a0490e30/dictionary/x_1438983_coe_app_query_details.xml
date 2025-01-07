@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="ecf0914153ea1210f91579a0a0490e49" label="Query Details" max_length="40" name="x_1438983_coe_app_query_details" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Query ID" max_length="40" name="number" read_only="true" type="string"/>
-        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" read_only="true" reference="sys_user" type="reference"/>
         <element label="Priority" max_length="32" name="priority" reference="x_1438983_coe_app_lookup_details" reference_qual="field=14" reference_qual_condition="field=14" type="reference"/>
         <element label="Summary" max_length="40" name="summary" type="string"/>
         <element label="Supporting Document" max_length="40" name="supporting_document" type="file_attachment"/>
         <element label="Project" max_length="32" name="project" reference="x_1438983_coe_app_project_details" type="reference"/>
         <element label="SDLC Checklist Item" max_length="32" name="sdlc_checklist_item" reference="x_1438983_coe_app_sdlc_checklist" type="reference"/>
-        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
-        <element label="Environment" max_length="32" name="environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=15" reference_qual_condition="field=15" type="reference"/>
+        <element default="true" label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Environment" max_length="32" name="environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=15^is_active=true" reference_qual_condition="field=15^is_active=true" type="reference"/>
         <element label="Query Type" max_length="32" name="query_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=13" reference_qual_condition="field=13" type="reference"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <index name="index">

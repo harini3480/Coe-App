@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="test App Config">968b999e02629610bfa6eb787afabbf7</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysid</fields>
+        <icon/>
+        <name>Visualization Designer</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>visualization-designer</route_type>
+        <screen_type display_value="Visualization Designer">da8b999e2162961042e3687dc383c4ec</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 13:42:06</sys_created_on>
+        <sys_id>d28b999ea162961029592f42e0c6aaeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visualization Designer</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_app_route_d28b999ea162961029592f42e0c6aaeb</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 13:42:06</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=d28b999ea162961029592f42e0c6aaeb"/>
+</record_update>

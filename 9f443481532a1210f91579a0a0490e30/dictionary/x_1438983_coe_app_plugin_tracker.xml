@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a5e045c5536a1210f91579a0a0490e14" label="Plugin Tracker" max_length="40" name="x_1438983_coe_app_plugin_tracker" text_index="true" type="collection">
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
-        <element label="Environment" max_length="32" name="environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=4" reference_qual_condition="field=4" type="reference"/>
+        <element label="Environment" max_length="32" name="environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=4^is_active=true" reference_qual_condition="field=4^is_active=true" type="reference"/>
         <element label="REG" max_length="40" name="reg" type="string"/>
         <element label="DEV" max_length="40" name="dev" type="string"/>
         <element label="UAT" max_length="40" name="uat" type="string"/>

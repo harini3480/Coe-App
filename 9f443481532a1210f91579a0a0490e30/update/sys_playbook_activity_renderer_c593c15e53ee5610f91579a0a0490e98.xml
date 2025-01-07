@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_activity_renderer">
+    <sys_playbook_activity_renderer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition/>
+        <activity_property_conditions/>
+        <activity_property_conditions_table>var__m_sys_pd_activity_type_prop_</activity_property_conditions_table>
+        <activity_state/>
+        <activity_ui display_value="Document">2613c51e53ee5610f91579a0a0490e2b</activity_ui>
+        <associated_table/>
+        <associated_table_conditions/>
+        <description/>
+        <expand_state/>
+        <input_table/>
+        <input_table_conditions/>
+        <name>Document Upload</name>
+        <order>100</order>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <renderer/>
+        <roles/>
+        <roles_required/>
+        <sys_class_name>sys_playbook_activity_renderer</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 11:59:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c593c15e53ee5610f91579a0a0490e98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Upload</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_playbook_activity_renderer_c593c15e53ee5610f91579a0a0490e98</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:59:22</sys_updated_on>
+        <type display_value="Record">e12af577871333003058d1a936cb0ba4</type>
+        <ui_selector>activity_ui</ui_selector>
+    </sys_playbook_activity_renderer>
+</record_update>

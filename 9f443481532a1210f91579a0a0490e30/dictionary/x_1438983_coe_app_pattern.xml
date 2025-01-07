@@ -6,15 +6,7 @@
         <element label="Pattern Name" mandatory="true" max_length="255" name="pattern_name" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Design Structure" max_length="2000" name="design_structure" type="string"/>
-        <element choice="1" label="Pattern Type" mandatory="true" max_length="40" name="pattern_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Forms" sequence="3" value="2"/>
-                <element inactive_on_update="false" label="Grid Layout" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Cases/Features" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Breadcrumbs" sequence="1" value="4"/>
-                <element inactive_on_update="false" label="Milestones" sequence="2" value="3"/>
-            </choice>
-        </element>
+        <element label="Pattern Type" mandatory="true" max_length="40" name="pattern_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=23^is_active=true" reference_qual_condition="field=23^is_active=true" type="reference"/>
         <element label="Goal" mandatory="true" max_length="2000" name="goal" type="string"/>
         <element hint="Accepted file extensions : png, img" label="Thumbnail Image" mandatory="true" max_length="255" name="thumbnail_image" type="file_attachment"/>
         <index name="index">

@@ -8,7 +8,7 @@
         <element label="Description" mandatory="true" max_length="4000" name="description" type="string"/>
         <element label="Document" max_length="40" name="document" type="file_attachment"/>
         <element label="Tech Lead" mandatory="true" max_length="32" name="tech_lead" reference="sys_user" type="reference"/>
-        <element label="Component Type" mandatory="true" max_length="32" name="component_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=18" reference_qual_condition="field=18" type="reference"/>
+        <element label="Component Type" mandatory="true" max_length="32" name="component_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=18^is_active=true" reference_qual_condition="field=18^is_active=true" type="reference"/>
         <element label="Component Name" mandatory="true" max_length="40" name="component_name" type="string"/>
         <element label="Endorsement Status" max_length="40" name="endorsement_status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=19" reference_qual_condition="field=19" type="reference"/>
         <element label="Dependent On" max_length="40" name="dependent_on" reference="x_1438983_coe_app_lookup_details" reference_qual="field=20" reference_qual_condition="field=20" type="reference"/>

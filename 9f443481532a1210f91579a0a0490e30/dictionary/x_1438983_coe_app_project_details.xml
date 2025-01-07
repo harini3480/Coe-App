@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="26b57805532a1210f91579a0a0490e8e" extends="task" label="Project Details" max_length="40" name="x_1438983_coe_app_project_details" text_index="true" type="collection">
-        <element label="Department" max_length="32" name="department" reference="x_1438983_coe_app_lookup_details" reference_qual="field=2" reference_qual_condition="field=2" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="x_1438983_coe_app_lookup_details" reference_qual="field=2^is_active=true" reference_qual_condition="field=2^is_active=true" type="reference"/>
         <element label="Business Impact" max_length="40" name="business_impact" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="string"/>
         <element label="Project Name" max_length="255" name="project_name" type="string"/>
@@ -19,13 +19,13 @@
         <element label="Hosting Pattern" max_length="32" name="hosting_pattern" reference="x_1438983_coe_app_lookup_details" reference_qual="field=3" reference_qual_condition="field=3" type="reference"/>
         <element label="Budget for CFO Approval" max_length="32" name="budget_cfo" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5^is_active=true" reference_qual_condition="field=5^is_active=true" type="reference"/>
         <element label="SDLC Status ID" max_length="40" name="sdlc_status_id" type="string"/>
-        <element label="Precedence" max_length="32" name="precedence" reference="x_1438983_coe_app_lookup_details" reference_qual="field=7" reference_qual_condition="field=7" type="reference"/>
+        <element label="Precedence" max_length="32" name="precedence" reference="x_1438983_coe_app_lookup_details" reference_qual="field=7^is_active=true" reference_qual_condition="field=7^is_active=true" type="reference"/>
         <element label="Estimated ROI" max_length="40" name="estimated_roi" type="currency"/>
-        <element label="Project Domain" max_length="32" name="project_domain" reference="x_1438983_coe_app_lookup_details" reference_qual="field=6" reference_qual_condition="field=6" type="reference"/>
-        <element label="Estimated Budget" max_length="32" name="estimated_budget" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5" reference_qual_condition="field=5" type="reference"/>
+        <element label="Project Domain" max_length="32" name="project_domain" reference="x_1438983_coe_app_lookup_details" reference_qual="field=6^is_active=true" reference_qual_condition="field=6^is_active=true" type="reference"/>
+        <element label="Estimated Budget" max_length="32" name="estimated_budget" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5^is_active=true" reference_qual_condition="field=5^is_active=true" type="reference"/>
         <element label="Is CoE Lead Approval Needed" max_length="40" name="coe_lead_approval" type="boolean"/>
         <element label="Is Chief Delivery Officer Approval Needed" max_length="40" name="cdo_approval" type="boolean"/>
-        <element label="Project Category" max_length="32" name="project_category" reference="x_1438983_coe_app_lookup_details" reference_qual="field=9" reference_qual_condition="field=9" type="reference"/>
+        <element label="Project Category" mandatory="true" max_length="32" name="project_category" reference="x_1438983_coe_app_lookup_details" reference_qual="field=9^is_active=true" reference_qual_condition="field=9^is_active=true" type="reference"/>
         <element label="Estimated Required Resources" max_length="32" name="estimated_required_resources" reference="x_1438983_coe_app_lookup_details" reference_qual="field=8" reference_qual_condition="field=8" type="reference"/>
         <element label="Is Weighted" max_length="40" name="is_weighted" type="boolean"/>
         <element default="e19fc30c533a1250f91579a0a0490edb" label="Status" max_length="32" name="status" reference="x_1438983_coe_app_lookup_details" reference_qual="field=1^is_active=true" reference_qual_condition="field=1^is_active=true" type="reference"/>

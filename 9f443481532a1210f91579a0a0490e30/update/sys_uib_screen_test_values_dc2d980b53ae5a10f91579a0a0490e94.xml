@@ -16,6 +16,20 @@
         "fetchHighlightedValues": false,
         "onlyEnableSelectionWhenRequiredByActions": true,
         "table": "task"
+    },
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "-1",
+        "inputTable": "x_1438983_coe_app_project_details",
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null,
+        "view": "workspace-coe-workspace-0"
     }
 }</macroponent_config>
         <screen display_value="Default">882d980b53ae5a10f91579a0a0490e84</screen>
@@ -23,13 +37,13 @@
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-12-22 17:04:50</sys_created_on>
         <sys_id>dc2d980b53ae5a10f91579a0a0490e94</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_dc2d980b53ae5a10f91579a0a0490e94</sys_update_name>
-        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-12-23 11:04:45</sys_updated_on>
+        <sys_updated_by>Harini</sys_updated_by>
+        <sys_updated_on>2025-01-03 13:47:46</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

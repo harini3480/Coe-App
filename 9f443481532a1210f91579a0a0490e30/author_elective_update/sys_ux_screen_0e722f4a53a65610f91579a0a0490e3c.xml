@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="CoE Workspace App Config">4def5a6584269210731c3edeb665254e</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent display_value="Configuration Details">3572674a53a65610f91579a0a0490ee4</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Configuration Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_1438983_coe_app_configuration_details</screen_condition>
+        <screen_type display_value="Record">49ef5a65e6269210b05ecddfdef82c43</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 04:53:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e722f4a53a65610f91579a0a0490e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuration Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_screen_0e722f4a53a65610f91579a0a0490e3c</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 04:53:06</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=0e722f4a53a65610f91579a0a0490e3c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ux_screen_0e722f4a53a65610f91579a0a0490e3c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="CoE Workspace App Config">4def5a6584269210731c3edeb665254e</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    
+]</event_mappings><macroponent display_value="Configuration Details">3572674a53a65610f91579a0a0490ee4</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>Configuration Page</name><order>100</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition>table=x_1438983_coe_app_configuration_details</screen_condition><screen_type display_value="Record">49ef5a65e6269210b05ecddfdef82c43</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 04:53:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0e722f4a53a65610f91579a0a0490e3c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Configuration Page</sys_name><sys_overrides/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ux_screen_0e722f4a53a65610f91579a0a0490e3c</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 04:53:06</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=0e722f4a53a65610f91579a0a0490e3c"/></record_update>]]></payload>
+        <payload_hash>-2108459575</payload_hash>
+        <record_name>Configuration Page</record_name>
+        <reverted_from/>
+        <source>0530bef953ead210f91579a0a0490e7e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 04:53:06</sys_created_on>
+        <sys_id>4e722f4a53a65610f91579a0a0490e40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193e26986cb0000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 04:53:06</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>ce722f4a34a656102fbefb15a59b3c3f</update_guid>
+        <update_guid_history>ce722f4a34a656102fbefb15a59b3c3f:-2108459575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 04:59:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>6eac9ea80cb443b2bb65da5f1312caf9</sys_id>
+        <sys_metadata>0e722f4a53a65610f91579a0a0490e3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuration Page</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_0e722f4a53a65610f91579a0a0490e3c</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_0e722f4a53a65610f91579a0a0490e3c">4e722f4a53a65610f91579a0a0490e40</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 04:59:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

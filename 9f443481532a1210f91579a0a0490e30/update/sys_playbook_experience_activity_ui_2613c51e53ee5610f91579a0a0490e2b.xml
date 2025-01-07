@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_activity_ui">
+    <sys_playbook_experience_activity_ui action="INSERT_OR_UPDATE">
+        <experience_type display_value="Record">e12af577871333003058d1a936cb0ba4</experience_type>
+        <macroponent display_value="Document">763305d653ee5610f91579a0a0490ece</macroponent>
+        <name>Document</name>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <screen display_value="Document">b233491e53ee5610f91579a0a0490efe</screen>
+        <sys_class_name>sys_playbook_experience_activity_ui</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 11:55:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2613c51e53ee5610f91579a0a0490e2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_playbook_experience_activity_ui_2613c51e53ee5610f91579a0a0490e2b</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:55:52</sys_updated_on>
+        <ui_template display_value="Default">0f3d316cff313010667053ea793bf150</ui_template>
+    </sys_playbook_experience_activity_ui>
+</record_update>

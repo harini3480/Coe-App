@@ -5,7 +5,7 @@
         <element label="Version" mandatory="true" max_length="20" name="version" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Request Type" mandatory="true" max_length="32" name="request_type" reference="x_1438983_coe_app_lookup_details" reference_qual="field=25" reference_qual_condition="field=25" type="reference"/>
-        <element label="Environment" mandatory="true" max_length="32" name="environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=26" reference_qual_condition="field=26" type="reference"/>
+        <element label="Environment" mandatory="true" max_length="32" name="environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=26^is_active=true" reference_qual_condition="field=26^is_active=true" type="reference"/>
         <element label="Plugin" mandatory="true" max_length="225" name="plugin" type="string"/>
     </element>
 </database>

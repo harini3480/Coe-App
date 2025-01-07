@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="64c87679532ed210f91579a0a0490e4e" label="Lookup Details" max_length="40" name="x_1438983_coe_app_lookup_details" type="collection">
+    <element db_object_id="64c87679532ed210f91579a0a0490e4e" label="Lookup Details" max_length="40" name="x_1438983_coe_app_lookup_details" text_index="true" type="collection">
         <element choice="1" label="Field" mandatory="true" max_length="40" name="field" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Department" sequence="1" value="2"/>

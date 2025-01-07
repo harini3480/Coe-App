@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=441000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>get_configuration_detals</internal_name>
+        <label_cache>[{"name":"29582f9f-4bf3-41b8-8f7d-1840e4b5d9c7.Record","label":"1 - Look Up Record➛Configuration Details Record","reference":"x_1438983_coe_app_configuration_details","reference_display":"Configuration Details","type":"reference","base_type":"reference","usedInstances":{"4d435d16-4af3-46be-9834-f07d48a58a35":["configuration_record-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>9063b41653ae5610f91579a0a0490e50</master_snapshot>
+        <name>Get Configuration Detals</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:39:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ecb1381253ae5610f91579a0a0490ea9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get Configuration Detals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_hub_flow_ecb1381253ae5610f91579a0a0490ea9</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:37</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9^id=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ecb1381253ae5610f91579a0a0490ea9^sys_idNOT IN64b1381253ae5610f91579a0a0490eac"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ecb1381253ae5610f91579a0a0490ea9</id>
+        <name>Get Configuration Detals</name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:39:15</sys_created_on>
+        <sys_id>64b1381253ae5610f91579a0a0490eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:39:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=64b1381253ae5610f91579a0a0490eac"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ecb1381253ae5610f91579a0a0490ea9^sys_idNOT INbfe2f4d253ae5610f91579a0a0490edd"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=74656fe7-eaa4-49c5-a614-b66d73756300</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1438983_coe_app_configuration_details</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>configuration_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Configuration record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Configuration Detals">ecb1381253ae5610f91579a0a0490ea9</model>
+        <model_id>ecb1381253ae5610f91579a0a0490ea9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1438983_coe_app_configuration_details">x_1438983_coe_app_configuration_details</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:44:40</sys_created_on>
+        <sys_id>bfe2f4d253ae5610f91579a0a0490edd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:44:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bfe2f4d253ae5610f91579a0a0490edd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ecb1381253ae5610f91579a0a0490ea9^sys_idNOT IN8903b0d253ae5610f91579a0a0490eff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Configuration Detals">ecb1381253ae5610f91579a0a0490ea9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:45:01</sys_created_on>
+        <sys_id>8903b0d253ae5610f91579a0a0490eff</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-24 07:38:14</sys_updated_on>
+        <ui_id>29582f9f-4bf3-41b8-8f7d-1840e4b5d9c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8903b0d253ae5610f91579a0a0490eff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8903b0d253ae5610f91579a0a0490eff</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:45:45</sys_created_on>
+        <sys_id>332338d253ae5610f91579a0a0490e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:45:45</sys_updated_on>
+        <value>x_1438983_coe_app_configuration_details</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8903b0d253ae5610f91579a0a0490eff</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:45:45</sys_created_on>
+        <sys_id>7f2338d253ae5610f91579a0a0490e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:45:45</sys_updated_on>
+        <value>sys_id=9bb0a3c653a65610f91579a0a0490e4a</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=8903b0d253ae5610f91579a0a0490eff"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8903b0d253ae5610f91579a0a0490eff"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8903b0d253ae5610f91579a0a0490eff"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ecb1381253ae5610f91579a0a0490ea9^sys_idNOT IN7933345253ae5610f91579a0a0490ef7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4063b41653ae5610f91579a0a0490e1c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Configuration Detals">ecb1381253ae5610f91579a0a0490ea9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>configuration_record</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:45:53</sys_created_on>
+        <sys_id>7933345253ae5610f91579a0a0490ef7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:37</sys_updated_on>
+        <ui_id>4d435d16-4af3-46be-9834-f07d48a58a35</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7933345253ae5610f91579a0a0490ef7"/>
+    <sys_element_mapping action="delete_multiple" query="id=7933345253ae5610f91579a0a0490ef7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>configuration_record</field>
+        <id>7933345253ae5610f91579a0a0490ef7</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:09</sys_created_on>
+        <sys_id>e543b01653ae5610f91579a0a0490e6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:09</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9</table>
+        <value>{{29582f9f-4bf3-41b8-8f7d-1840e4b5d9c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7933345253ae5610f91579a0a0490ef7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7933345253ae5610f91579a0a0490ef7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9^sys_idNOT INc0f2f4d253ae5610f91579a0a0490ee5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>configuration_record</element>
+        <help/>
+        <hint/>
+        <label>Configuration record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:44:41</sys_created_on>
+        <sys_id>c0f2f4d253ae5610f91579a0a0490ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:44:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>get_configuration_detals</internal_name>
+        <label_cache>[{"name":"29582f9f-4bf3-41b8-8f7d-1840e4b5d9c7.Record","label":"1 - Look Up Record➛Configuration Details Record","reference":"x_1438983_coe_app_configuration_details","reference_display":"Configuration Details","type":"reference","base_type":"reference","usedInstances":{"4d435d16-4af3-46be-9834-f07d48a58a35":["configuration_record-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Get Configuration Detals</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Get Configuration Detals">ecb1381253ae5610f91579a0a0490ea9</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9063b41653ae5610f91579a0a0490e50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_9063b41653ae5610f91579a0a0490e50^id=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9063b41653ae5610f91579a0a0490e50^sys_idNOT IN5c63b41653ae5610f91579a0a0490e50"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9063b41653ae5610f91579a0a0490e50</id>
+        <name>Get Configuration Detals</name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>5c63b41653ae5610f91579a0a0490e50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5c63b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9063b41653ae5610f91579a0a0490e50^sys_idNOT IN1c63b41653ae5610f91579a0a0490e52"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=74656fe7-eaa4-49c5-a614-b66d73756300</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1438983_coe_app_configuration_details</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>configuration_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Configuration record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Configuration Detals">9063b41653ae5610f91579a0a0490e50</model>
+        <model_id>9063b41653ae5610f91579a0a0490e50</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_9063b41653ae5610f91579a0a0490e50</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1438983_coe_app_configuration_details">x_1438983_coe_app_configuration_details</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>1c63b41653ae5610f91579a0a0490e52</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1c63b41653ae5610f91579a0a0490e52"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9063b41653ae5610f91579a0a0490e50^sys_idNOT IN9863b41653ae5610f91579a0a0490e7f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Configuration Detals">9063b41653ae5610f91579a0a0490e50</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>9863b41653ae5610f91579a0a0490e7f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <ui_id>29582f9f-4bf3-41b8-8f7d-1840e4b5d9c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9863b41653ae5610f91579a0a0490e7f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9863b41653ae5610f91579a0a0490e7f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>5863b41653ae5610f91579a0a0490e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <value>x_1438983_coe_app_configuration_details</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9863b41653ae5610f91579a0a0490e7f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>9463b41653ae5610f91579a0a0490e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <value>sys_id=9bb0a3c653a65610f91579a0a0490e4a</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=9863b41653ae5610f91579a0a0490e7f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9863b41653ae5610f91579a0a0490e7f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9863b41653ae5610f91579a0a0490e7f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9063b41653ae5610f91579a0a0490e50^sys_idNOT IN9c63b41653ae5610f91579a0a0490e65"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4063b41653ae5610f91579a0a0490e1c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Configuration Detals">9063b41653ae5610f91579a0a0490e50</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>configuration_record</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>9c63b41653ae5610f91579a0a0490e65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <ui_id>4d435d16-4af3-46be-9834-f07d48a58a35</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9c63b41653ae5610f91579a0a0490e65"/>
+    <sys_element_mapping action="delete_multiple" query="id=9c63b41653ae5610f91579a0a0490e65"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>configuration_record</field>
+        <id>9c63b41653ae5610f91579a0a0490e65</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>1063b41653ae5610f91579a0a0490e69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_9063b41653ae5610f91579a0a0490e50</table>
+        <value>{{29582f9f-4bf3-41b8-8f7d-1840e4b5d9c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9c63b41653ae5610f91579a0a0490e65"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9c63b41653ae5610f91579a0a0490e65"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9063b41653ae5610f91579a0a0490e50"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9063b41653ae5610f91579a0a0490e50"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9063b41653ae5610f91579a0a0490e50"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9063b41653ae5610f91579a0a0490e50^sys_idNOT IN5863b41653ae5610f91579a0a0490e5f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>configuration_record</element>
+        <help/>
+        <hint/>
+        <label>Configuration record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_9063b41653ae5610f91579a0a0490e50</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:36</sys_created_on>
+        <sys_id>5863b41653ae5610f91579a0a0490e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9063b41653ae5610f91579a0a0490e50"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>ecb1381253ae5610f91579a0a0490ea9</sys_id>
+        <latest_snapshot>9063b41653ae5610f91579a0a0490e50</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ecb1381253ae5610f91579a0a0490ea9"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ecb1381253ae5610f91579a0a0490ea9^sys_idNOT IN9463b41653ae5610f91579a0a0490e8f"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"9463b41653ae5610f91579a0a0490e8f","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Get Configuration Detals">ecb1381253ae5610f91579a0a0490ea9</plan_id>
+        <snapshot>4caeaca7536e1e10f91579a0a0490e50</snapshot>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:46:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9463b41653ae5610f91579a0a0490e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:46:37</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
