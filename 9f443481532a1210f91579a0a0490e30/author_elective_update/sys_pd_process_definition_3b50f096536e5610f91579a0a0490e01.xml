@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <label>CoE App Workflow</label>
+        <name>coe_app_workflow</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:33:28</sys_created_on>
+        <sys_id>3b50f096536e5610f91579a0a0490e01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoE App Workflow</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_pd_process_definition_3b50f096536e5610f91579a0a0490e01</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:53:28</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=3b50f096536e5610f91579a0a0490e01"/>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <label>CoE App Workflow</label>
+        <name>coe_app_workflow</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:33:28</sys_created_on>
+        <sys_id>3b50f096536e5610f91579a0a0490e01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoE App Workflow</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_pd_process_definition_3b50f096536e5610f91579a0a0490e01</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:53:28</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=3b50f096536e5610f91579a0a0490e01"/>
+    <sys_pd_lane action="DELETE" query="process_definition=3b50f096536e5610f91579a0a0490e01^sys_idNOT IN9d565e09d50f909d5f0109d5f4509d50,661ffc06616e8066123c066173b0661e"/>
+    <sys_pd_lane action="DELETE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Review Project Details</label>
+        <lane_condition/>
+        <name>new_stage_1</name>
+        <order>1</order>
+        <process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:48:49</sys_created_on>
+        <sys_id>9d565e09d50f909d5f0109d5f4509d50</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:22:57</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="DELETE" query="documentkey=9d565e09d50f909d5f0109d5f4509d50"/>
+    <sys_variable_value action="DELETE" query="document_key=9d565e09d50f909d5f0109d5f4509d50"/>
+    <sys_pd_lane action="DELETE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Lead Approval</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>2</order>
+        <process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:34:36</sys_created_on>
+        <sys_id>661ffc06616e8066123c066173b0661e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:23</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="DELETE" query="documentkey=661ffc06616e8066123c066173b0661e"/>
+    <sys_variable_value action="DELETE" query="document_key=661ffc06616e8066123c066173b0661e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_lane</document>
+        <document_key>661ffc06616e8066123c066173b0661e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:48:49</sys_created_on>
+        <sys_id>b4e3745653ae5610f91579a0a0490ed8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:48:49</sys_updated_on>
+        <value>9d565e09d50f909d5f0109d5f4509d50</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="DELETE" query="process_definition=3b50f096536e5610f91579a0a0490e01^sys_idNOT IN1098ddd0109866501098191010980760,5c4a08c05c4aa2c05c4a0cf05c4a3180,25ba9f5025bae73025ba533025ba0dc0"/>
+    <sys_pd_activity action="DELETE">
+        <active>true</active>
+        <activity_definition display_value="User Form">c9839e38b701311004c164fdde11a904</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <label>User Form - Project Details</label>
+        <lane display_value="Review Project Details">9d565e09d50f909d5f0109d5f4509d50</lane>
+        <name>user_form</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>1098ddd0109866501098191010980760</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:23:59</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_translated_text action="DELETE" query="documentkey=1098ddd0109866501098191010980760"/>
+    <sys_variable_value action="DELETE" query="document_key=1098ddd0109866501098191010980760"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>01143c5653ae5610f91579a0a0490e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>05143c5653ae5610f91579a0a0490e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>09143c5653ae5610f91579a0a0490e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>09143c5653ae5610f91579a0a0490e46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:23:59</sys_updated_on>
+        <value>Workspace CoE Workspace 0</value>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>0d143c5653ae5610f91579a0a0490e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>0d14745653ae5610f91579a0a0490ee1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned To">3499c6631b630010affd0e55cc4bcb90</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>41143c5653ae5610f91579a0a0490e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>45143c5653ae5610f91579a0a0490e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>45143c5653ae5610f91579a0a0490e46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>49143c5653ae5610f91579a0a0490e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>4914745653ae5610f91579a0a0490ee1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Assignment Group">4f9fdae51bbb001094630f28cc4bcb66</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>4d143c5653ae5610f91579a0a0490e44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:50:58</sys_updated_on>
+        <value/>
+        <variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>81143c5653ae5610f91579a0a0490e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>81143c5653ae5610f91579a0a0490e46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>85143c5653ae5610f91579a0a0490e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>8514745653ae5610f91579a0a0490ee1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value>yes</value>
+        <variable display_value="Wait for user input">024026291bbb001094630f28cc4bcb03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>89143c5653ae5610f91579a0a0490e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>8d143c5653ae5610f91579a0a0490e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>c1143c5653ae5610f91579a0a0490e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>c5143c5653ae5610f91579a0a0490e44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:50:58</sys_updated_on>
+        <value/>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>c9143c5653ae5610f91579a0a0490e43</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:50:58</sys_updated_on>
+        <value>x_1438983_coe_app_project_details</value>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>1098ddd0109866501098191010980760</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>cd143c5653ae5610f91579a0a0490e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2^id=1098ddd0109866501098191010980760"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_cb18ceef1b230010affd0e55cc4bcbf2^id=1098ddd0109866501098191010980760"/>
+    <sys_element_mapping action="DELETE" query="id=1098ddd0109866501098191010980760"/>
+    <sys_element_mapping action="DELETE">
+        <field>assigned_to</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>0514745653ae5610f91579a0a0490ee1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>assignment_group</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>4114745653ae5610f91579a0a0490ee1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>associated_record</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>49143c5653ae5610f91579a0a0490e40</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:23:59</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{pd.inputRecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>associated_table</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>c1143c5653ae5610f91579a0a0490e40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>attachments_read_only</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>81143c5653ae5610f91579a0a0490e41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>attachment_source</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>89143c5653ae5610f91579a0a0490e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>description</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>cd143c5653ae5610f91579a0a0490e40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.1098ddd0109866501098191010980760.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>experience_status_record</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>4d143c5653ae5610f91579a0a0490e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Manual Activity.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>experience_status_table</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>41143c5653ae5610f91579a0a0490e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>footer</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>01143c5653ae5610f91579a0a0490e40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>form_fields</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>09143c5653ae5610f91579a0a0490e41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>form_view</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>01143c5653ae5610f91579a0a0490e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>icon</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>0d143c5653ae5610f91579a0a0490e40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>is_automated</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>85143c5653ae5610f91579a0a0490e40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>pending_description</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>89143c5653ae5610f91579a0a0490e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>pending_title</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>c9143c5653ae5610f91579a0a0490e41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record_fields</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>c5143c5653ae5610f91579a0a0490e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>show_checklist</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>4d143c5653ae5610f91579a0a0490e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>show_sla</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>8d143c5653ae5610f91579a0a0490e41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>tagline</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>05143c5653ae5610f91579a0a0490e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>title</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>45143c5653ae5610f91579a0a0490e41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.1098ddd0109866501098191010980760.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>wait</field>
+        <id>1098ddd0109866501098191010980760</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:49:40</sys_created_on>
+        <sys_id>8914745653ae5610f91579a0a0490ee0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:49:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_activity action="DELETE">
+        <active>true</active>
+        <activity_definition display_value="Get Configuration Detals">9483b01653ae5610f91579a0a0490e6d</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <label>Get Configuration Detals</label>
+        <lane display_value="Lead Approval">661ffc06616e8066123c066173b0661e</lane>
+        <name>get_configuration_detals</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:47:10</sys_created_on>
+        <sys_id>5c4a08c05c4aa2c05c4a0cf05c4a3180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:47:10</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_translated_text action="DELETE" query="documentkey=5c4a08c05c4aa2c05c4a0cf05c4a3180"/>
+    <sys_variable_value action="DELETE" query="document_key=5c4a08c05c4aa2c05c4a0cf05c4a3180"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9^id=5c4a08c05c4aa2c05c4a0cf05c4a3180"/>
+    <sys_pd_activity action="DELETE">
+        <active>true</active>
+        <activity_definition display_value="Decision">226ed8f6c7ad5110bfbaf89f51c260b1</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <label>Decision</label>
+        <lane display_value="Lead Approval">661ffc06616e8066123c066173b0661e</lane>
+        <name>decision</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:41:56</sys_created_on>
+        <sys_id>25ba9f5025bae73025ba533025ba0dc0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:48:49</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_translated_text action="DELETE" query="documentkey=25ba9f5025bae73025ba533025ba0dc0"/>
+    <sys_variable_value action="DELETE" query="document_key=25ba9f5025bae73025ba533025ba0dc0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>25ba9f5025bae73025ba533025ba0dc0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:41:56</sys_created_on>
+        <sys_id>3342709253ae5610f91579a0a0490e32</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:48:45</sys_updated_on>
+        <value>[{"id":"25ba83d025ba20b025ba9ac025bad110","label":"Lead Approval?","condition":"","order":1,"activitiesCount":0},{"id":"ELSE","label":"Else","condition":"","order":2,"activitiesCount":0}]</value>
+        <variable display_value="Branches">074e5876c7ad5110bfbaf89f51c26087</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>25ba9f5025bae73025ba533025ba0dc0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:41:56</sys_created_on>
+        <sys_id>bf42709253ae5610f91579a0a0490e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:41:56</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>25ba9f5025bae73025ba533025ba0dc0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:41:56</sys_created_on>
+        <sys_id>f342709253ae5610f91579a0a0490e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:41:56</sys_updated_on>
+        <value>match_first</value>
+        <variable display_value="Type">0f4e18f6c7ad5110bfbaf89f51c260f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>25ba9f5025bae73025ba533025ba0dc0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:41:56</sys_created_on>
+        <sys_id>fb42709253ae5610f91579a0a0490e32</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:47:10</sys_updated_on>
+        <value>5c4a08c05c4aa2c05c4a0cf05c4a3180</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_input_401bd436c7ad5110bfbaf89f51c260be^id=25ba9f5025bae73025ba533025ba0dc0"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_401bd436c7ad5110bfbaf89f51c260be^id=25ba9f5025bae73025ba533025ba0dc0"/>
+    <sys_pd_snapshot action="DELETE" query="sys_id="/>
+    <sys_json_chunk action="DELETE" query="document_id="/>
+    <sys_pd_snapshot_chunk action="DELETE" query="document_id="/>
+    <sys_pd_trigger_instance action="DELETE" query="sys_id=57f5778057f5c00057f5045057f5dde0^sys_idNOT IN57f5778057f5c00057f5045057f5dde0"/>
+    <sys_pd_trigger_instance action="DELETE">
+        <label/>
+        <name/>
+        <process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:34:12</sys_created_on>
+        <sys_id>57f5778057f5c00057f5045057f5dde0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:34:12</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_translated_text action="DELETE" query="documentkey=57f5778057f5c00057f5045057f5dde0"/>
+    <sys_variable_value action="DELETE" query="document_key=57f5778057f5c00057f5045057f5dde0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>57f5778057f5c00057f5045057f5dde0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-20 10:34:12</sys_created_on>
+        <sys_id>e6803cde536e5610f91579a0a0490ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 10:34:12</sys_updated_on>
+        <value>x_1438983_coe_app_project_details</value>
+        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_pd_process_definition_3b50f096536e5610f91579a0a0490e01</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><designer_state/><label>CoE App Workflow</label><name>coe_app_workflow</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:33:28</sys_created_on><sys_id>3b50f096536e5610f91579a0a0490e01</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CoE App Workflow</sys_name><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_pd_process_definition_3b50f096536e5610f91579a0a0490e01</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 11:53:28</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=3b50f096536e5610f91579a0a0490e01"/><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><designer_state/><label>CoE App Workflow</label><name>coe_app_workflow</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:33:28</sys_created_on><sys_id>3b50f096536e5610f91579a0a0490e01</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CoE App Workflow</sys_name><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_pd_process_definition_3b50f096536e5610f91579a0a0490e01</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 11:53:28</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=3b50f096536e5610f91579a0a0490e01"/><sys_pd_lane action="delete_multiple" query="process_definition=3b50f096536e5610f91579a0a0490e01^sys_idNOT IN9d565e09d50f909d5f0109d5f4509d50,661ffc06616e8066123c066173b0661e"/><sys_pd_lane action="INSERT_OR_UPDATE"><active>true</active><condition_to_run/><description/><label>Review Project Details</label><lane_condition/><name>new_stage_1</name><order>1</order><process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule><start_rule_vars/><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:48:49</sys_created_on><sys_id>9d565e09d50f909d5f0109d5f4509d50</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 11:22:57</sys_updated_on><visible_rule/></sys_pd_lane><sys_translated_text action="delete_multiple" query="documentkey=9d565e09d50f909d5f0109d5f4509d50"/><sys_variable_value action="delete_multiple" query="document_key=9d565e09d50f909d5f0109d5f4509d50"/><sys_pd_lane action="INSERT_OR_UPDATE"><active>true</active><condition_to_run/><description/><label>Lead Approval</label><lane_condition/><name>new_stage</name><order>2</order><process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule><start_rule_vars/><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:34:36</sys_created_on><sys_id>661ffc06616e8066123c066173b0661e</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:23</sys_updated_on><visible_rule/></sys_pd_lane><sys_translated_text action="delete_multiple" query="documentkey=661ffc06616e8066123c066173b0661e"/><sys_variable_value action="delete_multiple" query="document_key=661ffc06616e8066123c066173b0661e"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_lane</document><document_key>661ffc06616e8066123c066173b0661e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:48:49</sys_created_on><sys_id>b4e3745653ae5610f91579a0a0490ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:48:49</sys_updated_on><value>9d565e09d50f909d5f0109d5f4509d50</value><variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable></sys_variable_value><sys_pd_activity action="delete_multiple" query="process_definition=3b50f096536e5610f91579a0a0490e01^sys_idNOT IN1098ddd0109866501098191010980760,5c4a08c05c4aa2c05c4a0cf05c4a3180,25ba9f5025bae73025ba533025ba0dc0"/><sys_pd_activity action="INSERT_OR_UPDATE"><active>true</active><activity_definition display_value="User Form">c9839e38b701311004c164fdde11a904</activity_definition><condition_to_run/><derivative_order/><derivative_parent/><description/><inputs/><label>User Form - Project Details</label><lane display_value="Review Project Details">9d565e09d50f909d5f0109d5f4509d50</lane><name>user_form</name><order>1</order><outputs/><process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule><start_rule_vars/><swim_lane/><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>1098ddd0109866501098191010980760</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 11:23:59</sys_updated_on><type_vals/><type_vals/></sys_pd_activity><sys_translated_text action="delete_multiple" query="documentkey=1098ddd0109866501098191010980760"/><sys_variable_value action="delete_multiple" query="document_key=1098ddd0109866501098191010980760"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>01143c5653ae5610f91579a0a0490e45</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>05143c5653ae5610f91579a0a0490e44</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>09143c5653ae5610f91579a0a0490e43</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>09143c5653ae5610f91579a0a0490e46</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 11:23:59</sys_updated_on><value>Workspace CoE Workspace 0</value><variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>0d143c5653ae5610f91579a0a0490e45</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>0d14745653ae5610f91579a0a0490ee1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Assigned To">3499c6631b630010affd0e55cc4bcb90</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>41143c5653ae5610f91579a0a0490e44</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>45143c5653ae5610f91579a0a0490e43</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>45143c5653ae5610f91579a0a0490e46</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value>0</value><variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>49143c5653ae5610f91579a0a0490e45</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value>sys_flow_data</value><variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>4914745653ae5610f91579a0a0490ee1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Assignment Group">4f9fdae51bbb001094630f28cc4bcb66</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>4d143c5653ae5610f91579a0a0490e44</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:50:58</sys_updated_on><value/><variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>81143c5653ae5610f91579a0a0490e43</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>81143c5653ae5610f91579a0a0490e46</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>85143c5653ae5610f91579a0a0490e45</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value>0</value><variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>3</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>8514745653ae5610f91579a0a0490ee1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value>yes</value><variable display_value="Wait for user input">024026291bbb001094630f28cc4bcb03</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>89143c5653ae5610f91579a0a0490e44</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value>0</value><variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>8d143c5653ae5610f91579a0a0490e43</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value>0</value><variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>c1143c5653ae5610f91579a0a0490e45</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>c5143c5653ae5610f91579a0a0490e44</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:50:58</sys_updated_on><value/><variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>c9143c5653ae5610f91579a0a0490e43</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:50:58</sys_updated_on><value>x_1438983_coe_app_project_details</value><variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>1098ddd0109866501098191010980760</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>cd143c5653ae5610f91579a0a0490e45</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><value/><variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2^id=1098ddd0109866501098191010980760"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cb18ceef1b230010affd0e55cc4bcbf2^id=1098ddd0109866501098191010980760"/><sys_element_mapping action="delete_multiple" query="id=1098ddd0109866501098191010980760"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>assigned_to</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>0514745653ae5610f91579a0a0490ee1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>assignment_group</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>4114745653ae5610f91579a0a0490ee1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>associated_record</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>49143c5653ae5610f91579a0a0490e40</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 11:23:59</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{pd.inputRecord}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>associated_table</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>c1143c5653ae5610f91579a0a0490e40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>attachments_read_only</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>81143c5653ae5610f91579a0a0490e41</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>attachment_source</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>89143c5653ae5610f91579a0a0490e42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>description</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>cd143c5653ae5610f91579a0a0490e40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{act.1098ddd0109866501098191010980760.description}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>experience_status_record</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>4d143c5653ae5610f91579a0a0490e3f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{vl.Manual Activity.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>experience_status_table</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>41143c5653ae5610f91579a0a0490e42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>footer</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>01143c5653ae5610f91579a0a0490e40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>form_fields</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>09143c5653ae5610f91579a0a0490e41</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>form_view</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>01143c5653ae5610f91579a0a0490e43</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>icon</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>0d143c5653ae5610f91579a0a0490e40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>is_automated</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>85143c5653ae5610f91579a0a0490e40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>pending_description</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>89143c5653ae5610f91579a0a0490e3f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>pending_title</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>c9143c5653ae5610f91579a0a0490e41</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_fields</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>c5143c5653ae5610f91579a0a0490e42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>show_checklist</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>4d143c5653ae5610f91579a0a0490e42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>show_sla</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>8d143c5653ae5610f91579a0a0490e41</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>tagline</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>05143c5653ae5610f91579a0a0490e42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>title</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>45143c5653ae5610f91579a0a0490e41</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{act.1098ddd0109866501098191010980760.label}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>wait</field><id>1098ddd0109866501098191010980760</id><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:49:40</sys_created_on><sys_id>8914745653ae5610f91579a0a0490ee0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:49:40</sys_updated_on><table>var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2</table><value/></sys_element_mapping><sys_pd_activity action="INSERT_OR_UPDATE"><active>true</active><activity_definition display_value="Get Configuration Detals">9483b01653ae5610f91579a0a0490e6d</activity_definition><condition_to_run/><derivative_order/><derivative_parent/><description/><inputs/><label>Get Configuration Detals</label><lane display_value="Lead Approval">661ffc06616e8066123c066173b0661e</lane><name>get_configuration_detals</name><order>1</order><outputs/><process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule><start_rule_vars/><swim_lane/><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:47:10</sys_created_on><sys_id>5c4a08c05c4aa2c05c4a0cf05c4a3180</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:47:10</sys_updated_on><type_vals/></sys_pd_activity><sys_translated_text action="delete_multiple" query="documentkey=5c4a08c05c4aa2c05c4a0cf05c4a3180"/><sys_variable_value action="delete_multiple" query="document_key=5c4a08c05c4aa2c05c4a0cf05c4a3180"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ecb1381253ae5610f91579a0a0490ea9^id=5c4a08c05c4aa2c05c4a0cf05c4a3180"/><sys_pd_activity action="INSERT_OR_UPDATE"><active>true</active><activity_definition display_value="Decision">226ed8f6c7ad5110bfbaf89f51c260b1</activity_definition><condition_to_run/><derivative_order/><derivative_parent/><description/><inputs/><label>Decision</label><lane display_value="Lead Approval">661ffc06616e8066123c066173b0661e</lane><name>decision</name><order>2</order><outputs/><process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule><start_rule_vars/><swim_lane/><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:41:56</sys_created_on><sys_id>25ba9f5025bae73025ba533025ba0dc0</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:48:49</sys_updated_on><type_vals/></sys_pd_activity><sys_translated_text action="delete_multiple" query="documentkey=25ba9f5025bae73025ba533025ba0dc0"/><sys_variable_value action="delete_multiple" query="document_key=25ba9f5025bae73025ba533025ba0dc0"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>25ba9f5025bae73025ba533025ba0dc0</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:41:56</sys_created_on><sys_id>3342709253ae5610f91579a0a0490e32</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:48:45</sys_updated_on><value>[{"id":"25ba83d025ba20b025ba9ac025bad110","label":"Lead Approval?","condition":"","order":1,"activitiesCount":0},{"id":"ELSE","label":"Else","condition":"","order":2,"activitiesCount":0}]</value><variable display_value="Branches">074e5876c7ad5110bfbaf89f51c26087</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>25ba9f5025bae73025ba533025ba0dc0</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:41:56</sys_created_on><sys_id>bf42709253ae5610f91579a0a0490e32</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:41:56</sys_updated_on><value/><variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>25ba9f5025bae73025ba533025ba0dc0</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:41:56</sys_created_on><sys_id>f342709253ae5610f91579a0a0490e32</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:41:56</sys_updated_on><value>match_first</value><variable display_value="Type">0f4e18f6c7ad5110bfbaf89f51c260f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>25ba9f5025bae73025ba533025ba0dc0</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:41:56</sys_created_on><sys_id>fb42709253ae5610f91579a0a0490e32</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:47:10</sys_updated_on><value>5c4a08c05c4aa2c05c4a0cf05c4a3180</value><variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_401bd436c7ad5110bfbaf89f51c260be^id=25ba9f5025bae73025ba533025ba0dc0"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_401bd436c7ad5110bfbaf89f51c260be^id=25ba9f5025bae73025ba533025ba0dc0"/><sys_pd_snapshot action="delete_multiple" query="sys_id="/><sys_json_chunk action="delete_multiple" query="document_id="/><sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/><sys_pd_trigger_instance action="delete_multiple" query="sys_id=57f5778057f5c00057f5045057f5dde0^sys_idNOT IN57f5778057f5c00057f5045057f5dde0"/><sys_pd_trigger_instance action="INSERT_OR_UPDATE"><label/><name/><process_definition display_value="CoE App Workflow">3b50f096536e5610f91579a0a0490e01</process_definition><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:34:12</sys_created_on><sys_id>57f5778057f5c00057f5045057f5dde0</sys_id><sys_mod_count>1</sys_mod_count><sys_scope/><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:34:12</sys_updated_on><trigger_definition/><trigger_inputs/><trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type></sys_pd_trigger_instance><sys_translated_text action="delete_multiple" query="documentkey=57f5778057f5c00057f5045057f5dde0"/><sys_variable_value action="delete_multiple" query="document_key=57f5778057f5c00057f5045057f5dde0"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_trigger_instance</document><document_key>57f5778057f5c00057f5045057f5dde0</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-12-20 10:34:12</sys_created_on><sys_id>e6803cde536e5610f91579a0a0490ebc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 10:34:12</sys_updated_on><value>x_1438983_coe_app_project_details</value><variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1981880361</payload_hash>
+        <record_name>CoE App Workflow</record_name>
+        <reverted_from/>
+        <source>3c1d084653261610f91579a0a0490ef2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-12-20 11:53:29</sys_created_on>
+        <sys_id>7ba289da53ee5610f91579a0a0490e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193e3ea63e70000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-20 11:53:29</sys_updated_on>
+        <type>Process Definition</type>
+        <update_guid>3fa289da4eee5610a2e1e3e3f3c1e216</update_guid>
+        <update_guid_history>3fa289da4eee5610a2e1e3e3f3c1e216:-1981880361,c65fb8966aee5610c22b239bce9eee6f:1800662527,126e345623ee5610841c2c0c2687c697:-1981880361,fd4e70562cee5610e7c352abb277c508:-186379696,3a3efc16beee561021f98cab1f96aa16:-1981880361,0b2e7c160eee56106002ca8302691e07:-1718453915,f3eb7852d6ee561054e374dcf9b685f3:-1981880361,0dbb34522fee56100644f2266c935058:1941813103,e464f0969fae561022e7cd6876d5079f:-140232921,99143c56d8ae561002e60bb7436cb76b:-2010575842,d104785607ae56108f3ae8a4fa7da8e6:1189445477,15f3f456cdae5610354c98429d17edda:-806001490,89e3b4569cae56101aee59e26b3bf418:18331745,c8e374566dae5610d8869e78d7cc1841:-1669298490,6483f816d9ae561034042d28618c1899:835253528,0663381626ae5610b8ada7a11d7a930f:930112812,93c234d2b8ae5610e6e66e11d6c4ea92:418366922,73b2b0d257ae561091a492a76a34e8d8:984246232,3f42389221ae561005b30a1e03516b15:418366922,c242f49228ae561029c75ad85e1ae344:-1395226298,c3e1bc5299ae5610454fd1a6a6ab2564:-1037640157,a8a0bcde856e5610b5acc87dae2885e9:-1463382083,228074de156e56100547e429d9ab864b:-2132331149,ff5038de466e5610fd42fdf6101ef952:-60388675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-12-22 17:10:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>4dc9e4f98add4970901459d39cab8321</sys_id>
+        <sys_metadata>3b50f096536e5610f91579a0a0490e01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoE App Workflow</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_3b50f096536e5610f91579a0a0490e01</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_3b50f096536e5610f91579a0a0490e01">7ba289da53ee5610f91579a0a0490e17</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-22 17:10:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
