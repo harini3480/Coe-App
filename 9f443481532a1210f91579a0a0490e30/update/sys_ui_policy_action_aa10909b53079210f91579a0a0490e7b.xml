@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>cdo_weightage</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Vinutha</sys_created_by>
+        <sys_created_on>2025-01-17 07:17:48</sys_created_on>
+        <sys_id>aa10909b53079210f91579a0a0490e7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cdo_weightage</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ui_policy_action_aa10909b53079210f91579a0a0490e7b</sys_update_name>
+        <sys_updated_by>Vinutha</sys_updated_by>
+        <sys_updated_on>2025-01-17 07:17:48</sys_updated_on>
+        <table>x_1438983_coe_app_configuration_details</table>
+        <ui_policy display_value="Is Chief Delivery Officer Approval Needed? is true Display CDO Weightage">2e10909b53079210f91579a0a0490e77</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa10909b53079210f91579a0a0490e7b"/>
+</record_update>

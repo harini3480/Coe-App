@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1438983_coe_app_configuration_details</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1438983_coe_app_configuration_details">type_of_approval=1^EQ<item display_value="Sequential Approval" endquery="false" field="type_of_approval" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>populating the group based on the approv</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+	if(current.number_of_approvals==1){
+		current.approval_2="";
+		current.approval_3="";
+		current.approval_4="";
+		current.approval_5="";
+		current.approval_6="";
+	}
+
+	else if(current.number_of_approvals==2){
+		current.approval_3="";
+		current.approval_4="";
+		current.approval_5="";
+		current.approval_6="";
+	}
+
+	else if(current.number_of_approvals==3){
+		current.approval_4="";
+		current.approval_5="";
+		current.approval_6="";
+	}
+
+	else if(current.number_of_approvals==4){
+		current.approval_5="";
+		current.approval_6="";
+	}
+
+	else if(current.number_of_approvals==5){
+		current.approval_6="";
+	}
+	//Approval 1
+    if (current.approval_1 == "1") {
+        current.approval_group_1 = "d9192c0e53a61610f91579a0a0490ecd"; //CoE Lead
+		current.update();
+    } else if (current.approval_1 == "2") {
+        current.approval_group_1 = "d0e9ec4e53a61610f91579a0a0490e32"; //Project Manager
+		current.update();
+    } else if (current.approval_1 == "3") {
+        current.approval_group_1 = "40fa692b53e25e10f91579a0a0490e1e"; //CEO
+		current.update();
+    } else if (current.approval_1 == "4") {
+        current.approval_group_1 = "012ba1e753e25e10f91579a0a0490ec4"; //CFO
+		current.update();
+    } else if (current.approval_1 == "5") {
+        current.approval_group_1 = "dc5be16b53e25e10f91579a0a0490e6c"; //CDO
+		current.update();
+    } else if (current.approval_1 == "6") {
+        current.approval_group_1 = "548b216b53e25e10f91579a0a0490ee3"; //CTO
+		current.update();
+    } else {
+        "";
+    }
+	
+
+    //Approval 2
+    if (current.approval_2 == "1") {
+        current.approval_group_2 = "d9192c0e53a61610f91579a0a0490ecd"; //COE LEAD
+		current.update();
+    } else if (current.approval_2 == "2") {
+        current.approval_group_2 = "d0e9ec4e53a61610f91579a0a0490e32"; //Project Manager
+		current.update();
+    } else if (current.approval_2 == "3") {
+        current.approval_group_2 = "40fa692b53e25e10f91579a0a0490e1e"; //CEO
+		current.update();
+    } else if (current.approval_2 == "4") {
+        current.approval_group_2 = "012ba1e753e25e10f91579a0a0490ec4"; //CFO
+		current.update();
+    } else if (current.approval_2 == "5") {
+        current.approval_group_2 = "dc5be16b53e25e10f91579a0a0490e6c"; //CDO
+		current.update();
+    } else if (current.approval_2 == "6") {
+        current.approval_group_2 = "548b216b53e25e10f91579a0a0490ee3"; //CTO
+		current.update();
+    } else {
+        "";
+    }
+    //Approval 3
+
+    if (current.approval_3 == "1") {
+        current.approval_group_3 = "d9192c0e53a61610f91579a0a0490ecd"; //COE LEAD
+		current.update();
+    } else if (current.approval_3 == "2") {
+        current.approval_group_3 = "d0e9ec4e53a61610f91579a0a0490e32"; //Project Manager
+		current.update();
+    } else if (current.approval_3 == "3") {
+        current.approval_group_3 = "40fa692b53e25e10f91579a0a0490e1e"; //CEO
+		current.update();
+    } else if (current.approval_3 == "4") {
+        current.approval_group_3 = "012ba1e753e25e10f91579a0a0490ec4"; //CFO
+		current.update();
+    } else if (current.approval_3 == "5") {
+        current.approval_group_3 = "dc5be16b53e25e10f91579a0a0490e6c"; //CDO
+		current.update();
+    } else if (current.approval_3 == "6") {
+        current.approval_group_3 = "548b216b53e25e10f91579a0a0490ee3"; //CTO
+		current.update();
+    } else {
+        "";
+    }
+    //Approval 4
+
+    if (current.approval_4 == "1") {
+        current.approval_group_ = "d9192c0e53a61610f91579a0a0490ecd"; //COE LEAD
+		current.update();
+    } else if (current.approval_4 == "2") {
+        current.approval_group_4 = "d0e9ec4e53a61610f91579a0a0490e32"; //Project Manager
+		current.update();
+    } else if (current.approval_4 == "3") {
+        current.approval_group_4 = "40fa692b53e25e10f91579a0a0490e1e"; //CEO
+		current.update();
+    } else if (current.approval_4 == "4") {
+        current.approval_group_4 = "012ba1e753e25e10f91579a0a0490ec4"; //CFO
+		current.update();
+    } else if (current.approval_4 == "5") {
+        current.approval_group_4 = "dc5be16b53e25e10f91579a0a0490e6c"; //CDO
+		current.update();
+    } else if (current.approval_4 == "6") {
+        current.approval_group_4 = "548b216b53e25e10f91579a0a0490ee3"; //CTO
+		current.update();
+    } else {
+        "";
+    }
+
+    //Approval 5
+    if (current.approval_5 == '1') {
+        current.approval_group_5 = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+		current.update();
+    } else if (current.approval_5 == '2') {
+        current.approval_group_5 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+		current.update();
+    } else if (current.approval_5 == '3') {
+        current.approval_group_5 = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+		current.update();
+    } else if (current.approval_5 == '4') {
+        current.approval_group_5 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+		current.update();
+    } else if (current.approval_5 == '5') {
+        current.approval_group_5 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+		current.update();
+    } else if (current.approval_5 == '6') {
+        current.approval_group_5 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+		current.update();
+    } else {
+        "";
+    }
+
+    //Approval 6
+    if (current.approval_6 == '1') {
+        current.approval_group_6 = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+		current.update();
+    } else if (current.approval_6 == '2') {
+        current.approval_group_6 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+		current.update();
+    } else if (current.approval_2 == '3') {
+        current.approval_group_2 = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+		current.update();
+    } else if (current.approval_2 == '4') {
+        current.approval_group_2 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+		current.update();
+    } else if (current.approval_2 == '5') {
+        current.approval_group_2 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+		current.update();
+    } else if (current.approval_2 == '6') {
+        current.approval_group_2 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+		current.update();
+    } else {
+        "";
+    }
+
+	//Existing Project Approval Group Update
+	if (current.existing_project_approval_1 == '1') {
+        current.existing_project_approval_group = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+		current.update();
+    } else if (current.existing_project_approval_1 == '2') {
+        current.existing_project_approval_group = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+		current.update();
+    } else if (current.existing_project_approval_1 == '3') {
+        current.existing_project_approval_group = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+		current.update();
+    } else if (current.existing_project_approval_1 == '4') {
+        current.existing_project_approval_group = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+		current.update();
+    } else if (current.existing_project_approval_1 == '5') {
+        current.existing_project_approval_group = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+		current.update();
+    } else if (current.existing_project_approval_1 == '6') {
+        current.existing_project_approval_group = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+		current.update();
+    } else {
+        "";
+    }
+
+	//Learning Approval 1 Approval Group Update
+	if (current.learnings_approval_1 == '1') {
+        current.learnings_approval_group_1 = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+        current.update();
+    } else if (current.learnings_approval_1 == '2') {
+        current.learnings_approval_group_1 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+        current.update();
+    } else if (current.learnings_approval_1 == '3') {
+        current.learnings_approval_group_1 = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+        current.update();
+    } else if (current.learnings_approval_1 == '4') {
+        current.learnings_approval_group_1 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+        current.update();
+    } else if (current.learnings_approval_1 == '5') {
+        current.learnings_approval_group_1 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+        current.update();
+    } else if (current.learnings_approval_1 == '6') {
+        current.learnings_approval_group_1 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+        current.update();
+    } else {
+        "";
+    }
+ 
+
+	//R&D Approval Group 1 Update
+	if (current.r_d_approval_1 == '1') {
+        current.r_d_approval_group_1 = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+        current.update();
+    } else if (current.r_d_approval_1 == '2') {
+        current.r_d_approval_group_1 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+        current.update();
+    } else if (current.r_d_approval_1 == '3') {
+        current.r_d_approval_group_1 = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+        current.update();
+    } else if (current.r_d_approval_1 == '4') {
+        current.r_d_approval_group_1 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+        current.update();
+    } else if (current.r_d_approval_1 == '5') {
+        current.r_d_approval_group_1 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+        current.update();
+    } else if (current.r_d_approval_1 == '6') {
+        current.r_d_approval_group_1 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+        current.update();
+    } else {
+        "";
+    }
+
+	//Client PoC Approval 1 Group Update
+	if (current.client_poc_approval_1 == '1') {
+        current.client_poc_approval_group_1 = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+        current.update();
+    } else if (current.client_poc_approval_1 == '2') {
+        current.client_poc_approval_group_1 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+        current.update();
+    } else if (current.client_poc_approval_1 == '3') {
+        current.client_poc_approval_group_1 = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+        current.update();
+    } else if (current.client_poc_approval_1 == '4') {
+        current.client_poc_approval_group_1 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+        current.update();
+    } else if (current.client_poc_approval_1 == '5') {
+        current.client_poc_approval_group_1 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+        current.update();
+    } else if (current.client_poc_approval_1 == '6') {
+        current.client_poc_approval_group_1 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+        current.update();
+    } else {
+        "";
+    }
+
+	//R&D approval 2 Group Update
+	if (current.r_d_approval_2 == '1') {
+        current.r_d_approval_group_2 = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+        current.update();
+    } else if (current.r_d_approval_2 == '2') {
+        current.r_d_approval_group_2 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+        current.update();
+    } else if (current.r_d_approval_2 == '3') {
+        current.r_d_approval_group_2 = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+        current.update();
+    } else if (current.r_d_approval_2 == '4') {
+        current.r_d_approval_group_2 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+        current.update();
+    } else if (current.r_d_approval_2 == '5') {
+        current.r_d_approval_group_2 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+        current.update();
+    } else if (current.r_d_approval_2 == '6') {
+        current.r_d_approval_group_2 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+        current.update();
+    } else {
+        "";
+    }
+
+	//Client PoC approval 2 Group Update
+
+	if (current.client_poc_approval_2 == '1') {
+        current.client_poc_approval_group_2= 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+        current.update();
+    } else if (current.client_poc_approval_2 == '2') {
+        current.client_poc_approval_group_2 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+        current.update();
+    } else if (current.client_poc_approval_2 == '3') {
+        current.client_poc_approval_group_2= '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+        current.update();
+    } else if (current.client_poc_approval_2 == '4') {
+        current.client_poc_approval_group_2 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+        current.update();
+    } else if (current.client_poc_approval_2 == '5') {
+        current.client_poc_approval_group_2 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+        current.update();
+    } else if (current.client_poc_approval_2 == '6') {
+        current.client_poc_approval_group_2 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+        current.update();
+    } else {
+        "";
+    }
+
+	//Other Approval Group 1 Update
+
+	if (current.others_approval_1 == '1') {
+        current.others_approval_group_1 = 'd9192c0e53a61610f91579a0a0490ecd'; //COE LEAD
+        current.update();
+    } else if (current.others_approval_1 == '2') {
+        current.others_approval_group_1 = 'd0e9ec4e53a61610f91579a0a0490e32'; //Project Manager
+        current.update();
+    } else if (current.others_approval_1 == '3') {
+        current.others_approval_group_1 = '40fa692b53e25e10f91579a0a0490e1e'; //CEO
+        current.update();
+    } else if (current.others_approval_1 == '4') {
+        current.others_approval_group_1 = '012ba1e753e25e10f91579a0a0490ec4'; //CFO
+        current.update();
+    } else if (current.others_approval_1 == '5') {
+        current.others_approval_group_1 = 'dc5be16b53e25e10f91579a0a0490e6c'; //CDO
+        current.update();
+    } else if (current.others_approval_1 == '6') {
+        current.others_approval_group_1 = '548b216b53e25e10f91579a0a0490ee3'; //CTO
+        current.update();
+    } else {
+        "";
+    }
+ 
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Vinutha</sys_created_by>
+        <sys_created_on>2025-01-07 10:56:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9aedd90853079210f91579a0a0490e0f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>populating the group based on the approv</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_9aedd90853079210f91579a0a0490e0f</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-09 12:26:01</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9aedd90853079210f91579a0a0490e0f"/>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Load : State Read Only</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.setReadOnly("State",true);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2025-01-22 10:56:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99e1b674535b1210f91579a0a0490e93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Load : State Read Only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_99e1b674535b1210f91579a0a0490e93</sys_update_name>
+        <sys_updated_by>Harini</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:56:23</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_script_client_99e1b674535b1210f91579a0a0490e93</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;On Load : State Read Only&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.setReadOnly("State",true);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Harini&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 10:56:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;99e1b674535b1210f91579a0a0490e93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Load : State Read Only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CoE App" source="x_1438983_coe_app"&gt;9f443481532a1210f91579a0a0490e30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CoE App"&gt;9f443481532a1210f91579a0a0490e30&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_99e1b674535b1210f91579a0a0490e93&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Harini&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 10:56:23&lt;/sys_updated_on&gt;&lt;table&gt;sysapproval_approver&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1012767880</payload_hash>
+        <record_name>On Load : State Read Only</record_name>
+        <reverted_from/>
+        <source>7d92fc4453039210f91579a0a0490e1e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2025-01-22 10:56:23</sys_created_on>
+        <sys_id>51123a34535b1210f91579a0a0490e0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948da7fab80000001</sys_recorded_at>
+        <sys_updated_by>Harini</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:56:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>15123a34235b1210d1efe75e118acd0a</update_guid>
+        <update_guid_history>15123a34235b1210d1efe75e118acd0a:1012767880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2025-01-22 10:57:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>34f5652351e44d40a36829a709dba400</sys_id>
+        <sys_metadata>99e1b674535b1210f91579a0a0490e93</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Load : State Read Only</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent display_value="Sysapproval Approver">21a77308e492021008dda4ccc40080ad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_script_client_99e1b674535b1210f91579a0a0490e93</sys_update_name>
+        <sys_update_version display_value="sys_script_client_99e1b674535b1210f91579a0a0490e93">51123a34535b1210f91579a0a0490e0b</sys_update_version>
+        <sys_updated_by>Harini</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:57:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

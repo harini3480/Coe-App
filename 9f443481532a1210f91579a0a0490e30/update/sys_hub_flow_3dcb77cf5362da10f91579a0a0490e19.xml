@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>parallel_approval</internal_name>
-        <label_cache>[{"name":"subflow.group","label":"Input➛group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","column_name":"","usedInstances":{}},{"name":"{{static.e19e3f0753a2da10f91579a0a0490e41}}","label":"Approval Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"abce8318-6d85-4983-bc02-31a64603019e":["approval_conditions"]}},{"name":"abce8318-6d85-4983-bc02-31a64603019e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"badd5dc7-aa06-4829-ae73-a3c55df2f5cf":["approval_status-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.project","label":"Input➛project","reference":"x_1438983_coe_app_project_details","reference_display":"Project Details","type":"reference","base_type":"reference","usedInstances":{"abce8318-6d85-4983-bc02-31a64603019e":["record"]}}]</label_cache>
+        <label_cache>[{"name":"subflow.project","label":"Input➛project","reference":"x_1438983_coe_app_project_details","reference_display":"Project Details","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"abce8318-6d85-4983-bc02-31a64603019e":["record"]},"attributes":null},{"name":"abce8318-6d85-4983-bc02-31a64603019e.approval_state","label":"1 - Ask For Approval➛Approval State","reference":"","reference_display":"Approval State","type":"choice","base_type":"choice","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"badd5dc7-aa06-4829-ae73-a3c55df2f5cf":["approval_status-0"]},"attributes":null},{"name":"{{static.e19e3f0753a2da10f91579a0a0490e41}}","label":"Approval Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"abce8318-6d85-4983-bc02-31a64603019e":["approval_conditions"]},"attributes":null},{"name":"subflow.group","label":"Input➛group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":null},{"name":"{{static.477a05d153013010b846ddeeff7b1225}}","label":"App Engine Admins","reference":"sys_user_group","reference_display":"","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"abce8318-6d85-4983-bc02-31a64603019e":["approval_conditions"]},"attributes":null}]</label_cache>
         <master_snapshot>41deb74753a2da10f91579a0a0490e3f</master_snapshot>
         <name>Parallel Approval</name>
         <natlang/>
@@ -35,15 +35,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3dcb77cf5362da10f91579a0a0490e19</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Parallel Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_hub_flow_3dcb77cf5362da10f91579a0a0490e19</sys_update_name>
-        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2025-01-02 12:59:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 07:43:36</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3dcb77cf5362da10f91579a0a0490e19"/>

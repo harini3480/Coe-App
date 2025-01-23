@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Idea Parallel Approval" section_id="b7bc989753879210f91579a0a0490ee7" sys_domain="global" table="x_1438983_coe_app_configuration_details" version="3" view="workspace-coe-workspace-0">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>00cc1c9753879210f91579a0a0490e3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <text>The Total Weightage of all the enabled checkbox should be equal to 100</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>00cc1c9753879210f91579a0a0490e3d</element>
+            <position>0</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>4ccc1c9753879210f91579a0a0490e3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ceo_approval</element>
+            <position>2</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ceo_weightage</element>
+            <position>3</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cto_approval</element>
+            <position>4</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cto_weightage</element>
+            <position>5</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coe_lead_approval</element>
+            <position>6</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parallel_lead_weightage</element>
+            <position>7</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_cfo</element>
+            <position>8</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cdo_approval</element>
+            <position>10</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cdo_weightage</element>
+            <position>11</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cfo_approval</element>
+            <position>12</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cfo_weightage</element>
+            <position>13</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_manager_approval</element>
+            <position>14</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_weightage</element>
+            <position>15</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>88cc1c9753879210f91579a0a0490e45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resources_ceo</element>
+            <position>16</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_id>80cc1c9753879210f91579a0a0490e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Idea Parallel Approval</caption>
+            <header>false</header>
+            <name>x_1438983_coe_app_configuration_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7bc989753879210f91579a0a0490ee7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1438983_coe_app_configuration_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_ui_section_b7bc989753879210f91579a0a0490ee7</sys_update_name>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace CoE Workspace 0" name="workspace-coe-workspace-0">c9ef5a65bc269210458879030df14844</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

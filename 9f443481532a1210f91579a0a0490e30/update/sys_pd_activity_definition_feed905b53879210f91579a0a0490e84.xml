@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences>project_details=all;</input_display_preferences>
+        <inputs/>
+        <label>Weightage Subflow</label>
+        <name>weightage_subflow</name>
+        <outputs/>
+        <source>11b01fb653871210f91579a0a0490ec6</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-17 08:18:09</sys_created_on>
+        <sys_id>feed905b53879210f91579a0a0490e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weightage Subflow</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_feed905b53879210f91579a0a0490e84</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-17 08:18:09</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=feed905b53879210f91579a0a0490e84"/>
+    <sys_variable_value action="delete_multiple" query="document_key=feed905b53879210f91579a0a0490e84"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_11b01fb653871210f91579a0a0490ec6^id=feed905b53879210f91579a0a0490e84"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_11b01fb653871210f91579a0a0490ec6^id=feed905b53879210f91579a0a0490e84"/>
+</record_update>

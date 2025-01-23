@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d6cb73ac53cf5610f91579a0a0490eb7" sys_domain="global" table="x_1438983_coe_app_configuration_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Vinutha</sys_created_by>
+            <sys_created_on>2025-01-09 11:24:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6cb73ac53cf5610f91579a0a0490ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1438983_coe_app_configuration_details" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">d6cb73ac53cf5610f91579a0a0490eb7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">8a72eb4a53a65610f91579a0a0490ebb</sys_ui_section>
+            <sys_updated_by>Vinutha</sys_updated_by>
+            <sys_updated_on>2025-01-09 11:24:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Vinutha</sys_created_by>
+            <sys_created_on>2025-01-09 11:24:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56cb73ac53cf5610f91579a0a0490ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1438983_coe_app_configuration_details" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">d6cb73ac53cf5610f91579a0a0490eb7</sys_ui_form>
+            <sys_ui_section caption="New Idea Sequential Approval" display_value="New Idea Sequential Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">16cb73ac53cf5610f91579a0a0490eb4</sys_ui_section>
+            <sys_updated_by>Vinutha</sys_updated_by>
+            <sys_updated_on>2025-01-09 11:24:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Vinutha</sys_created_by>
+            <sys_created_on>2025-01-09 11:24:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>decb73ac53cf5610f91579a0a0490ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1438983_coe_app_configuration_details" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">d6cb73ac53cf5610f91579a0a0490eb7</sys_ui_form>
+            <sys_ui_section caption="Other Category Approvals" display_value="Other Category Approvals" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">decb73ac53cf5610f91579a0a0490eb5</sys_ui_section>
+            <sys_updated_by>Vinutha</sys_updated_by>
+            <sys_updated_on>2025-01-09 11:24:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-17 08:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8cc1c9753879210f91579a0a0490e39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1438983_coe_app_configuration_details" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">d6cb73ac53cf5610f91579a0a0490eb7</sys_ui_form>
+            <sys_ui_section caption="New Idea Parallel Approval" display_value="New Idea Parallel Approval" name="x_1438983_coe_app_configuration_details" sys_domain="global" view="c9ef5a65bc269210458879030df14844">b7bc989753879210f91579a0a0490ee7</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:13:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1438983_coe_app_configuration_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Vinutha</sys_created_by>
+            <sys_created_on>2025-01-09 11:24:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6cb73ac53cf5610f91579a0a0490eb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1438983_coe_app_configuration_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d6cb73ac53cf5610f91579a0a0490eb7</sys_update_name>
+            <sys_updated_by>Vinutha</sys_updated_by>
+            <sys_updated_on>2025-01-09 11:24:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace CoE Workspace 0" name="workspace-coe-workspace-0">c9ef5a65bc269210458879030df14844</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

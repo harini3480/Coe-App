@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Query ID" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Assigned To" max_length="32" name="assigned_to" read_only="true" reference="sys_user" type="reference"/>
         <element label="Priority" max_length="32" name="priority" reference="x_1438983_coe_app_lookup_details" reference_qual="field=14" reference_qual_condition="field=14" type="reference"/>
-        <element label="Summary" max_length="40" name="summary" type="string"/>
+        <element label="Summary" max_length="40" name="summary" type="journal_input"/>
         <element label="Supporting Document" max_length="40" name="supporting_document" type="file_attachment"/>
         <element label="Project" max_length="32" name="project" reference="x_1438983_coe_app_project_details" type="reference"/>
         <element label="SDLC Checklist Item" max_length="32" name="sdlc_checklist_item" reference="x_1438983_coe_app_sdlc_checklist" type="reference"/>

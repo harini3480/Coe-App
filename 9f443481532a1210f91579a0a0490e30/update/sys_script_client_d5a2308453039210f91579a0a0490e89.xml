@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Based on the type of approval the appropriate value will be display.</description>
+        <field>type_of_approval</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On change : Type of Approval</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Type appropriate comment here, and begin script below
+    // alert(g_form.getSectionNames());
+
+
+
+    var Approval_type = g_form.getValue('type_of_approval');
+    if (Approval_type == 1) {
+        g_form.setSectionDisplay('new_ideaparallelapproval', false);
+        g_form.setSectionDisplay('new_ideasequentialapproval', true);
+        g_form.setVisible('number_of_approvals', true);
+        var no = g_form.getValue('number_of_approvals');
+        if (no == 1) {
+            g_form.setVisible("approval_1", true);
+            g_form.setVisible("approval_2", false);
+            g_form.setVisible("approval_3", false);
+            g_form.setVisible("approval_4", false);
+            g_form.setVisible("approval_5", false);
+            g_form.setVisible("approval_6", false);
+        } else if (no == 2) {
+            g_form.setVisible("approval_1", true);
+            g_form.setVisible("approval_2", true);
+            g_form.setVisible("approval_3", false);
+            g_form.setVisible("approval_4", false);
+            g_form.setVisible("approval_5", false);
+            g_form.setVisible("approval_6", false);
+        } else if (no == 3) {
+            g_form.setVisible("approval_1", true);
+            g_form.setVisible("approval_2", true);
+            g_form.setVisible("approval_3", true);
+            g_form.setVisible("approval_4", false);
+            g_form.setVisible("approval_5", false);
+            g_form.setVisible("approval_6", false);
+        } else if (no == 4) {
+            g_form.setVisible("approval_1", true);
+            g_form.setVisible("approval_2", true);
+            g_form.setVisible("approval_3", true);
+            g_form.setVisible("approval_4", true);
+            g_form.setVisible("approval_5", false);
+            g_form.setVisible("approval_6", false);
+
+        } else if (no == 5) {
+            g_form.setVisible("approval_1", true);
+            g_form.setVisible("approval_2", true);
+            g_form.setVisible("approval_3", true);
+            g_form.setVisible("approval_4", true);
+            g_form.setVisible("approval_5", true);
+            g_form.setVisible("approval_6", false);
+
+        } else {
+            g_form.setVisible("approval_1", true);
+            g_form.setVisible("approval_2", true);
+            g_form.setVisible("approval_3", true);
+            g_form.setVisible("approval_4", true);
+            g_form.setVisible("approval_5", true);
+            g_form.setVisible("approval_6", true);
+        }
+
+    } else if (Approval_type == 2) {
+        g_form.setSectionDisplay('new_ideasequentialapproval', false);
+        g_form.setSectionDisplay('new_ideaparallelapproval', true);
+
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2025-01-07 07:43:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5a2308453039210f91579a0a0490e89</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>On change : Type of Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_d5a2308453039210f91579a0a0490e89</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-09 11:47:41</sys_updated_on>
+        <table>x_1438983_coe_app_configuration_details</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

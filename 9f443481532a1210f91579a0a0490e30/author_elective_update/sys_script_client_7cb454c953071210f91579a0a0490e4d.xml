@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Submit : Weightage </name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//alert("starting");
+	var b = new GlideRecord('x_1438983_coe_app_lookup_details');
+b.addEncodedQuery('field=9^label=new idea');
+b.query();
+if(b.next()){
+ var a = new GlideRecord('x_1438983_coe_app_project_details');
+ a.addEncodedQuery('project_category.field=9^project_category.label=New Idea');
+ a.query();
+
+
+}
+alert('b.weightage'+b.weightage);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Harini</sys_created_by>
+        <sys_created_on>2025-01-10 08:14:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cb454c953071210f91579a0a0490e4d</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>On Submit : Weightage </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_7cb454c953071210f91579a0a0490e4d</sys_update_name>
+        <sys_updated_by>Vinutha</sys_updated_by>
+        <sys_updated_on>2025-01-10 11:56:29</sys_updated_on>
+        <table>x_1438983_coe_app_project_details</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_script_client_7cb454c953071210f91579a0a0490e4d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;On Submit : Weightage &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	//alert("starting");
+	var b = new GlideRecord('x_1438983_coe_app_lookup_details');
+b.addEncodedQuery('field=9^label=new idea');
+b.query();
+if(b.next()){
+ var a = new GlideRecord('x_1438983_coe_app_project_details');
+ a.addEncodedQuery('project_category.field=9^project_category.label=New Idea');
+ a.query();
+
+
+}
+alert('b.weightage'+b.weightage);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Harini&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-10 08:14:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7cb454c953071210f91579a0a0490e4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Submit : Weightage &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CoE App" source="x_1438983_coe_app"&gt;9f443481532a1210f91579a0a0490e30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CoE App"&gt;9f443481532a1210f91579a0a0490e30&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7cb454c953071210f91579a0a0490e4d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Vinutha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-10 11:56:29&lt;/sys_updated_on&gt;&lt;table&gt;x_1438983_coe_app_project_details&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>206746304</payload_hash>
+        <record_name>On Submit : Weightage </record_name>
+        <reverted_from/>
+        <source>7d92fc4453039210f91579a0a0490e1e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Vinutha</sys_created_by>
+        <sys_created_on>2025-01-10 11:56:29</sys_created_on>
+        <sys_id>a8cc854d534b1210f91579a0a0490eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1945012b09f0000001</sys_recorded_at>
+        <sys_updated_by>Vinutha</sys_updated_by>
+        <sys_updated_on>2025-01-10 11:56:29</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2ccc854dc64b121056716758d84cd3a9</update_guid>
+        <update_guid_history>2ccc854dc64b121056716758d84cd3a9:206746304,6efb490d0f4b121013ebb077a0ce59ba:991452412,2b9bcdc9064b1210a79c10c32a50b6b9:-1843535148,946bc1c9db4b121017453e7f85570502:563615156,2bf80109534b121012bf6dd4e07c0dd9:1784379308,a47841c5254b1210d11c1b387d02c305:-1277478920,564809c1f54b1210190592a94da07aa0:-1296577480,4708c585da4b1210af0378302247f40c:353411788,0ee541c1314b121007ccff82a4306ece:-1055164145,e0b42881e48712100200184e7478ec4c:1254410660,44f3a481ba871210e801ada73425ffda:441819413,1f03e4cd92471210fd3ac4b3324835b5:899531544,f6d1e0cdd2471210aefcb98423a7eeea:1830398832,02b1a0cd6e471210ca445601840bc44a:-1323190438,6f71640d07471210f99313d4a37c34cd:-536410549,a221a089694712108001d190f03c150e:454157170,220160896e471210cc307bcd41616962:-536410549,91add049d74712104a334898652b054f:495609415,c4ec5cc592471210e799779c2d398456:-1825534508,dd0cd8858a4712105d3fd86905616a91:149488376,ec1b94053d4712102fddb48957c6813b:-1819276067,f65a9405f1471210d405f48f508a0835:844169686,200a9cc1ef471210c6928a6b7b3cdf3b:1761411176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Vinutha</sys_created_by>
+        <sys_created_on>2025-01-16 03:32:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0c2008bd3883496081d7352bc47bad10</sys_id>
+        <sys_metadata>7cb454c953071210f91579a0a0490e4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Submit : Weightage </sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent display_value="Project Details">26b57805532a1210f91579a0a0490e8e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_script_client_7cb454c953071210f91579a0a0490e4d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7cb454c953071210f91579a0a0490e4d">a8cc854d534b1210f91579a0a0490eaa</sys_update_version>
+        <sys_updated_by>Vinutha</sys_updated_by>
+        <sys_updated_on>2025-01-16 03:32:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

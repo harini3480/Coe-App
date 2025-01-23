@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>onLoad of Configuration Details</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onLoad of Configuration Details</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+//    g_form.setVisible('number_of_approvals',false);
+//    g_form.setVisible('approval_1',false);
+//    g_form.setVisible('approval_2',false);
+//    g_form.setVisible('approval_3',false);
+//    g_form.setVisible('approval_4',false);
+//    g_form.setVisible('approval_5',false);
+//    g_form.setVisible('approval_6',false);
+//    g_form.setVisible('ceo_approval',false);
+//    g_form.setVisible('cdo_approval',false);
+//    g_form.setVisible('cto_approval',false);
+//    g_form.setVisible('project_manager_approval',false);
+//    g_form.setVisible('coe_lead_approval',false);
+//    g_form.setVisible('cfo_approval',false);
+//    g_form.setVisible('resources_ceo',false);
+//    g_form.setVisible('budget_cfo',false);
+
+
+
+//g_form.addDecoration("type_of_approval","close-fill","test");
+var Approval_type = g_form.getValue('type_of_approval');
+    if (Approval_type == 1) {
+		g_form.setSectionDisplay('new_ideaparallelapproval',false);
+		g_form.setSectionDisplay('new_ideasequentialapproval',true);
+        g_form.setVisible('number_of_approvals', true);
+        
+    } else if (Approval_type == 2){
+		g_form.setSectionDisplay('new_ideasequentialapproval',false);
+		g_form.setSectionDisplay('new_ideaparallelapproval',true);
+        g_form.setVisible('number_of_approvals', false);
+        
+    }
+	var no = g_form.getValue('number_of_approvals');
+    if (no == 1) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", false);
+        g_form.setVisible("approval_3", false);
+        g_form.setVisible("approval_4", false);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+    } else if (no == 2) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", false);
+        g_form.setVisible("approval_4", false);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+    } else if (no == 3) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", false);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+    } else if (no == 4) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", true);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+
+    } else if (no == 5) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", true);
+        g_form.setVisible("approval_5", true);
+        g_form.setVisible("approval_6", false);
+
+    } else {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", true);
+        g_form.setVisible("approval_5", true);
+        g_form.setVisible("approval_6", true);
+    }
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Vinutha</sys_created_by>
+        <sys_created_on>2025-01-07 07:34:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66723c4453039210f91579a0a0490ed0</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>onLoad of Configuration Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_66723c4453039210f91579a0a0490ed0</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-17 08:10:52</sys_updated_on>
+        <table>x_1438983_coe_app_configuration_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration>
+        <description/>
+        <order>1700</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:45:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>faef1e6553269210f91579a0a0490e4e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Audit History </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_list_category_faef1e6553269210f91579a0a0490e4e</sys_update_name>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 10:51:08</sys_updated_on>
+        <title>Audit History </title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ux_list_category_faef1e6553269210f91579a0a0490e4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="CoE Workspace_menu_config">52ef9a6553269210f91579a0a0490ef9</configuration><description/><order>1700</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>Sushmithaa</sys_created_by><sys_created_on>2024-12-18 10:45:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>faef1e6553269210f91579a0a0490e4e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Audit History </sys_name><sys_overrides/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ux_list_category_faef1e6553269210f91579a0a0490e4e</sys_update_name><sys_updated_by>Sushmithaa</sys_updated_by><sys_updated_on>2024-12-18 10:51:08</sys_updated_on><title>Audit History </title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>1650685931</payload_hash>
+        <record_name>Audit History </record_name>
+        <reverted_from/>
+        <source>5b443481532a1210f91579a0a0490e41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:51:08</sys_created_on>
+        <sys_id>cb31a66953269210f91579a0a0490ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193d96497740000001</sys_recorded_at>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2024-12-18 10:51:08</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>c7312ee5e12692103ff228e0275ba583</update_guid>
+        <update_guid_history>c7312ee5e12692103ff228e0275ba583:1650685931,f6402229c5269210a23257c9fe035e78:1643305610,faef1e65df26921078929732cdbb154f:1650685931</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2025-01-08 12:13:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>1474b068669d430aa94b6a5f82ebacb9</sys_id>
+        <sys_metadata>faef1e6553269210f91579a0a0490e4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audit History </sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_faef1e6553269210f91579a0a0490e4e</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_faef1e6553269210f91579a0a0490e4e">cb31a66953269210f91579a0a0490ee5</sys_update_version>
+        <sys_updated_by>Sushmithaa</sys_updated_by>
+        <sys_updated_on>2025-01-08 12:13:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

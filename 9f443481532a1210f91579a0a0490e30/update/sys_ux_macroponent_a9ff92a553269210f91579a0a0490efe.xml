@@ -604,6 +604,40 @@
                         },
                         {
                             "conditional": {
+                                "operation": {
+                                    "left": {
+                                        "binding": {
+                                            "address": [
+                                                "sysId"
+                                            ],
+                                            "category": "props"
+                                        },
+                                        "type": "CONTEXT_BINDING"
+                                    },
+                                    "operator": "EQUAL",
+                                    "right": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "-1"
+                                    }
+                                },
+                                "type": "BINARY"
+                            },
+                            "extensionPoint": null,
+                            "icon": null,
+                            "id": "dcd9d27053d71210f91579a0a0490e58",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Playbook"
+                                }
+                            },
+                            "order": 100,
+                            "type": "local"
+                        },
+                        {
+                            "conditional": {
                                 "type": "JSON_LITERAL",
                                 "value": null
                             },
@@ -701,41 +735,71 @@
                                     "message": "SDLC Checklist"
                                 }
                             },
-                            "order": 500,
+                            "order": 400,
                             "type": "local"
                         },
                         {
                             "conditional": {
                                 "operation": {
                                     "left": {
-                                        "binding": {
-                                            "address": [
-                                                "sysId"
-                                            ],
-                                            "category": "props"
+                                        "operation": {
+                                            "left": {
+                                                "binding": {
+                                                    "address": [
+                                                        "record",
+                                                        "form",
+                                                        "fields",
+                                                        "status",
+                                                        "value"
+                                                    ]
+                                                },
+                                                "type": "DATA_OUTPUT_BINDING"
+                                            },
+                                            "operator": "EQUAL",
+                                            "right": {
+                                                "type": "JSON_LITERAL",
+                                                "value": "e19fc30c533a1250f91579a0a0490edb"
+                                            }
                                         },
-                                        "type": "CONTEXT_BINDING"
+                                        "type": "BINARY"
                                     },
-                                    "operator": "EQUAL",
+                                    "operator": "OR",
                                     "right": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "-1"
+                                        "operation": {
+                                            "left": {
+                                                "binding": {
+                                                    "address": [
+                                                        "record",
+                                                        "form",
+                                                        "fields",
+                                                        "status",
+                                                        "value"
+                                                    ]
+                                                },
+                                                "type": "DATA_OUTPUT_BINDING"
+                                            },
+                                            "operator": "EQUAL",
+                                            "right": {
+                                                "type": "JSON_LITERAL",
+                                                "value": "82de3ef1536ed210f91579a0a0490e01"
+                                            }
+                                        },
+                                        "type": "BINARY"
                                     }
                                 },
                                 "type": "BINARY"
                             },
-                            "extensionPoint": null,
                             "icon": null,
-                            "id": "36205d3e53fad210f91579a0a0490e63",
+                            "id": "cm60np3qn01xl357vg8u5mkg1",
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "Playbook"
+                                    "message": "Project Prerequisite"
                                 }
                             },
-                            "order": 300,
+                            "order": 500,
                             "type": "local"
                         }
                     ],
@@ -1359,6 +1423,174 @@
                                 "styles": {
                                     "height": "100%",
                                     "overflow": "hidden",
+                                    "width": "100%"
+                                }
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "10d9d27053d71210f91579a0a0490e59",
+                                "elementLabel": "Playbook",
+                                "eventMappings": [
+                                    
+                                ],
+                                "extensionPoints": [
+                                    
+                                ],
+                                "isHero": false,
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "isNonDestructive": false,
+                                "items": [
+                                    
+                                ],
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "ed99051389038d7a6d57069eecc5a122",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_1",
+                                            "elementLabel": "Playbook 1",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "extensionPoints": [
+                                                
+                                            ],
+                                            "isHero": false,
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "isNonDestructive": false,
+                                            "items": [
+                                                
+                                            ],
+                                            "overrides": null,
+                                            "propertyValues": {
+                                                "activityView": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "stacked"
+                                                },
+                                                "compactMode": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "daClientActionContract": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "parentSysId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "sysId"
+                                                        ],
+                                                        "category": "props"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "parentTable": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "table"
+                                                        ],
+                                                        "category": "props"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "playbookExperienceId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "98e09a560f2200102920c912d4767e1a"
+                                                },
+                                                "recordGeneratorQuery": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedActivityContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedLaneContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedPlaybookContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "userId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "userSession": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "user"
+                                                        ],
+                                                        "category": "session"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "isInline": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "playbook_1",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": "dcd9d27053d71210f91579a0a0490e58",
+                                "styles": {
                                     "width": "100%"
                                 }
                             },
@@ -2264,111 +2496,547 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "76205d3e53fad210f91579a0a0490e63",
-                                "elementLabel": "Playbook",
+                                "elementId": "cmggaanpddqoaabbxmddffhhvqcczwlxwi",
+                                "elementLabel": "Project Prerequisite",
                                 "eventMappings": [
                                     
                                 ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
+                                "name": "Project Prerequisite",
                                 "overrides": {
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "ed99051389038d7a6d57069eecc5a122",
+                                                "id": "66ee7d86e81f696c9f9be19d8424cc0d",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "playbook_1",
-                                            "elementLabel": "Playbook 1",
+                                            "elementId": "list_1",
+                                            "elementLabel": "List 1",
                                             "eventMappings": [
-                                                
+                                                {
+                                                    "eventMappingId": "cmggaapbbmhjaagiiiddffhhvdhmntekc",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_1438983_coe_app.NAV_ITEM_SELECTED_RELAY_a9ff92a553269210f91579a0a0490efe",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "external": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "fields": {
+                                                                            "container": {
+                                                                                "sysId": {
+                                                                                    "type": "JSON_LITERAL",
+                                                                                    "value": "-1"
+                                                                                },
+                                                                                "table": {
+                                                                                    "type": "JSON_LITERAL",
+                                                                                    "value": "x_1438983_coe_app_infrastructure"
+                                                                                }
+                                                                            },
+                                                                            "type": "MAP_CONTAINER"
+                                                                        },
+                                                                        "multiInstField": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "navigationOptions": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "params": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {
+                                                                                "extraParams": null,
+                                                                                "query": null,
+                                                                                "views": null
+                                                                            }
+                                                                        },
+                                                                        "passiveNavigation": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "redirect": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "route": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "record"
+                                                                        },
+                                                                        "targetRoute": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "title": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                },
+                                                                "sysId": "760405db538b9210f91579a0a0490eb0"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cmggaapbbmhjaagiijddffhhvffnpeegghhhq",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
                                             ],
-                                            "extensionPoints": [
-                                                
-                                            ],
-                                            "isHero": false,
                                             "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "isNonDestructive": false,
-                                            "items": [
-                                                
-                                            ],
-                                            "overrides": null,
-                                            "propertyValues": {
-                                                "activityView": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "stacked"
+                                                "operation": {
+                                                    "left": {
+                                                        "operation": {
+                                                            "left": {
+                                                                "operation": {
+                                                                    "left": {
+                                                                        "operation": {
+                                                                            "left": {
+                                                                                "binding": {
+                                                                                    "address": [
+                                                                                        "record",
+                                                                                        "isValid"
+                                                                                    ]
+                                                                                },
+                                                                                "type": "DATA_OUTPUT_BINDING"
+                                                                            },
+                                                                            "operator": "NOT_EQUAL",
+                                                                            "right": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": true
+                                                                            }
+                                                                        },
+                                                                        "type": "BINARY"
+                                                                    },
+                                                                    "operator": "AND",
+                                                                    "right": {
+                                                                        "operation": {
+                                                                            "left": {
+                                                                                "binding": {
+                                                                                    "address": [
+                                                                                        "record",
+                                                                                        "isValid"
+                                                                                    ]
+                                                                                },
+                                                                                "type": "DATA_OUTPUT_BINDING"
+                                                                            },
+                                                                            "operator": "NOT_EQUAL",
+                                                                            "right": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": false
+                                                                            }
+                                                                        },
+                                                                        "type": "BINARY"
+                                                                    }
+                                                                },
+                                                                "type": "BINARY"
+                                                            },
+                                                            "operator": "OR",
+                                                            "right": {
+                                                                "operation": {
+                                                                    "left": {
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "record",
+                                                                                "isValid"
+                                                                            ]
+                                                                        },
+                                                                        "type": "DATA_OUTPUT_BINDING"
+                                                                    },
+                                                                    "operator": "EQUAL",
+                                                                    "right": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": false
+                                                                    }
+                                                                },
+                                                                "type": "BINARY"
+                                                            }
+                                                        },
+                                                        "type": "BINARY"
+                                                    },
+                                                    "operator": "OR",
+                                                    "right": {
+                                                        "operation": {
+                                                            "left": {
+                                                                "operation": {
+                                                                    "operand": {
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "record",
+                                                                                "acl"
+                                                                            ]
+                                                                        },
+                                                                        "type": "DATA_OUTPUT_BINDING"
+                                                                    },
+                                                                    "operator": "NOT"
+                                                                },
+                                                                "type": "UNARY"
+                                                            },
+                                                            "operator": "OR",
+                                                            "right": {
+                                                                "operation": {
+                                                                    "left": {
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "record",
+                                                                                "acl",
+                                                                                "canRead"
+                                                                            ]
+                                                                        },
+                                                                        "type": "DATA_OUTPUT_BINDING"
+                                                                    },
+                                                                    "operator": "EQUAL",
+                                                                    "right": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": false
+                                                                    }
+                                                                },
+                                                                "type": "BINARY"
+                                                            }
+                                                        },
+                                                        "type": "BINARY"
+                                                    }
                                                 },
-                                                "compactMode": {
+                                                "type": "BINARY"
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "actionConfigId": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": null
+                                                    "value": ""
+                                                },
+                                                "allRecordsSelected": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "columns": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "category,specifications,quantity,cost"
                                                 },
                                                 "daClientActionContract": {
                                                     "type": "JSON_LITERAL",
                                                     "value": null
                                                 },
-                                                "parentSysId": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "sysId"
-                                                        ],
-                                                        "category": "props"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
-                                                },
-                                                "parentTable": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "table"
-                                                        ],
-                                                        "category": "props"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
-                                                },
-                                                "playbookExperienceId": {
+                                                "error": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "98e09a560f2200102920c912d4767e1a"
+                                                    "value": {}
                                                 },
-                                                "recordGeneratorQuery": {
+                                                "exceptedRecords": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": [
+                                                        
+                                                    ]
+                                                },
+                                                "fixedQuery": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "groupByField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "headerSize": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "headingLevel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 1
+                                                },
+                                                "hideCellFilter": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideCheckboxHover": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnFiltering": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnGrouping": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnReorder": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnResizing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnSorting": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideDeclarativeActions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideDotwalk": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideDragDrop": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "hideEmptyStateImage": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideFilterPanel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideFirstPage": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideHeader": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideHighlightContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideHighlightedValues": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideInlineEditing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLastPage": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLastRefreshedText": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLimitSelector": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLinks": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideListSharing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "hideMenuButton": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideNextPage": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideOptionToSaveAs": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePages": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePagination": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelAdvanced": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelConditionDelete": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelFooter": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelRestore": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePersonalization": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePreviousPage": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideQuickEdit": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideRange": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideRefreshButton": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideRowCount": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideRowSelector": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideSelectAll": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideTitle": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideTitleRowCount": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideUnnecessaryRowSelectors": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "highlightContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "color": "",
+                                                        "patterns": [
+                                                            
+                                                        ]
+                                                    }
+                                                },
+                                                "highlightedValueConfigId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "isRefList": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "limit": {
                                                     "type": "JSON_LITERAL",
                                                     "value": null
                                                 },
-                                                "selectedActivityContextId": {
+                                                "listMenuOpen": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "listTitle": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Infra Requirements"
+                                                    }
+                                                },
+                                                "maxCharLimit": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 4000
+                                                },
+                                                "maxColumns": {
                                                     "type": "JSON_LITERAL",
                                                     "value": null
                                                 },
-                                                "selectedLaneContextId": {
+                                                "menuSelection": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "nrlLandmark": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "overrideWordWrapUserPref": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "page": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 1
+                                                },
+                                                "query": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "active=true"
+                                                },
+                                                "recordSelectedQuery": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "recordSelectedSysId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "recordSelectedTable": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "recordSelectedView": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "refreshRequested": {
                                                     "type": "JSON_LITERAL",
                                                     "value": null
                                                 },
-                                                "selectedPlaybookContextId": {
+                                                "selectedListId": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": null
+                                                    "value": ""
                                                 },
-                                                "userId": {
+                                                "selectedRecords": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": null
+                                                    "value": [
+                                                        
+                                                    ]
                                                 },
-                                                "userSession": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "user"
-                                                        ],
-                                                        "category": "session"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
+                                                "table": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "x_1438983_coe_app_infrastructure"
+                                                },
+                                                "tiny": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "view": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Default"
+                                                },
+                                                "wordWrap": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
                                                 }
                                             },
                                             "slot": null,
@@ -2378,17 +3046,17 @@
                                     "layout": {
                                         "default": {
                                             "children": null,
-                                            "isInline": null,
                                             "items": [
                                                 {
-                                                    "element_id": "playbook_1",
+                                                    "element_id": "list_1",
                                                     "styles": {}
                                                 }
                                             ],
                                             "root": null,
                                             "rules": null,
                                             "styles": {
-                                                "flex-direction": "column"
+                                                "min-height": "300px",
+                                                "width": "100%"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                             "type": "flex"
@@ -2396,6 +3064,7 @@
                                         "version": "3.0.0"
                                     }
                                 },
+                                "preset": null,
                                 "propertyValues": {
                                     "ariaRegionHeadingLevel": {
                                         "type": "JSON_LITERAL",
@@ -2413,19 +3082,25 @@
                                         "type": "JSON_LITERAL",
                                         "value": ""
                                     },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
                                     "includeAriaHeading": {
                                         "type": "JSON_LITERAL",
                                         "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
                                     },
                                     "type": {
                                         "type": "JSON_LITERAL",
                                         "value": "section"
                                     }
                                 },
-                                "slot": "36205d3e53fad210f91579a0a0490e63",
-                                "styles": {
-                                    "width": "100%"
-                                }
+                                "slot": "cm60np3qn01xl357vg8u5mkg1",
+                                "styles": null
                             }
                         ],
                         "layout": null
@@ -2434,16 +3109,16 @@
                     "propertyValues": {
                         "activeRoute": {
                             "icon": null,
-                            "id": "cm52cqs2j0eyv357wh2wxbev8",
+                            "id": "cm60np3qn01xl357vg8u5mkg1",
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "SDLC Checklist"
+                                    "message": "Project Prerequisite"
                                 }
                             },
-                            "order": 500,
+                            "order": 600,
                             "type": "local"
                         },
                         "defaultRoute": {
@@ -2485,15 +3160,7 @@
                             "value": "top"
                         },
                         "repeatedTabData": null,
-                        "selectedTabIndex": {
-                            "binding": {
-                                "address": [
-                                    "selectedTabIndex"
-                                ],
-                                "category": "props"
-                            },
-                            "type": "CONTEXT_BINDING"
-                        },
+                        "selectedTabIndex": null,
                         "showInlinePadding": {
                             "type": "JSON_LITERAL",
                             "value": true
@@ -4039,8 +4706,49 @@
                                                             
                                                         ],
                                                         "isHidden": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": null
+                                                            "operation": {
+                                                                "left": {
+                                                                    "operation": {
+                                                                        "operand": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "record",
+                                                                                    "form",
+                                                                                    "header",
+                                                                                    "transformedSecondaryItems"
+                                                                                ]
+                                                                            },
+                                                                            "type": "DATA_OUTPUT_BINDING"
+                                                                        },
+                                                                        "operator": "NOT"
+                                                                    },
+                                                                    "type": "UNARY"
+                                                                },
+                                                                "operator": "OR",
+                                                                "right": {
+                                                                    "operation": {
+                                                                        "left": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "record",
+                                                                                    "form",
+                                                                                    "header",
+                                                                                    "transformedSecondaryItems",
+                                                                                    "length"
+                                                                                ]
+                                                                            },
+                                                                            "type": "DATA_OUTPUT_BINDING"
+                                                                        },
+                                                                        "operator": "EQUAL",
+                                                                        "right": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": 0
+                                                                        }
+                                                                    },
+                                                                    "type": "BINARY"
+                                                                }
+                                                            },
+                                                            "type": "BINARY"
                                                         },
                                                         "preset": null,
                                                         "propertyValues": {
@@ -4159,7 +4867,7 @@
                                                                         "container": {
                                                                             "id": {
                                                                                 "type": "JSON_LITERAL",
-                                                                                "value": "8c00c3fd532ed210f91579a0a0490e53"
+                                                                                "value": "5b01543053839610f91579a0a0490ede"
                                                                             },
                                                                             "label": {
                                                                                 "type": "TRANSLATION_LITERAL",
@@ -5718,11 +6426,11 @@
     }
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>760405db538b9210f91579a0a0490eb0</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <handled_events>b94818a0cc2cebbe41369181e4c8d6a6</handled_events>
+        <handled_events>b94818a0cc2cebbe41369181e4c8d6a6,634f7d90538fd210f91579a0a0490eb6</handled_events>
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
@@ -5980,6 +6688,9 @@
   "message" : "In Draft",
   "comment" : ""
 }, {
+  "message" : "Infra Requirements",
+  "comment" : ""
+}, {
   "message" : "Left pane",
   "comment" : ""
 }, {
@@ -5993,6 +6704,9 @@
   "comment" : ""
 }, {
   "message" : "Playbook",
+  "comment" : ""
+}, {
+  "message" : "Project Prerequisite",
   "comment" : ""
 }, {
   "message" : "Record History",
@@ -6041,14 +6755,14 @@
         <sys_created_by>Sushmithaa</sys_created_by>
         <sys_created_on>2024-12-18 10:45:34</sys_created_on>
         <sys_id>a9ff92a553269210f91579a0a0490efe</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_name>Project Details Record Page</sys_name>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_ux_macroponent_a9ff92a553269210f91579a0a0490efe</sys_update_name>
-        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2025-01-03 12:26:03</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 09:11:17</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a9ff92a553269210f91579a0a0490efe"/>
 </record_update>

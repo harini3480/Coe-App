@@ -1,25 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="20fee7f953621610f91579a0a0490e51" label="Configuration Details" max_length="40" name="x_1438983_coe_app_configuration_details" text_index="true" type="collection">
+        <element label="New Idea Approval Group 5" max_length="32" name="approval_group_5" reference="sys_user_group" type="reference"/>
         <element label="On what budget the CFO Approval is needed?" max_length="32" name="budget_cfo" reference="x_1438983_coe_app_lookup_details" reference_qual="field=5" reference_qual_condition="field=5" type="reference"/>
+        <element label="CTO Weightage" max_length="40" name="cto_weightage" type="integer"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Is Chief Executive Officer Approval Needed?" max_length="40" name="ceo_approval" type="boolean"/>
+        <element choice="1" label="New Idea Approval 5" max_length="40" name="approval_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="New Idea Number of Approvals" max_length="40" name="number_of_approvals" type="integer"/>
+        <element choice="1" label="New Idea Approval 1" max_length="40" name="approval_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element label="Is Chief Delivery Officer Approval Needed?" max_length="40" name="cdo_approval" type="boolean"/>
+        <element label="CEO Weightage" max_length="40" name="ceo_weightage" type="integer"/>
+        <element choice="1" label="Others Approval 1" max_length="40" name="others_approval_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Existing Project Approval 1" max_length="40" name="existing_project_approval_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="R&amp;D Approval 2" max_length="40" name="r_d_approval_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="R&amp;D Approval Group 1" max_length="32" name="r_d_approval_group_1" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Client PoC Approval 2" max_length="40" name="client_poc_approval_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="Client PoC Approval 1" max_length="40" name="client_poc_approval_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Others Approval Group 1" max_length="32" name="others_approval_group_1" reference="sys_user_group" type="reference"/>
+        <element label="New Idea Approval Group 6" max_length="32" name="approval_group_6" reference="sys_user_group" type="reference"/>
+        <element label="Lead Weightage" max_length="255" name="parallel_lead_weightage" type="integer"/>
+        <element label="Manager Weightage" max_length="255" name="manager_weightage" type="integer"/>
+        <element label="CFO Weightage" max_length="40" name="cfo_weightage" type="integer"/>
         <element label="Is Chief Technology Officer Approval Needed?" max_length="40" name="cto_approval" type="boolean"/>
+        <element label="CDO Weightage" max_length="40" name="cdo_weightage" type="integer"/>
+        <element choice="1" label="New Idea Approval 4" max_length="40" name="approval_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="New Idea Approval 2" max_length="40" name="approval_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+            </choice>
+        </element>
         <element label="Is CoE Lead Approval Needed?" max_length="40" name="coe_lead_approval" type="boolean"/>
+        <element choice="1" label="New Idea Approval 3" max_length="40" name="approval_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+            </choice>
+        </element>
         <element choice="1" label="Type of Approval" max_length="40" name="type_of_approval" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Sequential Approval" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Parallel Approval" sequence="1" value="2"/>
             </choice>
         </element>
+        <element choice="1" label="New Idea Approval 6" max_length="40" name="approval_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Project manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+            </choice>
+        </element>
         <element label="Is Chief Finance Officer Approval Needed?" max_length="40" name="cfo_approval" type="boolean"/>
+        <element label="New Idea Approval Group 1" max_length="32" name="approval_group_1" reference="sys_user_group" type="reference"/>
+        <element label="New Idea Approval Group 4" max_length="32" name="approval_group_4" reference="sys_user_group" type="reference"/>
+        <element label="New Idea Approval Group 3" max_length="32" name="approval_group_3" reference="sys_user_group" type="reference"/>
+        <element label="New Idea Approval Group 2" max_length="32" name="approval_group_2" reference="sys_user_group" type="reference"/>
+        <element label="Learnings Approval Group 1" max_length="32" name="learnings_approval_group_1" reference="sys_user_group" type="reference"/>
         <element label="Is Project Manager Approval Needed?" max_length="40" name="project_manager_approval" type="boolean"/>
+        <element label="R&amp;D Approval Group 2" max_length="32" name="r_d_approval_group_2" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="R&amp;D  Approval 1" max_length="40" name="r_d_approval_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Client PoC Approval Group 2" max_length="32" name="client_poc_approval_group_2" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Learnings Approval 1" max_length="40" name="learnings_approval_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CFO" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CEO" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CTO" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CDO" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CoE Lead" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Existing Project Approval Group" max_length="32" name="existing_project_approval_group" reference="sys_user_group" type="reference"/>
+        <element label="Client PoC Approval Group 1" max_length="32" name="client_poc_approval_group_1" reference="sys_user_group" type="reference"/>
         <element label="On what Resource Allocation CEO Approval is Needed?" max_length="32" name="resources_ceo" reference="x_1438983_coe_app_lookup_details" reference_qual="field=8" reference_qual_condition="field=8" type="reference"/>
         <index name="index">
-            <element name="budget_cfo"/>
+            <element name="approval_group_1"/>
         </index>
         <index name="index2">
+            <element name="approval_group_2"/>
+        </index>
+        <index name="index3">
+            <element name="approval_group_3"/>
+        </index>
+        <index name="index4">
+            <element name="approval_group_4"/>
+        </index>
+        <index name="index5">
+            <element name="approval_group_5"/>
+        </index>
+        <index name="index6">
+            <element name="approval_group_6"/>
+        </index>
+        <index name="index7">
+            <element name="budget_cfo"/>
+        </index>
+        <index name="index8">
+            <element name="client_poc_approval_group_1"/>
+        </index>
+        <index name="index9">
+            <element name="client_poc_approval_group_2"/>
+        </index>
+        <index name="index10">
+            <element name="learnings_approval_group_1"/>
+        </index>
+        <index name="index11">
+            <element name="others_approval_group_1"/>
+        </index>
+        <index name="index12">
+            <element name="r_d_approval_group_1"/>
+        </index>
+        <index name="index13">
+            <element name="r_d_approval_group_2"/>
+        </index>
+        <index name="index14">
             <element name="resources_ceo"/>
         </index>
     </element>

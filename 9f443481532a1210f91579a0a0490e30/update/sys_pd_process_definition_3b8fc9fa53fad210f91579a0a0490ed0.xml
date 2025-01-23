@@ -12,19 +12,19 @@
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot display_value="coe_project_review_playbook">695111fe53fad210f91579a0a0490e1c</snapshot>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2025-01-03 12:22:24</sys_created_on>
         <sys_id>3b8fc9fa53fad210f91579a0a0490ed0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CoE Project Review Playbook</sys_name>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_pd_process_definition_3b8fc9fa53fad210f91579a0a0490ed0</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2025-01-03 12:30:10</sys_updated_on>
+        <sys_updated_on>2025-01-07 11:40:56</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=3b8fc9fa53fad210f91579a0a0490ed0"/>
@@ -41,19 +41,19 @@
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot display_value="coe_project_review_playbook">695111fe53fad210f91579a0a0490e1c</snapshot>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2025-01-03 12:22:24</sys_created_on>
         <sys_id>3b8fc9fa53fad210f91579a0a0490ed0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CoE Project Review Playbook</sys_name>
         <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
         <sys_update_name>sys_pd_process_definition_3b8fc9fa53fad210f91579a0a0490ed0</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2025-01-03 12:30:10</sys_updated_on>
+        <sys_updated_on>2025-01-07 11:40:56</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=3b8fc9fa53fad210f91579a0a0490ed0"/>
@@ -10121,48 +10121,4 @@
         <value>project_category.sys_id=dfc1cf75536ed210f91579a0a0490ee9^status.sys_id=82de3ef1536ed210f91579a0a0490e01^ORstatus.sys_id=12208f35536ed210f91579a0a0490ef1</value>
         <variable display_value="Condition">610f3cd1ff2200108c8733af793bf11d</variable>
     </sys_variable_value>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=3b8fc9fa53fad210f91579a0a0490ed6^sys_idNOT INe95111fe53fad210f91579a0a0490e1b"/>
-    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"run_trigger":"run_once"}</data>
-        <identifier>3b8fc9fa53fad210f91579a0a0490ed6</identifier>
-        <runner>PDTriggerRunner</runner>
-        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-        <sys_created_on>2025-01-03 12:30:10</sys_created_on>
-        <sys_id>e95111fe53fad210f91579a0a0490e1b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2025-01-03 12:30:10</sys_updated_on>
-        <trigger display_value="">215111fe53fad210f91579a0a0490e1b</trigger>
-    </sys_trigger_runner_mapping>
-    <sys_json_chunk action="delete_multiple" query="document_id=e95111fe53fad210f91579a0a0490e1b"/>
-    <sys_flow_record_trigger action="delete_multiple" query="sys_id=215111fe53fad210f91579a0a0490e1b^sys_idNOT IN215111fe53fad210f91579a0a0490e1b"/>
-    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <condition table="x_1438983_coe_app_project_details">project_category.sys_id=dfc1cf75536ed210f91579a0a0490ee9^status.sys_id=82de3ef1536ed210f91579a0a0490e01^ORstatus.sys_id=12208f35536ed210f91579a0a0490ef1<item endquery="false" field="project_category.sys_id" goto="false" newquery="false" operator="=" or="false" value="dfc1cf75536ed210f91579a0a0490ee9"/>
-            <item endquery="false" field="status.sys_id" goto="false" newquery="false" operator="=" or="false" value="82de3ef1536ed210f91579a0a0490e01"/>
-            <item endquery="false" field="status.sys_id" goto="false" newquery="false" operator="=" or="true" value="12208f35536ed210f91579a0a0490ef1"/>
-        </condition>
-        <name/>
-        <on_delete>false</on_delete>
-        <on_insert>true</on_insert>
-        <on_update>true</on_update>
-        <run_flow_in>background</run_flow_in>
-        <run_on_extended>false</run_on_extended>
-        <run_when_setting>both</run_when_setting>
-        <run_when_user_list/>
-        <run_when_user_setting>any</run_when_user_setting>
-        <sys_class_name>sys_flow_record_trigger</sys_class_name>
-        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-        <sys_created_on>2025-01-03 12:30:10</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>215111fe53fad210f91579a0a0490e1b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
-        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2025-01-03 12:30:10</sys_updated_on>
-        <table>x_1438983_coe_app_project_details</table>
-    </sys_flow_record_trigger>
 </record_update>

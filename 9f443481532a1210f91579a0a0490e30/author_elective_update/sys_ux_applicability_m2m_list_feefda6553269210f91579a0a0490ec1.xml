@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability/>
+        <list display_value="All">f6efda6553269210f91579a0a0490ebf</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>Sushmithaa</sys_created_by>
+        <sys_created_on>2024-12-18 10:45:22</sys_created_on>
+        <sys_id>feefda6553269210f91579a0a0490ec1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_feefda6553269210f91579a0a0490ec1</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-12-20 05:23:19</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ux_applicability_m2m_list_feefda6553269210f91579a0a0490ec1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability/><list display_value="All">f6efda6553269210f91579a0a0490ebf</list><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>Sushmithaa</sys_created_by><sys_created_on>2024-12-18 10:45:22</sys_created_on><sys_id>feefda6553269210f91579a0a0490ec1</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_feefda6553269210f91579a0a0490ec1</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-12-20 05:23:19</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>329332402</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2c03f08453039210f91579a0a0490ee8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-08 12:13:26</sys_created_on>
+        <sys_id>e17d3adc53c31610f91579a0a0490e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19445d57d3e0000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-08 12:13:26</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>ad7d3adc58c316103ac59502d42ed15e</update_guid>
+        <update_guid_history>ad7d3adc58c316103ac59502d42ed15e:0,68692b06e0e6561036448eb04d6f7843:531181556,beefda65f226921072c8bd8af23f5dc2:140639503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-08 12:13:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>1f8bad42534d4f008f6a15112439e400</sys_id>
+        <sys_metadata>feefda6553269210f91579a0a0490ec1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_feefda6553269210f91579a0a0490ec1</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_feefda6553269210f91579a0a0490ec1">e17d3adc53c31610f91579a0a0490e5f</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-08 12:13:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

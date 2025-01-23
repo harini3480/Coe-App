@@ -3,7 +3,7 @@
         <element label="Department" max_length="32" name="department" reference="x_1438983_coe_app_lookup_details" reference_qual="field=2^is_active=true" reference_qual_condition="field=2^is_active=true" type="reference"/>
         <element label="Business Impact" max_length="40" name="business_impact" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="string"/>
-        <element label="Project Name" max_length="255" name="project_name" type="string"/>
+        <element display="true" label="Project Name" max_length="255" name="project_name" type="string"/>
         <element label="Project Owner" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
         <element label="Is Chief Executive Officer Approval Needed" max_length="40" name="ceo_approval" type="boolean"/>
         <element choice="1" label="Type of Approval" max_length="40" name="type_of_approval" type="choice">
@@ -13,7 +13,9 @@
             </choice>
         </element>
         <element label="Is Chief Financial Officer Approval Needed" max_length="255" name="cfo_approval" type="boolean"/>
+        <element default="0" label="Approval Weightage" max_length="40" name="approval_weightage" type="integer"/>
         <element label="Production Environment" max_length="32" name="production_environment" reference="x_1438983_coe_app_lookup_details" reference_qual="field=4" reference_qual_condition="field=4" type="reference"/>
+        <element label="Project Score" max_length="40" name="weightage" type="integer"/>
         <element label="Project Prefix" max_length="40" name="project_prefix" type="string"/>
         <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
         <element label="Hosting Pattern" max_length="32" name="hosting_pattern" reference="x_1438983_coe_app_lookup_details" reference_qual="field=3" reference_qual_condition="field=3" type="reference"/>

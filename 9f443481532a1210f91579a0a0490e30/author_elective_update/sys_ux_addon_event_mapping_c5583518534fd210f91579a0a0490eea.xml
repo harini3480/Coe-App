@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>New Event Mapping</name>
+        <parent_macroponent display_value="Home">01ef5a657426921080df4b9cae6caa39</parent_macroponent>
+        <source_component/>
+        <source_da display_value="navigation">394c6994530fd210f91579a0a0490ec8</source_da>
+        <source_element_id>data_set _1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-08 07:15:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5583518534fd210f91579a0a0490eea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Event Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_c5583518534fd210f91579a0a0490eea</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-08 07:15:26</sys_updated_on>
+        <target_event display_value="Project">e0f8b118534fd210f91579a0a0490e79</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CoE App">9f443481532a1210f91579a0a0490e30</application>
+        <file_path/>
+        <instance_id>cbab2e961be28ad065324089bd4bcbaf</instance_id>
+        <instance_name>dev274105</instance_name>
+        <name>sys_ux_addon_event_mapping_c5583518534fd210f91579a0a0490eea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>New Event Mapping</name><parent_macroponent display_value="Home">01ef5a657426921080df4b9cae6caa39</parent_macroponent><source_component/><source_da display_value="navigation">394c6994530fd210f91579a0a0490ec8</source_da><source_element_id>data_set _1</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2025-01-08 07:15:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c5583518534fd210f91579a0a0490eea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Event Mapping</sys_name><sys_overrides/><sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package><sys_policy/><sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope><sys_update_name>sys_ux_addon_event_mapping_c5583518534fd210f91579a0a0490eea</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2025-01-08 07:15:26</sys_updated_on><target_event display_value="Project">e0f8b118534fd210f91579a0a0490e79</target_event><target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>1461737469</payload_hash>
+        <record_name>New Event Mapping</record_name>
+        <reverted_from/>
+        <source>2c03f08453039210f91579a0a0490ee8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-08 07:15:26</sys_created_on>
+        <sys_id>14497158534fd210f91579a0a0490e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19444c4a9e60000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-08 07:15:26</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>d4497158ba4fd21085244ac7ecbad082</update_guid>
+        <update_guid_history>d4497158ba4fd21085244ac7ecbad082:1461737469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-08 07:17:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>0964199bad40422e8113ed4b162a34e4</sys_id>
+        <sys_metadata>c5583518534fd210f91579a0a0490eea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Event Mapping</sys_name>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_scope_delete display_value="">18fbeeb08fa848fe9630691ae769e5b9</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_c5583518534fd210f91579a0a0490eea</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_c5583518534fd210f91579a0a0490eea">14497158534fd210f91579a0a0490e83</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-08 07:17:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

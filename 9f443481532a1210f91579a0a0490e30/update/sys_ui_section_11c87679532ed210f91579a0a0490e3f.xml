@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>1f874f7153aed210f91579a0a0490e58</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>3aae249853db1210f91579a0a0490ea1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>9b874f7153aed210f91579a0a0490e59</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>b6ae249853db1210f91579a0a0490ea2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>field</element>
             <position>2</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>93874f7153aed210f91579a0a0490e5a</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>beae249853db1210f91579a0a0490ea2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>9b874f7153aed210f91579a0a0490e5a</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>b6ae249853db1210f91579a0a0490ea3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.begin_split</element>
             <position>4</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>93874f7153aed210f91579a0a0490e5b</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>beae249853db1210f91579a0a0490ea3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>label</element>
             <position>5</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>9b874f7153aed210f91579a0a0490e5b</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>b6ae249853db1210f91579a0a0490ea4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>is_active</element>
             <position>6</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>93874f7153aed210f91579a0a0490e5c</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>beae249853db1210f91579a0a0490ea4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>9b874f7153aed210f91579a0a0490e5c</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>b6ae249853db1210f91579a0a0490ea5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>value</element>
             <position>8</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>93874f7153aed210f91579a0a0490e5d</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>beae249853db1210f91579a0a0490ea5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,27 @@
             <element>comments</element>
             <position>9</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-12-19 08:17:02</sys_created_on>
-            <sys_id>9b874f7153aed210f91579a0a0490e5d</sys_id>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>b6ae249853db1210f91579a0a0490ea6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-12-19 08:17:02</sys_updated_on>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weightage</element>
+            <position>10</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2025-01-20 12:05:17</sys_created_on>
+            <sys_id>beae249853db1210f91579a0a0490ea6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1438983_coe_app_lookup_details" sys_domain="global" view="Default view">11c87679532ed210f91579a0a0490e3f</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2025-01-20 12:05:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

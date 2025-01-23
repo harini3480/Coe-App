@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Submit: Weightage Validation </name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+	if(g_form.getValue("ceo_approval")=="false"){
+		g_form.setValue("ceo_weightage",0);
+	}
+	if(g_form.getValue("cfo_approval")=='false'){
+		g_form.setValue("cfo_weightage",0);
+	}
+	if(g_form.getValue("cto_approval")=='false'){
+		g_form.setValue("cto_weightage",0);
+	}
+	if(g_form.getValue("cdo_approval")=='false'){
+		g_form.setValue("cdo_weightage",0);
+	}
+	if(g_form.getValue("coe_lead_approval")=='false'){
+		g_form.setValue("parallel_lead_weightage",0);
+	}
+	if(g_form.getValue("project_manager_approval")=='false'){
+		g_form.setValue("manager_weightage",0);
+	}
+    var lead =parseInt(g_form.getValue("parallel_lead_weightage"));
+    var manager = parseInt(g_form.getValue("manager_weightage"));
+    var ceo = parseInt(g_form.getValue("ceo_weightage"));
+    var cfo = parseInt(g_form.getValue("cfo_weightage"));
+    var cdo = parseInt(g_form.getValue("cdo_weightage"));
+    var cto = parseInt(g_form.getValue("cto_weightage"));
+	var sum=0;
+    sum = lead + manager + ceo + cdo + cto + cfo;
+	alert(sum);
+	if(sum==100){
+		"";
+	}else{
+		g_form.addErrorMessage("The total weightage of all enabled fields should be equal to 100");
+	}
+
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-17 07:22:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>631b445f53c39210f91579a0a0490e16</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>On Submit: Weightage Validation </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_631b445f53c39210f91579a0a0490e16</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-17 08:06:33</sys_updated_on>
+        <table>x_1438983_coe_app_configuration_details</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="COE">ad2b2d14530fd210f91579a0a0490e6d</dataset>
+        <order/>
+        <predicate_bundle display_value="COE">e77b6554530fd210f91579a0a0490ec5</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-08 06:15:24</sys_created_on>
+        <sys_id>b08b6554530fd210f91579a0a0490e7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_b08b6554530fd210f91579a0a0490e7d</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-08 06:15:24</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

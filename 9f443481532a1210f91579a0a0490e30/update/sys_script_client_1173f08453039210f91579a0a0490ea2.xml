@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>number_of_approvals</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Change : Number of Approvals</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    g_form.clearValue("approval_1");
+    g_form.clearValue("approval_2");
+    g_form.clearValue("approval_3");
+    g_form.clearValue("approval_4");
+    g_form.clearValue("approval_5");
+    g_form.clearValue("approval_6");
+
+    var no = g_form.getValue('number_of_approvals');
+    if (no > 6) {
+        g_form.showFieldMsg("number_of_approvals", "Number of approvals cannot be greater than 6", "error");
+    }
+    if (no == 1) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", false);
+        g_form.setVisible("approval_3", false);
+        g_form.setVisible("approval_4", false);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+    } else if (no == 2) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", false);
+        g_form.setVisible("approval_4", false);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+    } else if (no == 3) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", false);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+    } else if (no == 4) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", true);
+        g_form.setVisible("approval_5", false);
+        g_form.setVisible("approval_6", false);
+
+    } else if (no == 5) {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", true);
+        g_form.setVisible("approval_5", true);
+        g_form.setVisible("approval_6", false);
+
+    } else {
+        g_form.setVisible("approval_1", true);
+        g_form.setVisible("approval_2", true);
+        g_form.setVisible("approval_3", true);
+        g_form.setVisible("approval_4", true);
+        g_form.setVisible("approval_5", true);
+        g_form.setVisible("approval_6", true);
+    }
+    
+    g_form.addOption("approval_1", "1", "CoE Lead");
+    g_form.addOption("approval_1", "2", "Project Manager");
+    //alert("Hi");
+    g_form.addOption("approval_1", "3", "CEO");
+    g_form.addOption("approval_1", "4", "CFO");
+    g_form.addOption("approval_1", "5", "CDO");
+    g_form.addOption("approval_1", "6", "CTO");
+    g_form.addOption("approval_2", "1", "CoE Lead");
+    g_form.addOption("approval_2", "2", "Project Manager");
+    g_form.addOption("approval_2", "3", "CEO");
+    g_form.addOption("approval_2", "4", "CFO");
+    g_form.addOption("approval_2", "5", "CDO");
+    g_form.addOption("approval_2", "6", "CTO");
+    //g_form.addOption("approval_3","10","chgghuad");
+    g_form.addOption("approval_3", "2", "Project Manager");
+    g_form.addOption("approval_3", "3", "CEO");
+    g_form.addOption("approval_3", "4", "CFO");
+    g_form.addOption("approval_3", "5", "CDO");
+    g_form.addOption("approval_3", "6", "CTO");
+    g_form.addOption("approval_4", "1", "CoE Lead");
+    g_form.addOption("approval_4", "2", "Project Manager");
+    g_form.addOption("approval_4", "3", "CEO");
+    g_form.addOption("approval_4", "4", "CFO");
+    g_form.addOption("approval_4", "5", "CDO");
+    g_form.addOption("approval_4", "6", "CTO");
+    g_form.addOption("approval_5", "1", "CoE Lead");
+    g_form.addOption("approval_5", "2", "Project Manager");
+    g_form.addOption("approval_5", "3", "CEO");
+    g_form.addOption("approval_5", "4", "CFO");
+    g_form.addOption("approval_5", "5", "CDO");
+    g_form.addOption("approval_5", "6", "CTO");
+    g_form.addOption("approval_6", "1", "CoE Lead");
+    g_form.addOption("approval_6", "2", "Project manager");
+    g_form.addOption("approval_6", "3", "CEO");
+    g_form.addOption("approval_6", "4", "CFO");
+    g_form.addOption("approval_6", "5", "CDO");
+    g_form.addOption("approval_6", "6", "CTO");
+
+
+
+
+
+
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2025-01-07 08:04:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1173f08453039210f91579a0a0490ea2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>On Change : Number of Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CoE App" source="x_1438983_coe_app">9f443481532a1210f91579a0a0490e30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoE App">9f443481532a1210f91579a0a0490e30</sys_scope>
+        <sys_update_name>sys_script_client_1173f08453039210f91579a0a0490ea2</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:23:49</sys_updated_on>
+        <table>x_1438983_coe_app_configuration_details</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
